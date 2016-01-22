@@ -6,5 +6,5 @@ package com.amedidevelopment.notesaludr.controllers;
  * Fecha: 22/01/2016
  * Empresa : Amedi S.a.S.
  */
-public class TestData {
+public class AppController {
 }
