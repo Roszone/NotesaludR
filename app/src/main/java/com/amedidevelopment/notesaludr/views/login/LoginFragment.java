@@ -11,5 +11,6 @@ import org.roszonelib.notetools.navigation.MasterPageFragment;
  * ====================================
  */
 public class LoginFragment extends MasterPageFragment {
+    //
 
 }
