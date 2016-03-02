@@ -2,4 +2,6 @@
     <string name="app_name">NoteSaludR</string>
     <string name="shared_login_id">shared-login-id</string>
     <string name="shared_show_splash">shared-show-splash</string>
+    <string name="login">Ingresar</string>
+    <string name="settings">Configuración</string>
 </resources>

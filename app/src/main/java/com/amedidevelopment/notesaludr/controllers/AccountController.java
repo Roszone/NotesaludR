@@ -15,6 +15,6 @@ public class AccountController {
 
     public static boolean hasUserLogged() {
         CustomPreferences sh = new CustomPreferences(DeviceManager.getInstance(), "AccountController");
-        return sh.getIntegerOrDefault(R.string.shared_login_id, DEFAULT_USER) == DEFAULT_USER;
+        return sh.getIntegerOrDefault(R.string.shared_login_id, DEFAULT_USER) != DEFAULT_USER;
     }
 }

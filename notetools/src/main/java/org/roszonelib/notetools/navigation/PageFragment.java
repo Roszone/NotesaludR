@@ -2,9 +2,9 @@ package org.roszonelib.notetools.navigation;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
-import android.app.Fragment;
 import android.content.Context;
 import android.os.Build;
+import android.support.v4.app.Fragment;
 
 
 /**
@@ -62,4 +62,10 @@ public abstract class PageFragment extends Fragment {
     public PageNavigationFragment getNavigation() {
         return mListener;
     }
+
+
+
+
+
+
 }

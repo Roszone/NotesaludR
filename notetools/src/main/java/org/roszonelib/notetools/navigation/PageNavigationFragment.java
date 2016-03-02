@@ -2,6 +2,8 @@ package org.roszonelib.notetools.navigation;
 
 import android.os.Parcelable;
 
+import org.roszonelib.notetools.storage.CustomPreferences;
+
 /**
  * Autor:  Rosember Perez Mengual
  * Proyecto : NotesaludR
@@ -17,4 +19,5 @@ public interface PageNavigationFragment {
     void sendToParent(Parcelable args);
 
     void sendToChild(Parcelable args);
+
 }

@@ -1,5 +1,7 @@
 package org.roszonelib.notetools.utils;
 
+import android.os.Handler;
+
 /**
  * ====================================
  * Proyecto : NotesaludR
@@ -9,10 +11,17 @@ package org.roszonelib.notetools.utils;
  * ====================================
  */
 public class TimeUtils {
-    public static void setTimeOut(onTimeout timeOut, int time) {
-
+    public static void setTimeOut(final Timeout timeOut, int timeInMilliseconds) {
+        final Handler handler = new Handler();
+        Runnable runnable = new Runnable() {
+            public void run() {
+                timeOut.onTimeout();
+                handler.removeCallbacks(this);
+            }
+        };
+        handler.postDelayed(runnable, timeInMilliseconds);
     }
-    public interface onTimeout{
+    public interface Timeout {
         void onTimeout();
     }
 }

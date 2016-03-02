@@ -21,15 +21,6 @@ public abstract class MasterPageFragment extends PageFragment {
     }
 
     /**
-     * Identifica si este fragment debe ser presentado en pantalla completa
-     * @return -
-     */
-
-    public Boolean isFullScreen() {
-        return false;
-    }
-
-    /**
      * Identifica si este pagina debe ser mostrada en dos paginas
      * @return tiene fragment secundario
      */
@@ -41,5 +32,4 @@ public abstract class MasterPageFragment extends PageFragment {
         setArguments(args);
         return this;
     }
-
 }

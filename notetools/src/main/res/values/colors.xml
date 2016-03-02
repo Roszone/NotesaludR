@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="material_dialog_gris">#eeeeee</color>
+    <color name="material_gray_tab">#BCBCBC</color>
+    <color name="material_verde">#73D99C</color>
+    <color name="material_rojo">#EE6B5F</color>
+    <color name="material_naranja">#FF9800</color>
+    <color name="material_azul">#2196F3</color>
+    <color name="material_azul_claro">#E3F2FD</color>
+    <color name="material_gris">#eaeaea</color>
+    <color name="material_gris_claro">#f3f1f5</color>
+    <color name="material_amarillo">#FFEB3B</color>
+    <color name="material_azul_press">#140E8A</color>
+    <color name="material_verde_dark">#388E3C</color>
+    <color name="material_gris_light">#E5F8ED</color>
+    <color name="material_tael">#9EB6C1</color>
+</resources>

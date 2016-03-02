@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <integer name="MillisecondsSplashScreen">10000</integer>
-    <string name="app_name">notetools</string>
+    <string name="app_name">NoteTools</string>
+    <string name="isFirstBoot">isFirstBoot</string>
 </resources>

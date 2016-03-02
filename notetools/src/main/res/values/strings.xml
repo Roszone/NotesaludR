@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">notetools</string>
+    <string name="app_name">NoteTools</string>
+    <string name="isFirstBoot">isFirstBoot</string>
 </resources>
