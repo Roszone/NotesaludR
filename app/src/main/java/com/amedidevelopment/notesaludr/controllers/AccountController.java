@@ -1,5 +1,7 @@
 package com.amedidevelopment.notesaludr.controllers;
 
+import android.content.Context;
+
 import com.amedidevelopment.notesaludr.R;
 
 import org.roszonelib.notetools.storage.CustomPreferences;
@@ -13,8 +15,8 @@ import org.roszonelib.notetools.storage.CustomPreferences;
 public class AccountController {
     public static final int DEFAULT_USER = 0;
 
-    public static boolean hasUserLogged() {
-        CustomPreferences sh = new CustomPreferences(DeviceManager.getInstance(), "AccountController");
-        return sh.getIntegerOrDefault(R.string.shared_login_id, DEFAULT_USER) != DEFAULT_USER;
+    public static boolean hasUserLogged(Context context) {
+        CustomPreferences sh = new CustomPreferences(context, "AccountManager");
+        return sh.getIntegerOrDefault(R.string.shared_loginId, DEFAULT_USER) != DEFAULT_USER;
     }
 }

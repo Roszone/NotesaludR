@@ -1,11 +1,21 @@
 package org.roszonelib.notetools.navigation;
 
+
+import android.content.pm.ActivityInfo;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Parcelable;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+import android.view.View;
 import android.view.WindowManager;
+
+import com.mikepenz.google_material_typeface_library.GoogleMaterial;
+import com.mikepenz.iconics.IconicsDrawable;
+import com.mikepenz.materialize.color.Material;
 
 import org.roszonelib.notetools.R;
 import org.roszonelib.notetools.storage.CustomPreferences;
@@ -19,6 +29,7 @@ import org.roszonelib.notetools.utils.TimeUtils;
  */
 
 public abstract class BaseNavigationActivity extends AppCompatActivity implements PageNavigationFragment, PageInit {
+    private Toolbar mToolbar;
 
     public static int SPLASH_SCREEN_TIMEOUT = 2000;
 
@@ -32,10 +43,11 @@ public abstract class BaseNavigationActivity extends AppCompatActivity implement
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         mPreference = new CustomPreferences(this, "BaseNavigation");
+        setLayoutMode();
         setContentView(R.layout.fragment_container);
-        if (!isSplashScreenEnabled()) {
-            onStartActivity();
-        } else {
+        mToolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(mToolbar);
+        if (isSplashScreenEnabled()) {
             setFullScreen(true);
             onSplashScreen();
             TimeUtils.setTimeOut(new TimeUtils.Timeout() {
@@ -45,8 +57,39 @@ public abstract class BaseNavigationActivity extends AppCompatActivity implement
                     onStartActivity();
                 }
             }, SPLASH_SCREEN_TIMEOUT);
+        } else {
+            onStartActivity();
         }
     }
+
+    private void setLayoutMode() {
+        if (isPortraitEnabled()) {
+            setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+        } else {
+            setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+        }
+    }
+
+    protected abstract boolean isPortraitEnabled();
+
+    public CustomPreferences getPreference() {
+        return mPreference;
+    }
+
+    protected void setHomeAsUpEnabled(Boolean enabled) {
+        if (getSupportActionBar() != null) {
+            ActionBar bar = getSupportActionBar();
+            bar.setHomeButtonEnabled(enabled);
+            bar.setDisplayHomeAsUpEnabled(enabled);
+            bar.setHomeAsUpIndicator(new IconicsDrawable(this)
+                    .icon(GoogleMaterial.Icon.gmd_arrow_back)
+                    .color(Color.WHITE)
+                    .sizeDp(20)
+                    );
+        }
+    }
+
+    protected abstract boolean isSplashScreenEnabled();
 
     /**
      * Muestra el fragment actual en pantalla completa
@@ -55,26 +98,19 @@ public abstract class BaseNavigationActivity extends AppCompatActivity implement
      */
     private void setFullScreen(boolean showInFullScreen) {
         if (showInFullScreen) {
+            mToolbar.setVisibility(View.GONE);
             getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
             getWindow().clearFlags(WindowManager.LayoutParams.FLAG_FORCE_NOT_FULLSCREEN);
         } else {
+            mToolbar.setVisibility(View.VISIBLE);
             getWindow().clearFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
             getWindow().addFlags(WindowManager.LayoutParams.FLAG_FORCE_NOT_FULLSCREEN);
         }
     }
 
-    /**
-     * Identifica cuando el splash screen esta habilitado
-     *
-     * @return - Es el primer inicio
-     */
-    private boolean isSplashScreenEnabled() {
-        return mPreference.getBooleanOrDefault(R.string.isFirstBoot, true);
-    }
-
     @Override
-    public void backPage() {
-
+    public boolean isTwoPaneEnabled() {
+        return false;
     }
 
     @Override
@@ -96,13 +132,9 @@ public abstract class BaseNavigationActivity extends AppCompatActivity implement
 
     }
 
-    /**
-     * Identifica cuando el dispositivo esta en dos paneles
-     *
-     * @return
-     */
     @Override
-    public boolean isEnabledTwoPane() {
-        return false;
+    public void backPage() {
+
     }
+
 }

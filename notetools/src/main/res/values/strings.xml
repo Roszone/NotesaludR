@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">NoteTools</string>
-    <string name="isFirstBoot">isFirstBoot</string>
+    <string name="shared_isFirstBoot">isFirstBoot</string>
 </resources>

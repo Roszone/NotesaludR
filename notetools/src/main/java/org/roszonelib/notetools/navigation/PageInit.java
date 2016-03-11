@@ -1,8 +1,6 @@
 package org.roszonelib.notetools.navigation;
 
 
-import android.os.Bundle;
-
 /**
  * Autor:  Rosember Perez Mengual
  * Proyecto : NotesaludR
@@ -15,5 +13,5 @@ public interface PageInit {
 
     void onStartActivity();
 
-    boolean isEnabledTwoPane();
+    boolean isTwoPaneEnabled();
 }

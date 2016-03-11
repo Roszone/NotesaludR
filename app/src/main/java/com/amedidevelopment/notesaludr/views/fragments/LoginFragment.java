@@ -37,6 +37,8 @@ public class LoginFragment extends MasterPageFragment {
         tl.setupWithViewPager(vp);
         return view;
     }
+
+
     public static class SingInFragment extends PageFragment {
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {

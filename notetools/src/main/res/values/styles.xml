@@ -1,33 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="material_amarillo">#FFEB3B</color>
-    <color name="material_azul">#2196F3</color>
-    <color name="material_azul_claro">#E3F2FD</color>
-    <color name="material_azul_press">#140E8A</color>
-    <color name="material_dialog_gris">#eeeeee</color>
-    <color name="material_gray_tab">#BCBCBC</color>
-    <color name="material_gris">#eaeaea</color>
-    <color name="material_gris_claro">#f3f1f5</color>
-    <color name="material_gris_light">#E5F8ED</color>
-    <color name="material_naranja">#FF9800</color>
-    <color name="material_rojo">#EE6B5F</color>
-    <color name="material_tael">#9EB6C1</color>
-    <color name="material_verde">#73D99C</color>
-    <color name="material_verde_dark">#388E3C</color>
-    <integer name="MillisecondsSplashScreen">10000</integer>
-    <string name="app_name">NoteTools</string>
-    <string name="shared_isFirstBoot">isFirstBoot</string>
+
     <style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/primary</item>
         <item name="colorPrimaryDark">@color/primary_dark</item>
         <item name="colorAccent">@color/accent</item>
     </style>
-    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
-    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
     <style name="CustomTabLayout" parent="Widget.Design.TabLayout">
         <item name="tabIndicatorColor">@color/accent</item>
         <item name="tabIndicatorHeight">2dp</item>
@@ -37,6 +23,7 @@
         <item name="tabTextAppearance">@style/CustomTabTextAppearance</item>
         <item name="tabSelectedTextColor">@android:color/white</item>
     </style>
+
     <style name="CustomTabTextAppearance" parent="TextAppearance.Design.Tab">
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">@color/md_white_1000</item>
