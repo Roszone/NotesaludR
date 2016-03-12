@@ -450,6 +450,7 @@
     <declare-styleable name="PopupWindowBackgroundState"><attr format="boolean" name="state_above_anchor"/></declare-styleable>
     <declare-styleable name="RecyclerView"><attr format="string" name="layoutManager"/><attr name="android:orientation"/><attr format="integer" name="spanCount"/><attr format="boolean" name="reverseLayout"/><attr format="boolean" name="stackFromEnd"/></declare-styleable>
     <declare-styleable name="ScrimInsetsFrameLayout"><attr format="color|reference" name="insetForeground"/></declare-styleable>
+    <declare-styleable name="ScrimInsetsRelativeLayout"><attr format="reference|color" name="sirl_insetForeground"/></declare-styleable>
     <declare-styleable name="ScrimInsetsView"><attr format="reference|color" name="siv_insetForeground"/></declare-styleable>
     <declare-styleable name="ScrollingViewBehavior_Params"><attr format="dimension" name="behavior_overlapTop"/></declare-styleable>
     <declare-styleable name="SearchView"><attr format="reference" name="layout"/><attr format="boolean" name="iconifiedByDefault"/><attr name="android:maxWidth"/><attr format="string" name="queryHint"/><attr format="string" name="defaultQueryHint"/><attr name="android:imeOptions"/><attr name="android:inputType"/><attr format="reference" name="closeIcon"/><attr format="reference" name="goIcon"/><attr format="reference" name="searchIcon"/><attr format="reference" name="searchHintIcon"/><attr format="reference" name="voiceIcon"/><attr format="reference" name="commitIcon"/><attr format="reference" name="suggestionRowLayout"/><attr format="reference" name="queryBackground"/><attr format="reference" name="submitBackground"/><attr name="android:focusable"/></declare-styleable>
@@ -656,6 +657,20 @@
     <item name="iconics_tag_id" type="id"/>
     <item name="item_touch_helper_previous_elevation" type="id"/>
     <item name="material_drawer_animation" type="id"/>
+    <item name="material_drawer_item_container" type="id"/>
+    <item name="material_drawer_item_divider" type="id"/>
+    <item name="material_drawer_item_expandable" type="id"/>
+    <item name="material_drawer_item_mini" type="id"/>
+    <item name="material_drawer_item_mini_profile" type="id"/>
+    <item name="material_drawer_item_primary" type="id"/>
+    <item name="material_drawer_item_primary_switch" type="id"/>
+    <item name="material_drawer_item_primary_toggle" type="id"/>
+    <item name="material_drawer_item_profile" type="id"/>
+    <item name="material_drawer_item_profile_setting" type="id"/>
+    <item name="material_drawer_item_secondary" type="id"/>
+    <item name="material_drawer_item_secondary_switch" type="id"/>
+    <item name="material_drawer_item_secondary_toggle" type="id"/>
+    <item name="material_drawer_item_section" type="id"/>
     <item name="material_drawer_menu_default_group" type="id"/>
     <item name="material_drawer_profile_header" type="id"/>
     <item name="material_drawer_slider_layout" type="id"/>
@@ -699,6 +714,7 @@
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string name="define_AndroidIconics">year;owner</string>
+    <string name="define_fastadapter">year;owner</string>
     <string name="define_font_GoogleMaterial">com.mikepenz.google_material_typeface_library.GoogleMaterial</string>
     <string name="define_materialdrawer">year;owner</string>
     <string name="define_materialize">year;owner</string>
@@ -711,12 +727,27 @@
         
     </string>
     <string name="library_AndroidIconics_libraryName">Android-Iconics</string>
-    <string name="library_AndroidIconics_libraryVersion">2.5.4</string>
+    <string name="library_AndroidIconics_libraryVersion">2.5.9</string>
     <string name="library_AndroidIconics_libraryWebsite">https://github.com/mikepenz/Android-Iconics</string>
     <string name="library_AndroidIconics_licenseId">apache_2_0</string>
     <string name="library_AndroidIconics_owner">Mike Penz</string>
     <string name="library_AndroidIconics_repositoryLink">https://github.com/mikepenz/Android-Iconics</string>
     <string name="library_AndroidIconics_year">2015</string>
+    <string name="library_fastadapter_author">Mike Penz</string>
+    <string name="library_fastadapter_authorWebsite">http://mikepenz.com/</string>
+    <string name="library_fastadapter_isOpenSource">true</string>
+    <string name="library_fastadapter_libraryDescription">
+        
+        &lt;b>FastAdapter&lt;/b>, the bullet proof, fast and easy to use adapter library, which minimizes developing time to a fraction...
+        
+    </string>
+    <string name="library_fastadapter_libraryName">FastAdapter</string>
+    <string name="library_fastadapter_libraryVersion">1.2.4</string>
+    <string name="library_fastadapter_libraryWebsite">https://github.com/mikepenz/FastAdapter</string>
+    <string name="library_fastadapter_licenseId">apache_2_0</string>
+    <string name="library_fastadapter_owner">Mike Penz</string>
+    <string name="library_fastadapter_repositoryLink">https://github.com/mikepenz/FastAdapter</string>
+    <string name="library_fastadapter_year">2016</string>
     <string name="library_materialdrawer_author">Mike Penz</string>
     <string name="library_materialdrawer_authorWebsite">http://mikepenz.com/</string>
     <string name="library_materialdrawer_isOpenSource">true</string>
@@ -726,12 +757,12 @@
         
     </string>
     <string name="library_materialdrawer_libraryName">MaterialDrawer</string>
-    <string name="library_materialdrawer_libraryVersion">4.6.4</string>
+    <string name="library_materialdrawer_libraryVersion">5.1.3</string>
     <string name="library_materialdrawer_libraryWebsite">https://github.com/mikepenz/MaterialDrawer</string>
     <string name="library_materialdrawer_licenseId">apache_2_0</string>
     <string name="library_materialdrawer_owner">Mike Penz</string>
     <string name="library_materialdrawer_repositoryLink">https://github.com/mikepenz/MaterialDrawer</string>
-    <string name="library_materialdrawer_year">2015</string>
+    <string name="library_materialdrawer_year">2016</string>
     <string name="library_materialize_author">Mike Penz</string>
     <string name="library_materialize_authorWebsite">http://mikepenz.com/</string>
     <string name="library_materialize_isOpenSource">true</string>
@@ -741,15 +772,18 @@
         
     </string>
     <string name="library_materialize_libraryName">Materialize</string>
-    <string name="library_materialize_libraryVersion">0.5.1</string>
+    <string name="library_materialize_libraryVersion">0.8.6</string>
     <string name="library_materialize_libraryWebsite">https://github.com/mikepenz/Materialize</string>
     <string name="library_materialize_licenseId">apache_2_0</string>
     <string name="library_materialize_owner">Mike Penz</string>
     <string name="library_materialize_repositoryLink">https://github.com/mikepenz/Materialize</string>
-    <string name="library_materialize_year">2015</string>
+    <string name="library_materialize_year">2016</string>
     <string name="material_drawer_close">Close</string>
     <string name="material_drawer_open">Open</string>
-    <string name="shared_isFirstBoot">isFirstBoot</string>
+    <string name="sharedFirstBoot">shared-first-boot</string>
+    <string name="sharedLoginId">shared-login-id</string>
+    <string name="sharedPortraitMode">shared-portrait-mode</string>
+    <string name="sharedSplashScreen">shared-show-splash</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
@@ -2110,7 +2144,14 @@
         <item name="windowActionBar">true</item>
         <item name="windowNoTitle">false</item>
     </style>
+    <style name="MaterialTheme.ActionBar.DayNight" parent="MaterialTheme.Light.ActionBar"/>
     <style name="MaterialTheme.ActionBar.TranslucentStatus" parent="MaterialTheme.ActionBar"/>
+    <style name="MaterialTheme.ActionBar.TranslucentStatus.DayNight" parent="MaterialTheme.Light.ActionBar.TranslucentStatus"/>
+    <style name="MaterialTheme.DarkToolbar.ActionBar.DayNight" parent="MaterialTheme.Light.DarkToolbar.ActionBar"/>
+    <style name="MaterialTheme.DarkToolbar.ActionBar.TranslucentStatus.DayNight" parent="MaterialTheme.Light.DarkToolbar.ActionBar.TranslucentStatus"/>
+    <style name="MaterialTheme.DarkToolbar.DayNight" parent="MaterialTheme.Light.DarkToolbar"/>
+    <style name="MaterialTheme.DarkToolbar.TranslucentStatus.DayNight" parent="MaterialTheme.Light.DarkToolbar.TranslucentStatus"/>
+    <style name="MaterialTheme.DayNight" parent="MaterialTheme.Light"/>
     <style name="MaterialTheme.Light" parent="MaterialBaseTheme.Light"/>
     <style name="MaterialTheme.Light.ActionBar" parent="MaterialTheme.Light">
         <item name="windowActionBar">true</item>
@@ -2129,6 +2170,7 @@
     <style name="MaterialTheme.Light.DarkToolbar.TranslucentStatus" parent="MaterialTheme.Light.DarkToolbar"/>
     <style name="MaterialTheme.Light.TranslucentStatus" parent="MaterialTheme.Light"/>
     <style name="MaterialTheme.TranslucentStatus" parent="MaterialTheme"/>
+    <style name="MaterialTheme.TranslucentStatus.DayNight" parent="MaterialTheme.Light.TranslucentStatus"/>
     <style name="Platform.AppCompat" parent="android:Theme">
         <item name="android:windowNoTitle">true</item>
 
@@ -2569,5 +2611,8 @@
         <item name="errorTextAppearance">@style/TextAppearance.Design.Error</item>
         <item name="counterTextAppearance">@style/TextAppearance.Design.Counter</item>
         <item name="counterOverflowTextAppearance">@style/TextAppearance.Design.Counter.Overflow</item>
+    </style>
+    <style name="Widget.Materialize.ScrimInsetsRelativeLayout" parent="">
+        <item name="sirl_insetForeground">#4000</item>
     </style>
 </resources>

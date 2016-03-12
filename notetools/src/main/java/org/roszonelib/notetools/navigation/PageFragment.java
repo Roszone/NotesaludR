@@ -4,7 +4,13 @@ import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.Context;
 import android.os.Build;
+import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
+import org.roszonelib.notetools.R;
 
 
 /**
@@ -16,7 +22,7 @@ import android.support.v4.app.Fragment;
  * ====================================
  */
 public abstract class PageFragment extends Fragment {
-    private PageNavigationFragment mListener;
+    private NavigationListener mListener;
 
     /*
     * Debido a que onAttach(Context)
@@ -46,26 +52,32 @@ public abstract class PageFragment extends Fragment {
      * Called when the fragment attaches to the context
      */
     protected void onAttachToContext(Context context) {
-        PageNavigationFragment listener = (PageNavigationFragment) context;
+        NavigationListener listener = (NavigationListener) context;
         if (listener != null) {
             mListener = listener;
         } else {
-            throw new ClassCastException("Need Implement PageNavigationFragment");
+            throw new ClassCastException("Need Implement NavigationListener");
         }
 
     }
 
     /**
      * Obtiene el callback de navegacion heredado del fragment maestro
+     *
      * @return callback
      */
-    public PageNavigationFragment getNavigation() {
+    public NavigationListener getNavigation() {
         return mListener;
     }
 
-
-
-
-
+    /**
+     * Agrega argumentos en forma de cadena
+     * @param args
+     * @return -
+     */
+    public PageFragment addArguments(Bundle args) {
+        setArguments(args);
+        return this;
+    }
 
 }

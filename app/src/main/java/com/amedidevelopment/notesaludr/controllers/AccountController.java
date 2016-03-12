@@ -16,7 +16,7 @@ public class AccountController {
     public static final int DEFAULT_USER = 0;
 
     public static boolean hasUserLogged(Context context) {
-        CustomPreferences sh = new CustomPreferences(context, "AccountManager");
-        return sh.getIntegerOrDefault(R.string.shared_loginId, DEFAULT_USER) != DEFAULT_USER;
+        CustomPreferences custom = CustomPreferences.newInstance(context);
+        return custom.getIntegerOrDefault(R.string.sharedLoginId, DEFAULT_USER) != DEFAULT_USER;
     }
 }

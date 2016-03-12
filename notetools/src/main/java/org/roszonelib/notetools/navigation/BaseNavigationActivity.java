@@ -1,10 +1,8 @@
 package org.roszonelib.notetools.navigation;
 
 
-import android.content.pm.ActivityInfo;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.os.Parcelable;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.ActionBar;
@@ -15,10 +13,10 @@ import android.view.WindowManager;
 
 import com.mikepenz.google_material_typeface_library.GoogleMaterial;
 import com.mikepenz.iconics.IconicsDrawable;
-import com.mikepenz.materialize.color.Material;
+import com.mikepenz.materialdrawer.Drawer;
+import com.mikepenz.materialdrawer.DrawerBuilder;
 
 import org.roszonelib.notetools.R;
-import org.roszonelib.notetools.storage.CustomPreferences;
 import org.roszonelib.notetools.utils.TimeUtils;
 
 /**
@@ -28,75 +26,43 @@ import org.roszonelib.notetools.utils.TimeUtils;
  * Empresa : Amedi S.a.S.
  */
 
-public abstract class BaseNavigationActivity extends AppCompatActivity implements PageNavigationFragment, PageInit {
+public abstract class BaseNavigationActivity extends AppCompatActivity implements NavigationListener {
     private Toolbar mToolbar;
-
-    public static int SPLASH_SCREEN_TIMEOUT = 2000;
-
-    //Almacena el fragmento maestro actual
-    private MasterPageFragment mMasterFragment;
-
-    //Almacena las preferencias de usuario
-    private CustomPreferences mPreference;
+    private Drawer mDrawer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        mPreference = new CustomPreferences(this, "BaseNavigation");
-        setLayoutMode();
         setContentView(R.layout.fragment_container);
         mToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(mToolbar);
-        if (isSplashScreenEnabled()) {
-            setFullScreen(true);
-            onSplashScreen();
-            TimeUtils.setTimeOut(new TimeUtils.Timeout() {
-                @Override
-                public void onTimeout() {
-                    setFullScreen(false);
-                    onStartActivity();
-                }
-            }, SPLASH_SCREEN_TIMEOUT);
-        } else {
+        setupDrawer();
+        if (savedInstanceState == null) {
             onStartActivity();
         }
     }
 
-    private void setLayoutMode() {
-        if (isPortraitEnabled()) {
-            setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-        } else {
-            setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
-        }
+    private void setupDrawer() {
+        mDrawer = new DrawerBuilder()
+                .withActivity(this)
+                .withToolbar(mToolbar)
+                .build();
     }
 
-    protected abstract boolean isPortraitEnabled();
-
-    public CustomPreferences getPreference() {
-        return mPreference;
+    @Override
+    public Drawer getDrawer() {
+        return mDrawer;
     }
 
-    protected void setHomeAsUpEnabled(Boolean enabled) {
-        if (getSupportActionBar() != null) {
-            ActionBar bar = getSupportActionBar();
-            bar.setHomeButtonEnabled(enabled);
-            bar.setDisplayHomeAsUpEnabled(enabled);
-            bar.setHomeAsUpIndicator(new IconicsDrawable(this)
-                    .icon(GoogleMaterial.Icon.gmd_arrow_back)
-                    .color(Color.WHITE)
-                    .sizeDp(20)
-                    );
-        }
-    }
-
-    protected abstract boolean isSplashScreenEnabled();
+    protected abstract void onStartActivity();
 
     /**
-     * Muestra el fragment actual en pantalla completa
+     * Habilita o desabilita el modo pantalla completa
      *
      * @param showInFullScreen -
      */
-    private void setFullScreen(boolean showInFullScreen) {
+    @Override
+    public void enableFullScreen(boolean showInFullScreen) {
         if (showInFullScreen) {
             mToolbar.setVisibility(View.GONE);
             getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
@@ -109,32 +75,42 @@ public abstract class BaseNavigationActivity extends AppCompatActivity implement
     }
 
     @Override
-    public boolean isTwoPaneEnabled() {
-        return false;
+    public Toolbar getToolbar() {
+        return mToolbar;
     }
 
     @Override
-    public void setPage(MasterPageFragment masterPage) {
-        mMasterFragment = masterPage;
+    public void setHomeAsUpEnabled(boolean enabled) {
+        if (getSupportActionBar() != null) {
+            ActionBar bar = getSupportActionBar();
+            bar.setHomeButtonEnabled(enabled);
+            bar.setDisplayHomeAsUpEnabled(enabled);
+            bar.setHomeAsUpIndicator(new IconicsDrawable(this)
+                            .icon(GoogleMaterial.Icon.gmd_arrow_back)
+                            .color(Color.WHITE)
+                            .sizeDp(20)
+            );
+        }
+    }
+
+    @Override
+    public void setToolbar(boolean enable) {
+        if (getSupportActionBar() != null) {
+            ActionBar bar = getSupportActionBar();
+            if (!enable) {
+                bar.hide();
+            } else if (!bar.isShowing()) {
+                bar.show();
+            }
+        }
+    }
+
+    @Override
+    public void setPage(PageFragment masterPage) {
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction transaction = fragmentManager.beginTransaction();
-        transaction.replace(R.id.fragment_container, mMasterFragment)
+        transaction.replace(R.id.fragment_container, masterPage)
                 .commitAllowingStateLoss();
-    }
-
-    @Override
-    public void sendToParent(Parcelable args) {
-
-    }
-
-    @Override
-    public void sendToChild(Parcelable args) {
-
-    }
-
-    @Override
-    public void backPage() {
-
     }
 
 }

@@ -16,7 +16,10 @@
     <color name="material_verde_dark">#388E3C</color>
     <integer name="MillisecondsSplashScreen">10000</integer>
     <string name="app_name">NoteTools</string>
-    <string name="shared_isFirstBoot">isFirstBoot</string>
+    <string name="sharedFirstBoot">shared-first-boot</string>
+    <string name="sharedLoginId">shared-login-id</string>
+    <string name="sharedPortraitMode">shared-portrait-mode</string>
+    <string name="sharedSplashScreen">shared-show-splash</string>
     <style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/primary</item>
         <item name="colorPrimaryDark">@color/primary_dark</item>

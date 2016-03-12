@@ -5,6 +5,8 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
+import org.roszonelib.notetools.R;
+
 /**
  * ====================================
  * Proyecto : NotesaludR
@@ -17,6 +19,7 @@ public class CustomPreferences {
 
     private SharedPreferences mPreference;
     private Context mContext;
+    private static String DEFAULT_PREFERENCES = "DefaultPreferences";
 
     public CustomPreferences(Context context, String preferenceName) {
         mContext = context;
@@ -82,6 +85,14 @@ public class CustomPreferences {
 
     public void putInteger(int key, Integer value) {
         putInteger(mContext.getString(key), value);
+    }
+
+    public static CustomPreferences newInstance(Context context) {
+        return newInstance(context, DEFAULT_PREFERENCES);
+    }
+
+    public static CustomPreferences newInstance(Context context, String preferencename) {
+        return new CustomPreferences(context, preferencename);
     }
 
 }
