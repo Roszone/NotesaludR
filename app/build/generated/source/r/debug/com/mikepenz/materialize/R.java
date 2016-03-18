@@ -789,7 +789,7 @@ public final class R {
 		public static final int notification_template_icon_bg = 0x7f020069;
 	}
 	public static final class id {
-		public static final int action0 = 0x7f0e00c1;
+		public static final int action0 = 0x7f0e00c3;
 		public static final int action_bar = 0x7f0e0073;
 		public static final int action_bar_activity_content = 0x7f0e0000;
 		public static final int action_bar_container = 0x7f0e0072;
@@ -798,7 +798,7 @@ public final class R {
 		public static final int action_bar_subtitle = 0x7f0e0054;
 		public static final int action_bar_title = 0x7f0e0053;
 		public static final int action_context_bar = 0x7f0e0074;
-		public static final int action_divider = 0x7f0e00c5;
+		public static final int action_divider = 0x7f0e00c7;
 		public static final int action_menu_divider = 0x7f0e0002;
 		public static final int action_menu_presenter = 0x7f0e0003;
 		public static final int action_mode_bar = 0x7f0e0070;
@@ -809,12 +809,12 @@ public final class R {
 		public static final int always = 0x7f0e004c;
 		public static final int beginning = 0x7f0e0047;
 		public static final int buttonPanel = 0x7f0e005d;
-		public static final int cancel_action = 0x7f0e00c2;
+		public static final int cancel_action = 0x7f0e00c4;
 		public static final int checkbox = 0x7f0e006b;
-		public static final int chronometer = 0x7f0e00c8;
+		public static final int chronometer = 0x7f0e00ca;
 		public static final int collapseActionView = 0x7f0e004d;
 		public static final int contentPanel = 0x7f0e0063;
-		public static final int content_layout = 0x7f0e00b3;
+		public static final int content_layout = 0x7f0e00b5;
 		public static final int custom = 0x7f0e0069;
 		public static final int customPanel = 0x7f0e0068;
 		public static final int decor_content_parent = 0x7f0e0071;
@@ -822,7 +822,7 @@ public final class R {
 		public static final int disableHome = 0x7f0e0027;
 		public static final int edit_query = 0x7f0e0075;
 		public static final int end = 0x7f0e0022;
-		public static final int end_padder = 0x7f0e00cd;
+		public static final int end_padder = 0x7f0e00cf;
 		public static final int expand_activities_button = 0x7f0e0057;
 		public static final int expanded_menu = 0x7f0e006a;
 		public static final int home = 0x7f0e0004;
@@ -830,13 +830,13 @@ public final class R {
 		public static final int icon = 0x7f0e005b;
 		public static final int ifRoom = 0x7f0e004e;
 		public static final int image = 0x7f0e0058;
-		public static final int info = 0x7f0e00cc;
-		public static final int line1 = 0x7f0e00c6;
-		public static final int line3 = 0x7f0e00ca;
+		public static final int info = 0x7f0e00ce;
+		public static final int line1 = 0x7f0e00c8;
+		public static final int line3 = 0x7f0e00cc;
 		public static final int listMode = 0x7f0e0024;
 		public static final int list_item = 0x7f0e005a;
 		public static final int materialize_root = 0x7f0e001b;
-		public static final int media_actions = 0x7f0e00c4;
+		public static final int media_actions = 0x7f0e00c6;
 		public static final int middle = 0x7f0e0048;
 		public static final int multiply = 0x7f0e003d;
 		public static final int never = 0x7f0e004f;
@@ -870,13 +870,13 @@ public final class R {
 		public static final int src_atop = 0x7f0e003f;
 		public static final int src_in = 0x7f0e0040;
 		public static final int src_over = 0x7f0e0041;
-		public static final int status_bar_latest_event_content = 0x7f0e00c3;
+		public static final int status_bar_latest_event_content = 0x7f0e00c5;
 		public static final int submit_area = 0x7f0e007e;
 		public static final int tabMode = 0x7f0e0026;
-		public static final int text = 0x7f0e00cb;
-		public static final int text2 = 0x7f0e00c9;
+		public static final int text = 0x7f0e00cd;
+		public static final int text2 = 0x7f0e00cb;
 		public static final int textSpacerNoButtons = 0x7f0e0066;
-		public static final int time = 0x7f0e00c7;
+		public static final int time = 0x7f0e00c9;
 		public static final int title = 0x7f0e005c;
 		public static final int title_template = 0x7f0e0061;
 		public static final int topPanel = 0x7f0e0060;
@@ -952,18 +952,18 @@ public final class R {
 		public static final int abc_shareactionprovider_share_with = 0x7f070010;
 		public static final int abc_shareactionprovider_share_with_application = 0x7f070011;
 		public static final int abc_toolbar_collapse_description = 0x7f070012;
-		public static final int define_materialize = 0x7f070020;
-		public static final int library_materialize_author = 0x7f070047;
-		public static final int library_materialize_authorWebsite = 0x7f070048;
-		public static final int library_materialize_isOpenSource = 0x7f070049;
-		public static final int library_materialize_libraryDescription = 0x7f07004a;
-		public static final int library_materialize_libraryName = 0x7f07004b;
-		public static final int library_materialize_libraryVersion = 0x7f07004c;
-		public static final int library_materialize_libraryWebsite = 0x7f07004d;
-		public static final int library_materialize_licenseId = 0x7f07004e;
-		public static final int library_materialize_owner = 0x7f07004f;
-		public static final int library_materialize_repositoryLink = 0x7f070050;
-		public static final int library_materialize_year = 0x7f070051;
+		public static final int define_materialize = 0x7f070023;
+		public static final int library_materialize_author = 0x7f07004a;
+		public static final int library_materialize_authorWebsite = 0x7f07004b;
+		public static final int library_materialize_isOpenSource = 0x7f07004c;
+		public static final int library_materialize_libraryDescription = 0x7f07004d;
+		public static final int library_materialize_libraryName = 0x7f07004e;
+		public static final int library_materialize_libraryVersion = 0x7f07004f;
+		public static final int library_materialize_libraryWebsite = 0x7f070050;
+		public static final int library_materialize_licenseId = 0x7f070051;
+		public static final int library_materialize_owner = 0x7f070052;
+		public static final int library_materialize_repositoryLink = 0x7f070053;
+		public static final int library_materialize_year = 0x7f070054;
 		public static final int status_bar_notification_info_overflow = 0x7f070013;
 	}
 	public static final class style {

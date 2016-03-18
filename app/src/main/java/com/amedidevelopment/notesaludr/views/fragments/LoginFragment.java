@@ -27,6 +27,7 @@ import org.roszonelib.notetools.utils.CustomViewUtils;
 public class LoginFragment extends PageFragment implements View.OnClickListener {
     private MaterialDialog mDialog;
     private AccountBll mLogic;
+    private String DEFAULT_USERNAME = "";
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup parent, Bundle savedInstanceState) {
@@ -41,7 +42,6 @@ public class LoginFragment extends PageFragment implements View.OnClickListener 
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btn_login:
-                String DEFAULT_USERNAME = "";
                 showDialogForLogin(DEFAULT_USERNAME);
                 break;
             case R.id.btn_manual:
