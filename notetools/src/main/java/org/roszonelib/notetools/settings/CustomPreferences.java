@@ -1,11 +1,9 @@
-package org.roszonelib.notetools.storage;
+package org.roszonelib.notetools.settings;
 
 
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
-
-import org.roszonelib.notetools.R;
 
 /**
  * ====================================

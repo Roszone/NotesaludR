@@ -2,6 +2,7 @@ package com.amedidevelopment.notesaludr.controllers;
 
 import android.app.Application;
 import android.content.Context;
+import android.content.res.Configuration;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.PowerManager;
@@ -21,7 +22,7 @@ public class DeviceManager extends Application {
      * Retorna la instancia unica del dispositivo
      */
     public static DeviceManager getInstance() {
-        if(mInstance == null){
+        if (mInstance == null) {
             mInstance = new DeviceManager();
         }
         return mInstance;
@@ -79,5 +80,10 @@ public class DeviceManager extends Application {
     public void releaseWakeLock() {
         if (wakeLock != null) wakeLock.release();
         wakeLock = null;
+    }
+
+    private static boolean isXLargeTablet(Context context) {
+        return (context.getResources().getConfiguration().screenLayout
+                & Configuration.SCREENLAYOUT_SIZE_MASK) >= Configuration.SCREENLAYOUT_SIZE_XLARGE;
     }
 }

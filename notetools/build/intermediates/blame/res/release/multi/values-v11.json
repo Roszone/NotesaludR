@@ -255,9 +255,51 @@
                     "startLine": 54,
                     "startColumn": 4,
                     "startOffset": 3859,
-                    "endLine": 59,
+                    "endLine": 70,
                     "endColumn": 12,
-                    "endOffset": 4130
+                    "endOffset": 4893
+                },
+                "from": {
+                    "file": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.7\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 18,
+                        "endColumn": 12,
+                        "endOffset": 1089
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 71,
+                    "startColumn": 4,
+                    "startOffset": 4898,
+                    "endLine": 87,
+                    "endColumn": 12,
+                    "endOffset": 5914
+                },
+                "from": {
+                    "file": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.7\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1094,
+                        "endLine": 35,
+                        "endColumn": 12,
+                        "endOffset": 2110
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 88,
+                    "startColumn": 4,
+                    "startOffset": 5919,
+                    "endLine": 93,
+                    "endColumn": 12,
+                    "endOffset": 6190
                 },
                 "from": {
                     "file": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.8.6\\res\\values-v11\\values-v11.xml",
@@ -273,12 +315,12 @@
             },
             {
                 "to": {
-                    "startLine": 60,
+                    "startLine": 94,
                     "startColumn": 4,
-                    "startOffset": 4135,
-                    "endLine": 63,
+                    "startOffset": 6195,
+                    "endLine": 97,
                     "endColumn": 12,
-                    "endOffset": 4414
+                    "endOffset": 6474
                 },
                 "from": {
                     "file": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.8.6\\res\\values-v11\\values-v11.xml",
@@ -294,12 +336,12 @@
             },
             {
                 "to": {
-                    "startLine": 64,
+                    "startLine": 98,
                     "startColumn": 4,
-                    "startOffset": 4419,
-                    "endLine": 68,
+                    "startOffset": 6479,
+                    "endLine": 102,
                     "endColumn": 12,
-                    "endOffset": 4714
+                    "endOffset": 6774
                 },
                 "from": {
                     "file": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.8.6\\res\\values-v11\\values-v11.xml",
@@ -315,12 +357,12 @@
             },
             {
                 "to": {
-                    "startLine": 69,
+                    "startLine": 103,
                     "startColumn": 4,
-                    "startOffset": 4719,
-                    "endLine": 74,
+                    "startOffset": 6779,
+                    "endLine": 108,
                     "endColumn": 12,
-                    "endOffset": 5014
+                    "endOffset": 7074
                 },
                 "from": {
                     "file": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.8.6\\res\\values-v11\\values-v11.xml",
@@ -336,12 +378,12 @@
             },
             {
                 "to": {
-                    "startLine": 75,
+                    "startLine": 109,
                     "startColumn": 4,
-                    "startOffset": 5019,
-                    "endLine": 78,
+                    "startOffset": 7079,
+                    "endLine": 112,
                     "endColumn": 12,
-                    "endOffset": 5310
+                    "endOffset": 7370
                 },
                 "from": {
                     "file": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.8.6\\res\\values-v11\\values-v11.xml",
@@ -357,12 +399,12 @@
             },
             {
                 "to": {
-                    "startLine": 79,
+                    "startLine": 113,
                     "startColumn": 4,
-                    "startOffset": 5315,
-                    "endLine": 87,
+                    "startOffset": 7375,
+                    "endLine": 121,
                     "endColumn": 12,
-                    "endOffset": 5732
+                    "endOffset": 7792
                 },
                 "from": {
                     "file": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.8.6\\res\\values-v11\\values-v11.xml",
@@ -378,12 +420,12 @@
             },
             {
                 "to": {
-                    "startLine": 88,
+                    "startLine": 122,
                     "startColumn": 4,
-                    "startOffset": 5737,
-                    "endLine": 92,
+                    "startOffset": 7797,
+                    "endLine": 126,
                     "endColumn": 12,
-                    "endOffset": 6044
+                    "endOffset": 8104
                 },
                 "from": {
                     "file": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.8.6\\res\\values-v11\\values-v11.xml",
@@ -399,12 +441,12 @@
             },
             {
                 "to": {
-                    "startLine": 93,
+                    "startLine": 127,
                     "startColumn": 4,
-                    "startOffset": 6049,
-                    "endLine": 96,
+                    "startOffset": 8109,
+                    "endLine": 130,
                     "endColumn": 12,
-                    "endOffset": 6220
+                    "endOffset": 8280
                 },
                 "from": {
                     "file": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.8.6\\res\\values-v11\\values-v11.xml",
@@ -420,12 +462,12 @@
             },
             {
                 "to": {
-                    "startLine": 97,
+                    "startLine": 131,
                     "startColumn": 4,
-                    "startOffset": 6225,
-                    "endLine": 100,
+                    "startOffset": 8285,
+                    "endLine": 134,
                     "endColumn": 12,
-                    "endOffset": 6408
+                    "endOffset": 8468
                 },
                 "from": {
                     "file": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.8.6\\res\\values-v11\\values-v11.xml",
@@ -441,12 +483,12 @@
             },
             {
                 "to": {
-                    "startLine": 101,
+                    "startLine": 135,
                     "startColumn": 4,
-                    "startOffset": 6413,
-                    "endLine": 104,
+                    "startOffset": 8473,
+                    "endLine": 138,
                     "endColumn": 12,
-                    "endOffset": 6620
+                    "endOffset": 8680
                 },
                 "from": {
                     "file": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.8.6\\res\\values-v11\\values-v11.xml",
@@ -462,11 +504,11 @@
             },
             {
                 "to": {
-                    "startLine": 105,
+                    "startLine": 139,
                     "startColumn": 4,
-                    "startOffset": 6625,
+                    "startOffset": 8685,
                     "endColumn": 70,
-                    "endOffset": 6691
+                    "endOffset": 8751
                 },
                 "from": {
                     "file": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v11\\values-v11.xml",
@@ -481,11 +523,11 @@
             },
             {
                 "to": {
-                    "startLine": 106,
+                    "startLine": 140,
                     "startColumn": 4,
-                    "startOffset": 6696,
+                    "startOffset": 8756,
                     "endColumn": 82,
-                    "endOffset": 6774
+                    "endOffset": 8834
                 },
                 "from": {
                     "file": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v11\\values-v11.xml",
@@ -500,12 +542,12 @@
             },
             {
                 "to": {
-                    "startLine": 107,
+                    "startLine": 141,
                     "startColumn": 4,
-                    "startOffset": 6779,
-                    "endLine": 157,
+                    "startOffset": 8839,
+                    "endLine": 191,
                     "endColumn": 12,
-                    "endOffset": 10482
+                    "endOffset": 12542
                 },
                 "from": {
                     "file": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v11\\values-v11.xml",
@@ -521,12 +563,12 @@
             },
             {
                 "to": {
-                    "startLine": 158,
+                    "startLine": 192,
                     "startColumn": 4,
-                    "startOffset": 10487,
-                    "endLine": 209,
+                    "startOffset": 12547,
+                    "endLine": 243,
                     "endColumn": 12,
-                    "endOffset": 14330
+                    "endOffset": 16390
                 },
                 "from": {
                     "file": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v11\\values-v11.xml",
@@ -542,11 +584,11 @@
             },
             {
                 "to": {
-                    "startLine": 210,
+                    "startLine": 244,
                     "startColumn": 4,
-                    "startOffset": 14335,
+                    "startOffset": 16395,
                     "endColumn": 90,
-                    "endOffset": 14421
+                    "endOffset": 16481
                 },
                 "from": {
                     "file": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v11\\values-v11.xml",

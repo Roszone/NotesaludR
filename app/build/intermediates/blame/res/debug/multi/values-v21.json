@@ -1599,9 +1599,51 @@
                     "startLine": 211,
                     "startColumn": 4,
                     "startOffset": 15888,
-                    "endLine": 214,
+                    "endLine": 221,
                     "endColumn": 12,
-                    "endOffset": 16059
+                    "endOffset": 16642
+                },
+                "from": {
+                    "file": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.7\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 809
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 222,
+                    "startColumn": 4,
+                    "startOffset": 16647,
+                    "endLine": 232,
+                    "endColumn": 12,
+                    "endOffset": 17393
+                },
+                "from": {
+                    "file": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.7\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 814,
+                        "endLine": 23,
+                        "endColumn": 12,
+                        "endOffset": 1560
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 233,
+                    "startColumn": 4,
+                    "startOffset": 17398,
+                    "endLine": 236,
+                    "endColumn": 12,
+                    "endOffset": 17569
                 },
                 "from": {
                     "file": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.8.6\\res\\values-v21\\values-v21.xml",
@@ -1617,12 +1659,12 @@
             },
             {
                 "to": {
-                    "startLine": 215,
+                    "startLine": 237,
                     "startColumn": 4,
-                    "startOffset": 16064,
-                    "endLine": 219,
+                    "startOffset": 17574,
+                    "endLine": 241,
                     "endColumn": 12,
-                    "endOffset": 16382
+                    "endOffset": 17892
                 },
                 "from": {
                     "file": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.8.6\\res\\values-v21\\values-v21.xml",
@@ -1638,12 +1680,12 @@
             },
             {
                 "to": {
-                    "startLine": 220,
+                    "startLine": 242,
                     "startColumn": 4,
-                    "startOffset": 16387,
-                    "endLine": 223,
+                    "startOffset": 17897,
+                    "endLine": 245,
                     "endColumn": 12,
-                    "endOffset": 16570
+                    "endOffset": 18080
                 },
                 "from": {
                     "file": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.8.6\\res\\values-v21\\values-v21.xml",
@@ -1659,12 +1701,12 @@
             },
             {
                 "to": {
-                    "startLine": 224,
+                    "startLine": 246,
                     "startColumn": 4,
-                    "startOffset": 16575,
-                    "endLine": 228,
+                    "startOffset": 18085,
+                    "endLine": 250,
                     "endColumn": 12,
-                    "endOffset": 16929
+                    "endOffset": 18439
                 },
                 "from": {
                     "file": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.8.6\\res\\values-v21\\values-v21.xml",
@@ -1680,12 +1722,12 @@
             },
             {
                 "to": {
-                    "startLine": 229,
+                    "startLine": 251,
                     "startColumn": 4,
-                    "startOffset": 16934,
-                    "endLine": 233,
+                    "startOffset": 18444,
+                    "endLine": 255,
                     "endColumn": 12,
-                    "endOffset": 17264
+                    "endOffset": 18774
                 },
                 "from": {
                     "file": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.8.6\\res\\values-v21\\values-v21.xml",
@@ -1701,12 +1743,12 @@
             },
             {
                 "to": {
-                    "startLine": 234,
+                    "startLine": 256,
                     "startColumn": 4,
-                    "startOffset": 17269,
-                    "endLine": 237,
+                    "startOffset": 18779,
+                    "endLine": 259,
                     "endColumn": 12,
-                    "endOffset": 17476
+                    "endOffset": 18986
                 },
                 "from": {
                     "file": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.8.6\\res\\values-v21\\values-v21.xml",
@@ -1722,12 +1764,12 @@
             },
             {
                 "to": {
-                    "startLine": 238,
+                    "startLine": 260,
                     "startColumn": 4,
-                    "startOffset": 17481,
-                    "endLine": 242,
+                    "startOffset": 18991,
+                    "endLine": 264,
                     "endColumn": 12,
-                    "endOffset": 17815
+                    "endOffset": 19325
                 },
                 "from": {
                     "file": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.8.6\\res\\values-v21\\values-v21.xml",
@@ -1743,12 +1785,12 @@
             },
             {
                 "to": {
-                    "startLine": 243,
+                    "startLine": 265,
                     "startColumn": 4,
-                    "startOffset": 17820,
-                    "endLine": 247,
+                    "startOffset": 19330,
+                    "endLine": 269,
                     "endColumn": 12,
-                    "endOffset": 18130
+                    "endOffset": 19640
                 },
                 "from": {
                     "file": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.8.6\\res\\values-v21\\values-v21.xml",
@@ -1764,12 +1806,12 @@
             },
             {
                 "to": {
-                    "startLine": 248,
+                    "startLine": 270,
                     "startColumn": 4,
-                    "startOffset": 18135,
-                    "endLine": 252,
+                    "startOffset": 19645,
+                    "endLine": 274,
                     "endColumn": 12,
-                    "endOffset": 18433
+                    "endOffset": 19943
                 },
                 "from": {
                     "file": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.8.6\\res\\values-v21\\values-v21.xml",
@@ -1785,12 +1827,12 @@
             },
             {
                 "to": {
-                    "startLine": 253,
+                    "startLine": 275,
                     "startColumn": 4,
-                    "startOffset": 18438,
-                    "endLine": 262,
+                    "startOffset": 19948,
+                    "endLine": 284,
                     "endColumn": 12,
-                    "endOffset": 18946
+                    "endOffset": 20456
                 },
                 "from": {
                     "file": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
@@ -1806,12 +1848,12 @@
             },
             {
                 "to": {
-                    "startLine": 263,
+                    "startLine": 285,
                     "startColumn": 4,
-                    "startOffset": 18951,
-                    "endLine": 272,
+                    "startOffset": 20461,
+                    "endLine": 294,
                     "endColumn": 12,
-                    "endOffset": 19471
+                    "endOffset": 20981
                 },
                 "from": {
                     "file": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
@@ -1827,12 +1869,12 @@
             },
             {
                 "to": {
-                    "startLine": 273,
+                    "startLine": 295,
                     "startColumn": 4,
-                    "startOffset": 19476,
-                    "endLine": 282,
+                    "startOffset": 20986,
+                    "endLine": 304,
                     "endColumn": 12,
-                    "endOffset": 20151
+                    "endOffset": 21661
                 },
                 "from": {
                     "file": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
@@ -1848,11 +1890,11 @@
             },
             {
                 "to": {
-                    "startLine": 283,
+                    "startLine": 305,
                     "startColumn": 4,
-                    "startOffset": 20156,
+                    "startOffset": 21666,
                     "endColumn": 56,
-                    "endOffset": 20208
+                    "endOffset": 21718
                 },
                 "from": {
                     "file": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
@@ -1867,11 +1909,11 @@
             },
             {
                 "to": {
-                    "startLine": 284,
+                    "startLine": 306,
                     "startColumn": 4,
-                    "startOffset": 20213,
+                    "startOffset": 21723,
                     "endColumn": 57,
-                    "endOffset": 20266
+                    "endOffset": 21776
                 },
                 "from": {
                     "file": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",

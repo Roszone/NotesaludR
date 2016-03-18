@@ -1,34 +1,25 @@
 package org.roszonelib.notetools.navigation;
 
-
-import android.graphics.Color;
 import android.os.Bundle;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
+import android.support.v4.app.Fragment;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.WindowManager;
 
-import com.mikepenz.google_material_typeface_library.GoogleMaterial;
-import com.mikepenz.iconics.IconicsDrawable;
-import com.mikepenz.materialdrawer.Drawer;
-import com.mikepenz.materialdrawer.DrawerBuilder;
-
 import org.roszonelib.notetools.R;
-import org.roszonelib.notetools.utils.TimeUtils;
 
 /**
- * Autor:  Rosember Perez Mengual
+ * ====================================
  * Proyecto : NotesaludR
- * Fecha: 23/01/2016
- * Empresa : Amedi S.a.S.
+ * Empresa  : Amedi S.a.s.
+ * Autor    : Rosember
+ * Fecha    : 16/03/2016 17:56
+ * ====================================
  */
-
-public abstract class BaseNavigationActivity extends AppCompatActivity implements NavigationListener {
+public abstract class BaseFragmentActivity<fragment extends Fragment> extends AppCompatActivity implements NavigationListener<fragment> {
     private Toolbar mToolbar;
-    private Drawer mDrawer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,25 +27,7 @@ public abstract class BaseNavigationActivity extends AppCompatActivity implement
         setContentView(R.layout.fragment_container);
         mToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(mToolbar);
-        setupDrawer();
-        if (savedInstanceState == null) {
-            onStartActivity();
-        }
     }
-
-    private void setupDrawer() {
-        mDrawer = new DrawerBuilder()
-                .withActivity(this)
-                .withToolbar(mToolbar)
-                .build();
-    }
-
-    @Override
-    public Drawer getDrawer() {
-        return mDrawer;
-    }
-
-    protected abstract void onStartActivity();
 
     /**
      * Habilita o desabilita el modo pantalla completa
@@ -85,16 +58,11 @@ public abstract class BaseNavigationActivity extends AppCompatActivity implement
             ActionBar bar = getSupportActionBar();
             bar.setHomeButtonEnabled(enabled);
             bar.setDisplayHomeAsUpEnabled(enabled);
-            bar.setHomeAsUpIndicator(new IconicsDrawable(this)
-                            .icon(GoogleMaterial.Icon.gmd_arrow_back)
-                            .color(Color.WHITE)
-                            .sizeDp(20)
-            );
         }
     }
 
     @Override
-    public void setToolbar(boolean enable) {
+    public void showToolbar(boolean enable) {
         if (getSupportActionBar() != null) {
             ActionBar bar = getSupportActionBar();
             if (!enable) {
@@ -106,11 +74,18 @@ public abstract class BaseNavigationActivity extends AppCompatActivity implement
     }
 
     @Override
-    public void setPage(PageFragment masterPage) {
-        FragmentManager fragmentManager = getSupportFragmentManager();
-        FragmentTransaction transaction = fragmentManager.beginTransaction();
-        transaction.replace(R.id.fragment_container, masterPage)
+    public void setPage(fragment masterPage) {
+        getSupportFragmentManager()
+                .beginTransaction()
+                .replace(R.id.fragment_container, masterPage)
                 .commitAllowingStateLoss();
+    }
+
+    public void setPage(android.app.Fragment fragment) {
+        getFragmentManager()
+                .beginTransaction()
+                .replace(R.id.fragment_container, fragment)
+                .commit();
     }
 
 }

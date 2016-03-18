@@ -1,0 +1,188 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="example_switch"
+        android:summary="@string/pref_description_social_recommendations"
+        android:title="@string/pref_title_social_recommendations" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/pref_notify_msg_key"
+        android:summary="@string/pref_notify_msg_summary"
+        android:title="@string/pref_notify_msg_title" />
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_display_name"
+        android:inputType="textCapWords"
+        android:key="example_text"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_display_name" />
+
+    <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it. -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+    <ListPreference
+        android:defaultValue="-1"
+        android:entries="@array/pref_example_list_titles"
+        android:entryValues="@array/pref_example_list_values"
+        android:key="example_list"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_add_friends_to_messages" />
+
+    <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <!-- A 'parent' preference, which enables/disables child preferences (below)
+             when checked/unchecked. -->
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="notifications_new_message"
+            android:title="@string/pref_title_new_message_notifications" />
+
+        <!-- Allows the user to choose a ringtone in the 'notification' category. -->
+        <!-- NOTE: This preference will be enabled only when the checkbox above is checked. -->
+        <!-- NOTE: RingtonePreference's summary should be set to its value by the activity code. -->
+        <RingtonePreference
+            android:defaultValue="content://settings/system/notification_sound"
+            android:dependency="notifications_new_message"
+            android:key="notifications_new_message_ringtone"
+            android:ringtoneType="notification"
+            android:title="@string/pref_title_ringtone" />
+
+        <!-- NOTE: This preference will be enabled only when the checkbox above is checked. -->
+        <SwitchPreference
+            android:defaultValue="true"
+            android:dependency="notifications_new_message"
+            android:key="notifications_new_message_vibrate"
+            android:title="@string/pref_title_vibrate" />
+
+    </PreferenceScreen>
+
+    <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/pref_screen_tittle">
+        <PreferenceScreen
+            android:summary="@string/pref_update_summary"
+            android:title="@string/pref_update_tittle">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/pref_update_action_view" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:key="@string/pref_server_key"
+            android:summary="@string/pref_server_screen_summary"
+            android:title="@string/pref_server_screen_tittle">
+            <PreferenceCategory android:title="@string/pref_server_category">
+                <EditTextPreference
+                    android:capitalize="words"
+                    android:defaultValue="@string/pref_server_ip_default"
+                    android:inputType="textCapWords"
+                    android:key="@string/pref_server_ip"
+                    android:maxLines="1"
+                    android:selectAllOnFocus="true"
+                    android:singleLine="true"
+                    android:title="@string/pref_server_ip_tittle" />
+                <EditTextPreference
+                    android:capitalize="words"
+                    android:defaultValue="@string/pref_server_port_default"
+                    android:inputType="textCapWords|number"
+                    android:key="@string/pref_server_port"
+                    android:maxLines="1"
+                    android:selectAllOnFocus="true"
+                    android:singleLine="true"
+                    android:summary="@string/pref_server_port_summary"
+                    android:title="@string/pref_server_port_tittle" />
+                <EditTextPreference
+                    android:capitalize="words"
+                    android:defaultValue="@string/pref_server_port_aux_default"
+                    android:inputType="textCapWords"
+                    android:key="@string/pref_server_port_aux"
+                    android:maxLines="1"
+                    android:selectAllOnFocus="true"
+                    android:singleLine="true"
+                    android:title="@string/pref_server_port_aux_tittle" />
+            </PreferenceCategory>
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:summary="@string/pref_notify_summary"
+            android:title="@string/pref_notify_title">
+            <PreferenceCategory android:title="@string/pref_notify_category_title">
+                <CheckBoxPreference
+                    android:defaultValue="true"
+                    android:key="@string/pref_notify_msg_key"
+                    android:summary="@string/pref_notify_msg_summary"
+                    android:title="@string/pref_notify_msg_title" />
+                <ListPreference
+                    android:defaultValue="@string/pref_notify_msg_type"
+                    android:dependency="@string/pref_notify_msg_key"
+                    android:entries="@array/pref_notify_msg_type_list"
+                    android:entryValues="@array/pref_notify_msg_type_values"
+                    android:key="@string/pref_notify_msg_type_key"
+                    android:negativeButtonText="@null"
+                    android:positiveButtonText="@null"
+                    android:summary="@string/pref_notify_msg_type_summary"
+                    android:title="@string/pref_notify_msg_type_tittle" />
+            </PreferenceCategory>
+            <PreferenceCategory android:title="@string/pref_notify_sound_category_tittle">
+                <CheckBoxPreference
+                    android:defaultValue="true"
+                    android:key="@string/pref_notify_sound_key"
+                    android:summary="@string/pref_notify_sound_summary"
+                    android:title="@string/pref_notify_sound_title" />
+                <RingtonePreference
+                    android:defaultValue="@string/pref_notify_ringtone_value"
+                    android:dependency="@string/pref_notify_sound_key"
+                    android:key="@string/pref_notify_ringtone_key"
+                    android:title="@string/pref_notify_ringtone_title" />
+            </PreferenceCategory>
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:summary="@string/pref_help_summary"
+            android:title="@string/pref_help_title">
+            <PreferenceCategory android:title="@string/pref_help_category_title">
+                <PreferenceScreen
+                    android:icon="@mipmap/ic_launcher"
+                    android:summary="@string/pref_help_release_summary"
+                    android:title="@string/app_name" />
+                <PreferenceScreen
+                    android:summary="@string/pref_help_group_summary"
+                    android:title="@string/pref_help_group_title">
+                    <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="@string/pref_help_group_action_view" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:summary="@string/pref_help_group_details_summary"
+                    android:title="@string/pref_help_group_details_title" />
+            </PreferenceCategory>
+        </PreferenceScreen>
+        <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+                 dismiss it. -->
+            <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+            <ListPreference
+                android:defaultValue="180"
+                android:entries="@array/pref_sync_frequency_titles"
+                android:entryValues="@array/pref_sync_frequency_values"
+                android:key="sync_frequency"
+                android:negativeButtonText="@null"
+                android:positiveButtonText="@null"
+                android:title="@string/pref_title_sync_frequency" />
+
+            <!-- This preference simply launches an intent when selected. Use this UI sparingly, per
+                 design guidelines. -->
+            <Preference android:title="@string/pref_title_system_sync_settings">
+                <intent android:action="android.settings.SYNC_SETTINGS" />
+            </Preference>
+
+        </PreferenceScreen>
+
+    </PreferenceScreen>
+
+
+</PreferenceScreen>

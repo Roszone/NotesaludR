@@ -8,9 +8,6 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
-
-import org.roszonelib.notetools.R;
 
 
 /**
@@ -70,14 +67,10 @@ public abstract class PageFragment extends Fragment {
         return mListener;
     }
 
-    /**
-     * Agrega argumentos en forma de cadena
-     * @param args
-     * @return -
-     */
+
     public PageFragment addArguments(Bundle args) {
         setArguments(args);
         return this;
     }
-
 }
+
