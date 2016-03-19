@@ -63,6 +63,7 @@
     <string name="pref_help_summary">sum</string>
     <string name="title_settings">Configuración</string>
     <string name="tittle_dialog_login">Iniciar Sesión</string>
-    <string name="createUser">Crear usuario</string>
-    <string name="restorePass">Restaurar contraseña</string>
+    <string name="createUser">Crear Usuario</string>
+    <string name="restorePass">Recuperar Contraseña</string>
+    <string name="listUser">Seleccionar Usuario</string>
 </resources>

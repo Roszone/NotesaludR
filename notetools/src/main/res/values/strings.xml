@@ -55,4 +55,7 @@
     <string name="advance_options">Opciones Avanzadas</string>
     <string name="default_text">Lorem ipsum</string>
     <string name="default_text_long">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="register_user_nurse">Registro de usuarios temporales\nAuxiliar de enfermeria</string>
+    <string name="create_user_note"><![CDATA[<strong>NOTA:</strong> Al crear su <strong>usuario</strong> podrá registrar notas <strong>localmente</strong>, sin embargo es necesario <strong>validar</strong> su <strong>asignación</strong> para el envío de la información ]]>
+    </string>
 </resources>

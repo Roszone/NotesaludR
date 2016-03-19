@@ -12,6 +12,7 @@ import com.mikepenz.google_material_typeface_library.GoogleMaterial;
 
 import org.roszonelib.notetools.R;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class ListItemAdapter extends RecyclerView.Adapter<ListItemViewHolder> {
@@ -36,6 +37,7 @@ public class ListItemAdapter extends RecyclerView.Adapter<ListItemViewHolder> {
         int layout = getLayoutFromType(viewType);
         View v = LayoutInflater.from(parent.getContext()).inflate(layout, parent, false);
         return new ListItemViewHolder(v);
+
     }
 
     @Override
@@ -65,28 +67,13 @@ public class ListItemAdapter extends RecyclerView.Adapter<ListItemViewHolder> {
     @Override
     public void onBindViewHolder(ListItemViewHolder holder, int position) {
         ListItem item = mItems.get(position);
-        setValues(holder, item);
-        setIcons(holder, item);
+        holder.setValues(item);
+        holder.setIcons(item);
         setItemListener(holder, item, position);
     }
 
-    private void setValues(ListItemViewHolder holder, ListItem item) {
-        holder.LabelTittle.setText(item.Tittle);
-        holder.LabelSubTittle.setText(item.SubTittle);
-        holder.LabelContent.setText(item.Content);
-        holder.LabelInfo.setText(item.TimeAgo);
-    }
-
-    private void setIcons(ListItemViewHolder holder, ListItem item) {
-        if (item.AvatarIcon == null) {
-            holder.AvatarIcon.setImageDrawable(null);
-        } else {
-            holder.AvatarIcon.setImageDrawable(item.AvatarIcon);
-        }
-    }
-
-    private void setItemListener(ListItemViewHolder holder, final ListItem item, final int position) {
-        holder.itemView.setOnClickListener(item.getType() == ListItemType.ONLY_TITTLE ? null : new View.OnClickListener() {
+    private void setItemListener(ListItemViewHolder holder, final ListItemAdapter.ListItem item, final int position) {
+        holder.itemView.setOnClickListener(item.getType() == ListItemAdapter.ListItemType.ONLY_TITTLE ? null : new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (mListener != null) {
@@ -118,16 +105,24 @@ public class ListItemAdapter extends RecyclerView.Adapter<ListItemViewHolder> {
     }
 
     public static class builder {
+        private List<ListItem> mItems;
+        private Context mContext;
 
         public builder(Context context) {
+            mContext = context;
+            mItems = new ArrayList<>();
         }
 
-        public builder addSingleListItem(int resId, GoogleMaterial.Icon gmd_person_add) {
-            return null;
+        public builder addSingleListItem(int resId, GoogleMaterial.Icon icon) {
+            ListItem item = new ListItem(ListItemType.SINGLE_LINE, mContext.getString(resId));
+            item.Id = resId;
+            item.GoogleAvatarIcon = icon;
+            mItems.add(item);
+            return this;
         }
 
         public ListItemAdapter build() {
-            return null;
+            return new ListItemAdapter(mItems);
         }
     }
 
@@ -139,17 +134,18 @@ public class ListItemAdapter extends RecyclerView.Adapter<ListItemViewHolder> {
         public String Content;
         public String TimeAgo;
         public Drawable AvatarIcon;
+        public GoogleMaterial.Icon GoogleAvatarIcon;
         public GoogleMaterial.Icon InfoIcon;
 
         public ListItemAdapter.ListItemType getType() {
             return Type;
         }
 
-        public ListItem(ListItemAdapter.ListItemType type, String content) {
+        public ListItem(ListItemAdapter.ListItemType type, String tittle) {
             Id = 0;
-            Tittle = "";
+            Tittle = tittle;
             Type = type;
-            Content = content;
+            Content = "";
             SubTittle = "";
             TimeAgo = null;
             AvatarIcon = null;

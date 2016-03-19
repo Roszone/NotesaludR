@@ -40,11 +40,12 @@
     <color name="material_tael">#9EB6C1</color>
     <color name="material_verde">#73D99C</color>
     <color name="material_verde_dark">#388E3C</color>
-    <integer name="MillisecondsSplashScreen">10000</integer>
     <string name="InvalidValidation">Este campo es obligatorio</string>
     <string name="advance_options">Opciones Avanzadas</string>
     <string name="app_name">NoteTools</string>
     <string name="back">Regresar</string>
+    <string name="create_user_note">&lt;strong>NOTA:&lt;/strong> Al crear su &lt;strong>usuario&lt;/strong> podrá registrar notas &lt;strong>localmente&lt;/strong>, sin embargo es necesario &lt;strong>validar&lt;/strong> su &lt;strong>asignación&lt;/strong> para el envío de la información 
+    </string>
     <string name="default_text">Lorem ipsum</string>
     <string name="default_text_long">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
     <string name="hint_password">Contraseña</string>
@@ -66,6 +67,7 @@
     <string name="pref_title_sync_frequency">Sync frequency</string>
     <string name="pref_title_system_sync_settings">System sync settings</string>
     <string name="pref_title_vibrate">Vibrate</string>
+    <string name="register_user_nurse">Registro de usuarios temporales\nAuxiliar de enfermeria</string>
     <string name="sharedFirstBoot">shared-first-boot</string>
     <string name="sharedLoginId">shared-login-id</string>
     <string name="sharedPortraitMode">shared-portrait-mode</string>
@@ -89,6 +91,9 @@
     <style name="CustomTabTextAppearance" parent="TextAppearance.Design.Tab">
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">@color/md_white_1000</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextLabel" parent="TextAppearance.AppCompat">
         <item name="android:textStyle">bold</item>
     </style>
 </resources>

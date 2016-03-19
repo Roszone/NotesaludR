@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.afollestad.materialdialogs.GravityEnum;
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.amedidevelopment.notesaludr.R;
 import com.amedidevelopment.notesaludr.models.bll.AccountBll;
@@ -49,6 +50,10 @@ public class LoginFragment extends PageFragment implements View.OnClickListener 
         }
     }
 
+    public void restoreDialog() {
+        if (mDialog != null && mDialog.isShowing()) mDialog.dismiss();
+    }
+
     /**
      * Muestra en pantalla un dialog para recolectar
      * la informacion necesaria para iniciar sesión en el sistema
@@ -56,18 +61,17 @@ public class LoginFragment extends PageFragment implements View.OnClickListener 
      * @param username nombre de usuario
      */
     private void showDialogForLogin(String username) {
-        if (mDialog != null && mDialog.isShowing()) mDialog.dismiss();
+        restoreDialog();
         mDialog = new NoteMaterialDialog(getActivity())
-                .setTitle(getString(R.string.tittle_dialog_login))
+                .setTitle(getString(R.string.tittle_dialog_login), GravityEnum.CENTER)
                 .createLoginDialog(username, new NoteMaterialDialog.OnLoginCallback() {
                     @Override
-                    public void onLogin(String username, String password, MaterialDialog dialog) {
+                    public void onClickLogin(String username, String password, MaterialDialog dialog) {
 
                     }
 
                     @Override
-                    public void onOptionsClick(MaterialDialog dialog) {
-                        dialog.dismiss();
+                    public void onClickOptions(MaterialDialog dialog) {
                         showDialogForAdvanceOptions();
                     }
                 });
@@ -77,32 +81,45 @@ public class LoginFragment extends PageFragment implements View.OnClickListener 
     /**
      * Muestra en pantalla un dialog donde el usuario podra
      * escoger las opciones avanzadas de registro de usuario
-     * o recuperacion de contraseñas
+     * y recuperacion de contraseñas
      */
     private void showDialogForAdvanceOptions() {
-        if (mDialog != null && mDialog.isShowing()) mDialog.dismiss();
+        restoreDialog();
         //Creamos el adaptador con las opciones avanzadas
         ListItemAdapter adapter = new ListItemAdapter.builder(getActivity())
                 .addSingleListItem(R.string.createUser, GoogleMaterial.Icon.gmd_person_add)
-                .addSingleListItem(R.string.restorePass, GoogleMaterial.Icon.gmd_enhanced_encryption)
+                .addSingleListItem(R.string.restorePass, GoogleMaterial.Icon.gmd_lock)
+                .addSingleListItem(R.string.listUser, GoogleMaterial.Icon.gmd_contacts)
                 .build();
         //Creamos el dialog con el manejador de eventos
-        mDialog = new NoteMaterialDialog(getActivity()).setTitle(getString(R.string.advance_options))
-                .adapter(adapter, new ListItemAdapter.OnListItemClickListener() {
+        mDialog = new NoteMaterialDialog(getActivity())
+                .setTitle(getString(R.string.advance_options), GravityEnum.START)
+                .setAdapter(adapter, new ListItemAdapter.OnListItemClickListener() {
                     @Override
                     public void onClick(ListItemAdapter.ListItem item, int position, MaterialDialog dialog) {
                         dialog.dismiss();
                         switch (item.Id) {
                             case R.string.createUser:
-                                showDialogForCreateTempUser();
+                                showDialogForCreateUser();
                                 break;
                             case R.string.restorePass:
                                 showDialogForRestorePassword();
                                 break;
+                            case R.string.listUser:
+                                showDialogForSelectUser();
+                                break;
                         }
                     }
-                }).build();
+                });
         mDialog.show();
+    }
+
+    /**
+     * Muestra en pantalla un dialog con la
+     * lista de usuarios almacenados localmente en el dispostivo
+     */
+    private void showDialogForSelectUser() {
+        restoreDialog();
     }
 
     /**
@@ -110,16 +127,17 @@ public class LoginFragment extends PageFragment implements View.OnClickListener 
      * la informacion necesaria para restaurar la contraseña
      */
     private void showDialogForRestorePassword() {
-        if (mDialog != null && mDialog.isShowing()) mDialog.dismiss();
-
+        restoreDialog();
     }
 
     /**
      * Muestra en pantalla un dialog para recolectar
      * la informacion necesaria para Registrar un usuario temporal
      */
-    private void showDialogForCreateTempUser() {
-        if (mDialog != null && mDialog.isShowing()) mDialog.dismiss();
-
+    private void showDialogForCreateUser() {
+        restoreDialog();
+        mDialog = new NoteMaterialDialog(getActivity())
+                .createUserDialog();
+        mDialog.show();
     }
 }
