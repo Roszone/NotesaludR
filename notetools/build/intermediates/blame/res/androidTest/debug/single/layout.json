@@ -1,15 +1,11 @@
 [
     {
-        "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_media.xml",
-        "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\notification_template_media.xml"
-    },
-    {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_menu_item_layout.xml",
         "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\login_dialog.xml",
-        "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\bundles\\debug\\res\\layout\\login_dialog.xml"
+        "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_media.xml",
+        "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\notification_template_media.xml"
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
@@ -24,16 +20,16 @@
         "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\md_listitem.xml",
-        "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.7\\res\\layout\\md_listitem.xml"
-    },
-    {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
         "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_select_dialog_material.xml"
+        "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\md_listitem.xml",
+        "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.7\\res\\layout\\md_listitem.xml"
+    },
+    {
+        "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\material_drawer_item_container.xml",
+        "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\5.1.3\\res\\layout\\material_drawer_item_container.xml"
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\material_drawer_item_mini_profile.xml",
@@ -44,28 +40,28 @@
         "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\5.1.3\\res\\layout\\material_drawer_item_expandable.xml"
     },
     {
-        "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\material_drawer_item_container.xml",
-        "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\5.1.3\\res\\layout\\material_drawer_item_container.xml"
-    },
-    {
-        "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\md_dialog_progress_indeterminate.xml",
-        "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.7\\res\\layout\\md_dialog_progress_indeterminate.xml"
+        "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\material_drawer_item_secondary.xml",
         "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\5.1.3\\res\\layout\\material_drawer_item_secondary.xml"
     },
     {
+        "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\md_dialog_progress_indeterminate.xml",
+        "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.7\\res\\layout\\md_dialog_progress_indeterminate.xml"
+    },
+    {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_list_menu_item_layout.xml",
         "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_navigation_item_separator.xml",
-        "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\layout\\design_navigation_item_separator.xml"
-    },
-    {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\md_stub_progress_indeterminate.xml",
         "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.7\\res\\layout\\md_stub_progress_indeterminate.xml"
+    },
+    {
+        "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\layout\\design_navigation_item_separator.xml"
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\material_drawer_item_secondary_toggle.xml",
@@ -74,6 +70,10 @@
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_list_menu_item_checkbox.xml",
         "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\dialog_create_user.xml",
+        "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\bundles\\debug\\res\\layout\\dialog_create_user.xml"
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_navigation_item_header.xml",
@@ -88,12 +88,12 @@
         "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
-        "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_menu_item_action_area.xml",
-        "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\layout\\design_menu_item_action_area.xml"
-    },
-    {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\preference_widget_switch_compat.xml",
         "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.android.support\\preference-v7\\23.2.1\\res\\layout\\preference_widget_switch_compat.xml"
+    },
+    {
+        "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\layout\\design_menu_item_action_area.xml"
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\select_dialog_item_material.xml",
@@ -188,24 +188,28 @@
         "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\bundles\\debug\\res\\layout\\fragment_container.xml"
     },
     {
-        "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\material_drawer_slider.xml",
-        "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\5.1.3\\res\\layout\\material_drawer_slider.xml"
+        "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\dialog_recycler_view.xml",
+        "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\bundles\\debug\\res\\layout\\dialog_recycler_view.xml"
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_navigation_item_subheader.xml",
         "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\layout\\design_navigation_item_subheader.xml"
     },
     {
-        "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_action_bar_title_item.xml"
+        "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\material_drawer_slider.xml",
+        "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\5.1.3\\res\\layout\\material_drawer_slider.xml"
+    },
+    {
+        "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\material_drawer_item_secondary_switch.xml",
+        "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\5.1.3\\res\\layout\\material_drawer_item_secondary_switch.xml"
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_layout_snackbar.xml",
         "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\layout\\design_layout_snackbar.xml"
     },
     {
-        "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\material_drawer_item_secondary_switch.xml",
-        "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\5.1.3\\res\\layout\\material_drawer_item_secondary_switch.xml"
+        "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_activity_chooser_view.xml",
@@ -240,20 +244,20 @@
         "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\5.1.3\\res\\layout\\material_drawer_item_profile_setting.xml"
     },
     {
-        "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\preference_category.xml",
-        "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.android.support\\preference-v7\\23.2.1\\res\\layout\\preference_category.xml"
-    },
-    {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\material_drawer_item_divider.xml",
         "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\5.1.3\\res\\layout\\material_drawer_item_divider.xml"
     },
     {
-        "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_navigation_menu.xml",
-        "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\layout\\design_navigation_menu.xml"
+        "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\preference_category.xml",
+        "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.android.support\\preference-v7\\23.2.1\\res\\layout\\preference_category.xml"
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\dialog_login.xml",
         "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\bundles\\debug\\res\\layout\\dialog_login.xml"
+    },
+    {
+        "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_navigation_menu.xml",
+        "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\layout\\design_navigation_menu.xml"
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\md_dialog_custom.xml",
@@ -272,24 +276,24 @@
         "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_screen_content_include.xml"
     },
     {
-        "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\select_dialog_singlechoice_material.xml"
+        "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\material_drawer_item_profile.xml",
         "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\5.1.3\\res\\layout\\material_drawer_item_profile.xml"
     },
     {
-        "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+        "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\md_listitem_singlechoice.xml",
         "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.7\\res\\layout\\md_listitem_singlechoice.xml"
+    },
+    {
+        "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\md_stub_progress_indeterminate_horizontal.xml",
@@ -320,12 +324,12 @@
         "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
-        "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_expanded_menu_layout.xml"
-    },
-    {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_big_media.xml",
         "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\material_drawer_item_toggle.xml",
@@ -356,16 +360,16 @@
         "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.android.support\\preference-v7\\23.2.1\\res\\layout\\preference_dialog_edittext.xml"
     },
     {
-        "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\material_drawer_item_switch.xml",
-        "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\5.1.3\\res\\layout\\material_drawer_item_switch.xml"
+        "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\preference_information.xml",
+        "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.android.support\\preference-v7\\23.2.1\\res\\layout\\preference_information.xml"
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_part_chronometer.xml",
         "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
-        "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\preference_information.xml",
-        "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.android.support\\preference-v7\\23.2.1\\res\\layout\\preference_information.xml"
+        "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\material_drawer_item_switch.xml",
+        "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\5.1.3\\res\\layout\\material_drawer_item_switch.xml"
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_dialog_title_material.xml",
@@ -396,12 +400,12 @@
         "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.7\\res\\layout\\md_stub_titleframe_lesspadding.xml"
     },
     {
-        "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\md_dialog_progress.xml",
-        "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.7\\res\\layout\\md_dialog_progress.xml"
-    },
-    {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_search_view.xml",
         "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\md_dialog_progress.xml",
+        "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.7\\res\\layout\\md_dialog_progress.xml"
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_screen_simple.xml",

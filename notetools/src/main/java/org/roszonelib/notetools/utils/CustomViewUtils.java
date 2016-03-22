@@ -81,7 +81,7 @@ public class CustomViewUtils {
     public static Drawable getIconDrawable(Context context, GoogleMaterial.Icon icon) {
         return icon == null ? null : new IconicsDrawable(context).icon(icon)
                 .sizeDp(24)
-                .color(Material.Grey._400.getAsColor());
+                .color(Material.Grey._500.getAsColor());
     }
 
     public static void setInputText(View view, int resId, String value) {

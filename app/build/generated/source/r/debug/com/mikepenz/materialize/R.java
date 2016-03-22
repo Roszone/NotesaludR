@@ -952,18 +952,18 @@ public final class R {
 		public static final int abc_shareactionprovider_share_with = 0x7f070010;
 		public static final int abc_shareactionprovider_share_with_application = 0x7f070011;
 		public static final int abc_toolbar_collapse_description = 0x7f070012;
-		public static final int define_materialize = 0x7f070024;
-		public static final int library_materialize_author = 0x7f07004b;
-		public static final int library_materialize_authorWebsite = 0x7f07004c;
-		public static final int library_materialize_isOpenSource = 0x7f07004d;
-		public static final int library_materialize_libraryDescription = 0x7f07004e;
-		public static final int library_materialize_libraryName = 0x7f07004f;
-		public static final int library_materialize_libraryVersion = 0x7f070050;
-		public static final int library_materialize_libraryWebsite = 0x7f070051;
-		public static final int library_materialize_licenseId = 0x7f070052;
-		public static final int library_materialize_owner = 0x7f070053;
-		public static final int library_materialize_repositoryLink = 0x7f070054;
-		public static final int library_materialize_year = 0x7f070055;
+		public static final int define_materialize = 0x7f070029;
+		public static final int library_materialize_author = 0x7f070053;
+		public static final int library_materialize_authorWebsite = 0x7f070054;
+		public static final int library_materialize_isOpenSource = 0x7f070055;
+		public static final int library_materialize_libraryDescription = 0x7f070056;
+		public static final int library_materialize_libraryName = 0x7f070057;
+		public static final int library_materialize_libraryVersion = 0x7f070058;
+		public static final int library_materialize_libraryWebsite = 0x7f070059;
+		public static final int library_materialize_licenseId = 0x7f07005a;
+		public static final int library_materialize_owner = 0x7f07005b;
+		public static final int library_materialize_repositoryLink = 0x7f07005c;
+		public static final int library_materialize_year = 0x7f07005d;
 		public static final int status_bar_notification_info_overflow = 0x7f070013;
 	}
 	public static final class style {

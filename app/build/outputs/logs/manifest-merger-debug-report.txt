@@ -15,7 +15,7 @@ ADDED from F:\Recuperacion\Android\NotesaludR\app\src\main\AndroidManifest.xml:2
 		INJECTED from F:\Recuperacion\Android\NotesaludR\app\src\main\AndroidManifest.xml
 application
 ADDED from F:\Recuperacion\Android\NotesaludR\app\src\main\AndroidManifest.xml:5:5-21:19
-MERGED from [NotesaludR:notetools:unspecified] F:\Recuperacion\Android\NotesaludR\app\build\intermediates\exploded-aar\NotesaludR\notetools\unspecified\AndroidManifest.xml:11:5-15:19
+MERGED from [NotesaludR:notetools:unspecified] F:\Recuperacion\Android\NotesaludR\app\build\intermediates\exploded-aar\NotesaludR\notetools\unspecified\AndroidManifest.xml:11:5-14:19
 MERGED from [com.android.support:preference-v7:23.2.1] F:\Recuperacion\Android\NotesaludR\app\build\intermediates\exploded-aar\com.android.support\preference-v7\23.2.1\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:support-v4:23.2.1] F:\Recuperacion\Android\NotesaludR\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:23.2.1] F:\Recuperacion\Android\NotesaludR\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\AndroidManifest.xml:25:5-20
@@ -109,7 +109,7 @@ MERGED from [com.android.support:support-v4:23.2.1] F:\Recuperacion\Android\Note
 	android:supportsRtl
 		ADDED from F:\Recuperacion\Android\NotesaludR\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from F:\Recuperacion\Android\NotesaludR\app\src\main\AndroidManifest.xml:9:9-41
+		ADDED from F:\Recuperacion\Android\NotesaludR\app\src\main\AndroidManifest.xml:9:9-40
 	android:allowBackup
 		ADDED from F:\Recuperacion\Android\NotesaludR\app\src\main\AndroidManifest.xml:7:9-35
 	android:icon

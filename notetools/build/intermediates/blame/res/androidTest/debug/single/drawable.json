@@ -12,12 +12,12 @@
         "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
-        "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\material_drawer_shadow_bottom.xml",
-        "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\5.1.3\\res\\drawable\\material_drawer_shadow_bottom.xml"
-    },
-    {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\md_selector_dark.xml",
         "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.7\\res\\drawable\\md_selector_dark.xml"
+    },
+    {
+        "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\material_drawer_shadow_bottom.xml",
+        "source": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\5.1.3\\res\\drawable\\material_drawer_shadow_bottom.xml"
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\notetools\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\md_btn_selected_dark.xml",

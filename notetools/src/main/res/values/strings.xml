@@ -58,4 +58,13 @@
     <string name="register_user_nurse">Registro de usuarios temporales\nAuxiliar de enfermeria</string>
     <string name="create_user_note"><![CDATA[<strong>NOTA:</strong> Al crear su <strong>usuario</strong> podrá registrar notas <strong>localmente</strong>, sin embargo es necesario <strong>validar</strong> su <strong>asignación</strong> para el envío de la información ]]>
     </string>
+    <string name="label_info">12 m</string>
+    <string name="image_info">image_info</string>
+    <string name="create_name_user">Nombre y Apellidos:</string>
+    <string name="create_user">Usuario:</string>
+    <string name="example_user">ejemplousuario123</string>
+    <string name="create_password">Contraseña:</string>
+    <string name="create_password_alter">*******</string>
+    <string name="verification_code">Codigo de verificación</string>
+    <string name="defaut_verification_code">000-0000000</string>
 </resources>

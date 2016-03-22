@@ -85,7 +85,6 @@ public class NoteMaterialDialog extends MaterialDialog.Builder {
 
     public MaterialDialog setAdapter(ListItemAdapter adapter, ListItemAdapter.OnListItemClickListener listener) {
         customView(R.layout.dialog_recycler_view, false);
-        cancelable(false);
         autoDismiss(false);
         MaterialDialog dialog = build();
         adapter.setOnClickListener(listener);

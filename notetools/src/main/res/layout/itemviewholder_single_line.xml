@@ -51,21 +51,14 @@
 
             <TextView
                 android:id="@+id/label_subtittle"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:singleLine="true"
-                android:text="Test B"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:textStyle="bold"
                 android:visibility="gone" />
 
             <TextView
                 android:id="@+id/label_content"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:singleLine="true"
-                android:text="Test C"
-                android:textAppearance="?android:attr/textAppearanceSmall"
                 android:visibility="gone" />
         </LinearLayout>
 
@@ -77,6 +70,7 @@
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             android:layout_gravity="center"
+            android:contentDescription="@string/image_info"
             android:src="@android:drawable/btn_star" />
 
         <TextView
@@ -87,9 +81,8 @@
             android:layout_alignEnd="@+id/image_info"
             android:layout_alignRight="@+id/image_info"
             android:layout_gravity="top"
-            android:text="12 m"
+            android:text="@string/label_info"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:visibility="gone" />
     </RelativeLayout>
-    z
 </LinearLayout>

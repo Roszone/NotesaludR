@@ -648,18 +648,18 @@ public final class R {
 		public static final int abc_shareactionprovider_share_with_application = 0x7f070011;
 		public static final int abc_toolbar_collapse_description = 0x7f070012;
 		public static final int app_name = 0x7f070016;
-		public static final int define_AndroidIconics = 0x7f070020;
-		public static final int library_AndroidIconics_author = 0x7f07002a;
-		public static final int library_AndroidIconics_authorWebsite = 0x7f07002b;
-		public static final int library_AndroidIconics_isOpenSource = 0x7f07002c;
-		public static final int library_AndroidIconics_libraryDescription = 0x7f07002d;
-		public static final int library_AndroidIconics_libraryName = 0x7f07002e;
-		public static final int library_AndroidIconics_libraryVersion = 0x7f07002f;
-		public static final int library_AndroidIconics_libraryWebsite = 0x7f070030;
-		public static final int library_AndroidIconics_licenseId = 0x7f070031;
-		public static final int library_AndroidIconics_owner = 0x7f070032;
-		public static final int library_AndroidIconics_repositoryLink = 0x7f070033;
-		public static final int library_AndroidIconics_year = 0x7f070034;
+		public static final int define_AndroidIconics = 0x7f070025;
+		public static final int library_AndroidIconics_author = 0x7f070032;
+		public static final int library_AndroidIconics_authorWebsite = 0x7f070033;
+		public static final int library_AndroidIconics_isOpenSource = 0x7f070034;
+		public static final int library_AndroidIconics_libraryDescription = 0x7f070035;
+		public static final int library_AndroidIconics_libraryName = 0x7f070036;
+		public static final int library_AndroidIconics_libraryVersion = 0x7f070037;
+		public static final int library_AndroidIconics_libraryWebsite = 0x7f070038;
+		public static final int library_AndroidIconics_licenseId = 0x7f070039;
+		public static final int library_AndroidIconics_owner = 0x7f07003a;
+		public static final int library_AndroidIconics_repositoryLink = 0x7f07003b;
+		public static final int library_AndroidIconics_year = 0x7f07003c;
 		public static final int status_bar_notification_info_overflow = 0x7f070013;
 	}
 	public static final class style {

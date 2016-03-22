@@ -16,7 +16,7 @@ import android.provider.Settings;
  */
 public class DeviceManager extends Application {
     private static DeviceManager mInstance;
-    private PowerManager.WakeLock wakeLock;
+    private PowerManager.WakeLock mWakelock;
 
     /**
      * Retorna la instancia unica del dispositivo
@@ -67,19 +67,19 @@ public class DeviceManager extends Application {
 
         //activamos el servicio
         PowerManager pm = (PowerManager) getSystemService(Context.POWER_SERVICE);
-        wakeLock = pm.newWakeLock(
+        mWakelock = pm.newWakeLock(
                 PowerManager.PARTIAL_WAKE_LOCK |
                         PowerManager.ACQUIRE_CAUSES_WAKEUP |
                         PowerManager.ON_AFTER_RELEASE, "WakeLock");
-        wakeLock.acquire();
+        mWakelock.acquire();
     }
 
     /**
      * Regresa el dispositivo a el modo reposo
      */
     public void releaseWakeLock() {
-        if (wakeLock != null) wakeLock.release();
-        wakeLock = null;
+        if (mWakelock != null) mWakelock.release();
+        mWakelock = null;
     }
 
     private static boolean isXLargeTablet(Context context) {

@@ -844,17 +844,25 @@
     <string name="back">Regresar</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
+    <string name="create_name_user">Nombre y Apellidos:</string>
+    <string name="create_password">Contraseña:</string>
+    <string name="create_password_alter">*******</string>
+    <string name="create_user">Usuario:</string>
     <string name="create_user_note">&lt;strong>NOTA:&lt;/strong> Al crear su &lt;strong>usuario&lt;/strong> podrá registrar notas &lt;strong>localmente&lt;/strong>, sin embargo es necesario &lt;strong>validar&lt;/strong> su &lt;strong>asignación&lt;/strong> para el envío de la información 
     </string>
     <string name="default_text">Lorem ipsum</string>
     <string name="default_text_long">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="defaut_verification_code">000-0000000</string>
     <string name="define_AndroidIconics">year;owner</string>
     <string name="define_fastadapter">year;owner</string>
     <string name="define_font_GoogleMaterial">com.mikepenz.google_material_typeface_library.GoogleMaterial</string>
     <string name="define_materialdrawer">year;owner</string>
     <string name="define_materialize">year;owner</string>
+    <string name="example_user">ejemplousuario123</string>
     <string name="hint_password">Contraseña</string>
     <string name="hint_user">Usuario</string>
+    <string name="image_info">image_info</string>
+    <string name="label_info">12 m</string>
     <string name="library_AndroidIconics_author">Mike Penz</string>
     <string name="library_AndroidIconics_authorWebsite">http://mikepenz.com/</string>
     <string name="library_AndroidIconics_isOpenSource">true</string>
@@ -943,6 +951,7 @@
     <string name="v7_preference_off">OFF</string>
     <string name="v7_preference_on">ON</string>
     <string name="validateString">Campo no valido</string>
+    <string name="verification_code">Codigo de verificación</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
