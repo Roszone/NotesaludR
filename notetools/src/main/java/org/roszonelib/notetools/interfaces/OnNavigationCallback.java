@@ -1,8 +1,9 @@
-package org.roszonelib.notetools.navigation;
+package org.roszonelib.notetools.interfaces;
 
 
-import android.support.v4.app.Fragment;
 import android.support.v7.widget.Toolbar;
+
+import org.roszonelib.notetools.navigation.PageFragment;
 
 /**
  * Autor:  Rosember Perez Mengual
@@ -10,15 +11,15 @@ import android.support.v7.widget.Toolbar;
  * Fecha: 23/01/2016
  * Empresa : Amedi S.a.S.
  */
-public interface NavigationListener<masterPage extends Fragment> {
+public interface OnNavigationCallback {
 
     void enableFullScreen(boolean enabled);
 
-    void setPage(masterPage masterPage);
+    void setPage(PageFragment masterPage);
 
     void setHomeAsUpEnabled(boolean enabled);
 
     void showToolbar(boolean enable);
 
-    Toolbar getToolbar();
+    void onCreateDrawer();
 }

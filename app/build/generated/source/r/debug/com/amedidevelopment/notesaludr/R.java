@@ -4309,7 +4309,6 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int v7_preference_on=0x7f0700b2;
         public static final int validateString=0x7f0700b3;
         public static final int verification_code=0x7f0700b4;
-        public static final int welcome=0x7f0700b5;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f0a00a7;

@@ -1667,6 +1667,7 @@ public final class R {
 		public static final int sharedPortraitMode = 0x7f0700a8;
 		public static final int sharedSplashScreen = 0x7f0700a9;
 		public static final int status_bar_notification_info_overflow = 0x7f070013;
+		public static final int tittle_dialog_login = 0x7f0700b0;
 		public static final int v7_preference_off = 0x7f0700b1;
 		public static final int v7_preference_on = 0x7f0700b2;
 		public static final int validateString = 0x7f0700b3;

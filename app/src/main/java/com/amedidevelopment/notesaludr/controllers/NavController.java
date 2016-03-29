@@ -1,11 +1,14 @@
 package com.amedidevelopment.notesaludr.controllers;
 
+import com.amedidevelopment.notesaludr.R;
+import com.amedidevelopment.notesaludr.models.bll.AccountBll;
 import com.amedidevelopment.notesaludr.views.activity.SettingsActivity;
 import com.amedidevelopment.notesaludr.views.fragments.LoginFragment;
 import com.amedidevelopment.notesaludr.views.fragments.MainFragment;
 
 import org.roszonelib.notetools.navigation.BaseFragmentActivity;
 import org.roszonelib.notetools.navigation.PageFragment;
+import org.roszonelib.notetools.settings.CustomPreferences;
 
 
 /**
@@ -18,8 +21,7 @@ import org.roszonelib.notetools.navigation.PageFragment;
  */
 public class NavController {
     public enum Pages {
-        Login,
-        Main, SupportChat, SupportFaq, SupportVideo, AdvanceStatus, AdvanceConfig, Exit,
+        Login, Main, SupportChat, SupportFaq, SupportVideo, AdvanceStatus, AdvanceConfig, Exit,
     }
 
     public static PageFragment getPage(Pages page) {
@@ -33,7 +35,7 @@ public class NavController {
         }
     }
 
-    public static void setAction(Pages item, BaseFragmentActivity activity) {
+    public static void sendAction(Pages item, BaseFragmentActivity activity) {
         switch (item) {
             case Exit:
                 activity.finish();

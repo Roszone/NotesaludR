@@ -63,8 +63,7 @@
     <string name="pref_help_summary">sum</string>
     <string name="title_settings">Configuración</string>
     <string name="tittle_dialog_login">Iniciar Sesión</string>
-    <string name="createUser">Crear Usuario</string>
+    <string name="createUser">Registro Temporal</string>
     <string name="restorePass">Recuperar Contraseña</string>
     <string name="listUser">Seleccionar Usuario</string>
-    <string name="welcome">Bienvenido</string>
 </resources>

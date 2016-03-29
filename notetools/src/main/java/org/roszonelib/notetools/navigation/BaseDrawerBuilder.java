@@ -24,7 +24,8 @@ public abstract class BaseDrawerBuilder<navigation extends Enum> extends DrawerB
     public BaseDrawerBuilder(Activity activity, Toolbar toolbar) {
         withTranslucentStatusBar(true);
         withActionBarDrawerToggle(true);
-        withActivity(activity).withToolbar(toolbar);
+        withActivity(activity);
+        withToolbar(toolbar);
     }
 
     protected AccountHeaderBuilder getAccountHeader(int resIdBackground) {
@@ -34,7 +35,11 @@ public abstract class BaseDrawerBuilder<navigation extends Enum> extends DrawerB
     }
 
     protected void addPrimaryDrawerItem(int resId) {
-        addDrawerItems(new PrimaryDrawerItem().withName(resId).withSelectable(false).withTypeface(Typeface.DEFAULT_BOLD).withEnabled(false));
+        addDrawerItems(new PrimaryDrawerItem()
+                .withName(resId)
+                .withSelectable(false)
+                .withTypeface(Typeface.DEFAULT_BOLD)
+                .withEnabled(false));
     }
 
     protected void addNavigationDrawerItem(int resId, GoogleMaterial.Icon icon, navigation identifier) {

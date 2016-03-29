@@ -948,6 +948,7 @@
     <string name="sharedPortraitMode">shared-portrait-mode</string>
     <string name="sharedSplashScreen">shared-show-splash</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="tittle_dialog_login">Iniciar Sesión</string>
     <string name="v7_preference_off">OFF</string>
     <string name="v7_preference_on">ON</string>
     <string name="validateString">Campo no valido</string>

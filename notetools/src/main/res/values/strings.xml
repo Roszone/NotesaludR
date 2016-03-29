@@ -67,4 +67,5 @@
     <string name="create_password_alter">*******</string>
     <string name="verification_code">Codigo de verificación</string>
     <string name="defaut_verification_code">000-0000000</string>
+    <string name="tittle_dialog_login">Iniciar Sesión</string>
 </resources>

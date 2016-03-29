@@ -80,6 +80,7 @@
     <string name="sharedLoginId">shared-login-id</string>
     <string name="sharedPortraitMode">shared-portrait-mode</string>
     <string name="sharedSplashScreen">shared-show-splash</string>
+    <string name="tittle_dialog_login">Iniciar Sesión</string>
     <string name="validateString">Campo no valido</string>
     <string name="verification_code">Codigo de verificación</string>
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">

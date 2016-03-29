@@ -26,7 +26,7 @@ import com.mikepenz.materialize.color.Material;
  * Fecha    : 17/03/2016 10:22
  * ====================================
  */
-public class CustomViewUtils {
+public class SimpleViewUtils {
 
     public static String getStringFromInput(View view, int resId, String errorMsg) {
         TextInputLayout til = getInput(view, resId);
@@ -57,7 +57,7 @@ public class CustomViewUtils {
         );
     }
 
-    public static RecyclerView addRecyclerViewAdapter(View view, int resId, RecyclerView.Adapter adapter) {
+    public static RecyclerView setRecyclerAdapter(View view, int resId, RecyclerView.Adapter adapter) {
         RecyclerView recyclerView = (RecyclerView) view.findViewById(resId);
         recyclerView.setHasFixedSize(true);
         LinearLayoutManager mLayoutManager = new LinearLayoutManager(view.getContext());
@@ -84,14 +84,14 @@ public class CustomViewUtils {
                 .color(Material.Grey._500.getAsColor());
     }
 
-    public static void setInputText(View view, int resId, String value) {
+    public static void addStringToInput(View view, int resId, String value) {
         EditText ed = getInput(view, resId).getEditText();
         if (ed != null) {
             ed.setText(value);
         }
     }
 
-    public static void setLabelText(View view, int resIdLabel, int resIdString) {
+    public static void addStringToLabel(View view, int resIdLabel, int resIdString) {
         TextView tv = (TextView) view.findViewById(resIdLabel);
         tv.setText(Html.fromHtml(view.getContext().getString(resIdString)));
     }

@@ -6,7 +6,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import org.roszonelib.notetools.R;
-import org.roszonelib.notetools.utils.CustomViewUtils;
+import org.roszonelib.notetools.utils.SimpleViewUtils;
 
 /**
  * ====================================
@@ -43,10 +43,10 @@ public class ListItemViewHolder extends RecyclerView.ViewHolder {
 
     public void setIcons(ListItemAdapter.ListItem item) {
         if (item.AvatarIcon == null) {
-            CustomViewUtils.setDrawableIcon(AvatarIcon, item.GoogleAvatarIcon);
+            SimpleViewUtils.setDrawableIcon(AvatarIcon, item.GoogleAvatarIcon);
         } else {
-            CustomViewUtils.setDrawableIcon(AvatarIcon, item.AvatarIcon);
+            SimpleViewUtils.setDrawableIcon(AvatarIcon, item.AvatarIcon);
         }
-        CustomViewUtils.setDrawableIcon(InfoIcon, item.InfoIcon);
+        SimpleViewUtils.setDrawableIcon(InfoIcon, item.InfoIcon);
     }
 }

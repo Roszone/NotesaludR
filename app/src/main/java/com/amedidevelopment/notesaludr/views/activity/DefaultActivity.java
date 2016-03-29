@@ -1,7 +1,6 @@
 package com.amedidevelopment.notesaludr.views.activity;
 
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
 
 import com.amedidevelopment.notesaludr.controllers.NavController;
@@ -11,7 +10,6 @@ import com.mikepenz.materialdrawer.Drawer;
 import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
 
 import org.roszonelib.notetools.navigation.BaseFragmentActivity;
-import org.roszonelib.notetools.navigation.PageFragment;
 
 /**
  * ====================================
@@ -21,19 +19,23 @@ import org.roszonelib.notetools.navigation.PageFragment;
  * Fecha    : 03/02/2016 12:55
  * ====================================
  */
-public class DefaultActivity extends BaseFragmentActivity<PageFragment> {
+public class DefaultActivity extends BaseFragmentActivity {
+    private Drawer mDrawer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        onCreateDrawer(getToolbar());
+        onCreateDrawer();
         if (savedInstanceState == null) {
             setPage(NavController.getPage(isUserConnected() ? NavController.Pages.Main : NavController.Pages.Login));
         }
     }
 
-    private void onCreateDrawer(Toolbar toolbar) {
-        new DrawerBuilderBll(this, toolbar)
+
+    @Override
+    public void onCreateDrawer() {
+        if (mDrawer != null) mDrawer.removeAllItems();
+        mDrawer = new DrawerBuilderBll(this, getToolbar())
                 .enableNavigationUser(isUserConnected())
                 .withOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener() {
                     @Override
@@ -44,12 +46,11 @@ public class DefaultActivity extends BaseFragmentActivity<PageFragment> {
                 }).build();
     }
 
-    private void onNavigationItemClick(NavController.Pages item) {
-        NavController.setAction(item, this);
+    private boolean isUserConnected() {
+        return AccountBll.isUserConnected(this);
     }
 
-
-    private boolean isUserConnected() {
-        return AccountBll.isUserLogin(this);
+    private void onNavigationItemClick(NavController.Pages item) {
+        NavController.sendAction(item, this);
     }
 }

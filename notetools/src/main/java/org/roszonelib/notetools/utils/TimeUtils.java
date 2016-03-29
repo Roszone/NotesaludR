@@ -2,6 +2,9 @@ package org.roszonelib.notetools.utils;
 
 import android.os.Handler;
 
+import java.util.Calendar;
+import java.util.Date;
+
 /**
  * ====================================
  * Proyecto : NotesaludR
@@ -21,6 +24,11 @@ public class TimeUtils {
         };
         handler.postDelayed(runnable, timeInMilliseconds);
     }
+
+    public static Date now() {
+        return Calendar.getInstance().getTime();
+    }
+
     public interface Timeout {
         void onTimeout();
     }

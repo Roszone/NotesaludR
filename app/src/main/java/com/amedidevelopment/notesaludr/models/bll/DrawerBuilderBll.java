@@ -27,6 +27,10 @@ public class DrawerBuilderBll extends BaseDrawerBuilder<NavController.Pages> {
         super(activity, toolbar);
     }
 
+    public static NavController.Pages getPageByIdentifier(IDrawerItem drawerItem) {
+        return NavController.Pages.values()[((int) drawerItem.getIdentifier())];
+    }
+
     public BaseDrawerBuilder enableNavigationUser(boolean enable) {
         isNavigationEnabled = enable;
         return this;
@@ -41,12 +45,6 @@ public class DrawerBuilderBll extends BaseDrawerBuilder<NavController.Pages> {
         }
         return super.build();
     }
-
-    public static NavController.Pages getPageByIdentifier(IDrawerItem drawerItem) {
-        return NavController.Pages.values()[((int) drawerItem.getIdentifier())];
-    }
-
-
     /**
      * Navegacion por defecto incluye paginas de soporte, ayuda y salida de la aplicacion
      */
@@ -66,6 +64,8 @@ public class DrawerBuilderBll extends BaseDrawerBuilder<NavController.Pages> {
     }
 
     private void setupNavigationUser() {
-
+        withAccountHeader(getAccountHeader(R.drawable.header_amedi).build());
+        addPrimaryDrawerItem(R.string.device);
+        addStickyDrawerItem(R.string.copyright_app);
     }
 }

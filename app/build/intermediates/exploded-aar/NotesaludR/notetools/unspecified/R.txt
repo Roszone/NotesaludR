@@ -1637,10 +1637,11 @@ int string sharedLoginId 0x7f05006c
 int string sharedPortraitMode 0x7f05006d
 int string sharedSplashScreen 0x7f05006e
 int string status_bar_notification_info_overflow 0x7f050013
-int string v7_preference_off 0x7f05006f
-int string v7_preference_on 0x7f050070
-int string validateString 0x7f050071
-int string verification_code 0x7f050072
+int string tittle_dialog_login 0x7f05006f
+int string v7_preference_off 0x7f050070
+int string v7_preference_on 0x7f050071
+int string validateString 0x7f050072
+int string verification_code 0x7f050073
 int style AlertDialog_AppCompat 0x7f0800a7
 int style AlertDialog_AppCompat_Light 0x7f0800a8
 int style Animation_AppCompat_Dialog 0x7f0800a9

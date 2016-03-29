@@ -4215,10 +4215,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static int sharedPortraitMode=0x7f05006d;
         public static int sharedSplashScreen=0x7f05006e;
         public static int status_bar_notification_info_overflow=0x7f050013;
-        public static int v7_preference_off=0x7f05006f;
-        public static int v7_preference_on=0x7f050070;
-        public static int validateString=0x7f050071;
-        public static int verification_code=0x7f050072;
+        public static int tittle_dialog_login=0x7f05006f;
+        public static int v7_preference_off=0x7f050070;
+        public static int v7_preference_on=0x7f050071;
+        public static int validateString=0x7f050072;
+        public static int verification_code=0x7f050073;
     }
     public static final class style {
         public static int AlertDialog_AppCompat=0x7f0800a7;

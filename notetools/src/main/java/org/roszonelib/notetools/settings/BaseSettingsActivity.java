@@ -8,6 +8,7 @@ import android.preference.Preference;
 import android.preference.PreferenceManager;
 import android.preference.RingtonePreference;
 import android.text.TextUtils;
+import android.view.MenuItem;
 
 import org.roszonelib.notetools.R;
 import org.roszonelib.notetools.navigation.BaseFragmentActivity;
@@ -21,6 +22,19 @@ import org.roszonelib.notetools.navigation.BaseFragmentActivity;
  * ====================================
  */
 public abstract class BaseSettingsActivity extends BaseFragmentActivity {
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem menuItem) {
+        if (menuItem.getItemId() == android.R.id.home) {
+            onBackPressed();
+        }
+        return super.onOptionsItemSelected(menuItem);
+    }
+
+    @Override
+    public void onCreateDrawer() {
+
+    }
 
     private static Preference.OnPreferenceChangeListener sBindPreferenceSummaryToValueListener = new Preference.OnPreferenceChangeListener() {
         @Override

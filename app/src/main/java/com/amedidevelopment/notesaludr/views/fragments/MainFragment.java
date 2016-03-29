@@ -18,7 +18,6 @@ import org.roszonelib.notetools.navigation.PageFragment;
 public class MainFragment extends PageFragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-
         return super.onCreateView(inflater, container, savedInstanceState);
     }
 }

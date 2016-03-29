@@ -1,14 +1,15 @@
 package org.roszonelib.notetools.navigation;
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
 
 import org.roszonelib.notetools.R;
+import org.roszonelib.notetools.interfaces.OnNavigationCallback;
 
 /**
  * ====================================
@@ -18,7 +19,7 @@ import org.roszonelib.notetools.R;
  * Fecha    : 16/03/2016 17:56
  * ====================================
  */
-public abstract class BaseFragmentActivity<fragment extends Fragment> extends AppCompatActivity implements NavigationListener<fragment> {
+public abstract class BaseFragmentActivity extends AppCompatActivity implements OnNavigationCallback {
     private Toolbar mToolbar;
 
     @Override
@@ -47,7 +48,6 @@ public abstract class BaseFragmentActivity<fragment extends Fragment> extends Ap
         }
     }
 
-    @Override
     public Toolbar getToolbar() {
         return mToolbar;
     }
@@ -74,11 +74,13 @@ public abstract class BaseFragmentActivity<fragment extends Fragment> extends Ap
     }
 
     @Override
-    public void setPage(fragment masterPage) {
+    public void setPage(PageFragment masterPage) {
+        Log.i("Cambiando", "Cambiando 2");
         getSupportFragmentManager()
                 .beginTransaction()
                 .replace(R.id.fragment_container, masterPage)
                 .commitAllowingStateLoss();
+        Log.i("Cambiando", "Cambiando 3");
     }
 
     public void setPage(android.app.Fragment fragment) {

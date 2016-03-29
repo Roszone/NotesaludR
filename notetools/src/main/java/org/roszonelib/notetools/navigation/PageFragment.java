@@ -6,8 +6,10 @@ import android.content.Context;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.view.LayoutInflater;
-import android.view.View;
+import android.text.Html;
+import android.widget.Toast;
+
+import org.roszonelib.notetools.interfaces.OnNavigationCallback;
 
 
 /**
@@ -19,7 +21,7 @@ import android.view.View;
  * ====================================
  */
 public abstract class PageFragment extends Fragment {
-    private NavigationListener mListener;
+    private OnNavigationCallback mListener;
 
     /*
     * Debido a que onAttach(Context)
@@ -49,11 +51,11 @@ public abstract class PageFragment extends Fragment {
      * Called when the fragment attaches to the context
      */
     protected void onAttachToContext(Context context) {
-        NavigationListener listener = (NavigationListener) context;
+        OnNavigationCallback listener = (OnNavigationCallback) context;
         if (listener != null) {
             mListener = listener;
         } else {
-            throw new ClassCastException("Need Implement NavigationListener");
+            throw new ClassCastException("Need Implement OnNavigationCallback");
         }
 
     }
@@ -63,14 +65,17 @@ public abstract class PageFragment extends Fragment {
      *
      * @return callback
      */
-    public NavigationListener getNavigation() {
+    public OnNavigationCallback getNavigation() {
         return mListener;
     }
-
 
     public PageFragment addArguments(Bundle args) {
         setArguments(args);
         return this;
+    }
+
+    public void showInToast(String content) {
+        Toast.makeText(getActivity(), Html.fromHtml(content), Toast.LENGTH_SHORT).show();
     }
 }
 

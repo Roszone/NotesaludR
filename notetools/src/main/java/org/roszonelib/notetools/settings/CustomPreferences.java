@@ -89,8 +89,8 @@ public class CustomPreferences {
         return newInstance(context, DEFAULT_PREFERENCES);
     }
 
-    public static CustomPreferences newInstance(Context context, String preferencename) {
-        return new CustomPreferences(context, preferencename);
+    public static CustomPreferences newInstance(Context context, String preferenceName) {
+        return new CustomPreferences(context, preferenceName);
     }
 
 }

@@ -1729,7 +1729,6 @@ int string v7_preference_off 0x7f0700b1
 int string v7_preference_on 0x7f0700b2
 int string validateString 0x7f0700b3
 int string verification_code 0x7f0700b4
-int string welcome 0x7f0700b5
 int style AlertDialog_AppCompat 0x7f0a00a7
 int style AlertDialog_AppCompat_Light 0x7f0a00a8
 int style Animation_AppCompat_Dialog 0x7f0a00a9

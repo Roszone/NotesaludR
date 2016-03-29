@@ -852,7 +852,7 @@
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string name="copyright_app">NotesaludR © AmediDevelopment 2016</string>
-    <string name="createUser">Crear Usuario</string>
+    <string name="createUser">Registro Temporal</string>
     <string name="create_name_user">Nombre y Apellidos:</string>
     <string name="create_password">Contraseña:</string>
     <string name="create_password_alter">*******</string>
@@ -1025,7 +1025,6 @@
     <string name="v7_preference_on">ON</string>
     <string name="validateString">Campo no valido</string>
     <string name="verification_code">Codigo de verificación</string>
-    <string name="welcome">Bienvenido</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>

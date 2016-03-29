@@ -93,7 +93,7 @@ public class ListItemAdapter extends RecyclerView.Adapter<ListItemViewHolder> {
         return this;
     }
 
-    public ListItemAdapter addArrayList(String tittle, List<ListItem> items) {
+    public ListItemAdapter addItems(String tittle, List<ListItem> items) {
         mItems.add(new ListItem(ListItemType.ONLY_TITTLE, tittle));
         mItems.addAll(items);
         notifyDataSetChanged();
