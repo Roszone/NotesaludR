@@ -1,4 +1,4 @@
-package com.amedidevelopment.notesaludr.views.fragments;
+package com.amedidevelopment.notesaludr.controllers.fragments;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

@@ -25,11 +25,12 @@ public class TimeUtils {
         handler.postDelayed(runnable, timeInMilliseconds);
     }
 
+    public interface Timeout {
+        void onTimeout();
+    }
+
     public static Date now() {
         return Calendar.getInstance().getTime();
     }
 
-    public interface Timeout {
-        void onTimeout();
-    }
 }

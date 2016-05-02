@@ -8,7 +8,7 @@ package org.roszonelib.notetools.interfaces;
  * Fecha    : 29/03/2016 16:47
  * ====================================
  */
-public interface OnLoginCallback {
+public interface LoginCallback {
     void onLoginSuccess(Integer userId);
 
     void onLoginFail(String reason);

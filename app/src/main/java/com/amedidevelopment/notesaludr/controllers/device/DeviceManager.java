@@ -1,12 +1,13 @@
-package com.amedidevelopment.notesaludr.controllers;
+package com.amedidevelopment.notesaludr.controllers.device;
 
-import android.app.Application;
 import android.content.Context;
 import android.content.res.Configuration;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.PowerManager;
 import android.provider.Settings;
+import android.support.multidex.MultiDexApplication;
+
 
 /**
  * Autor:  Rosember Perez Mengual
@@ -14,9 +15,10 @@ import android.provider.Settings;
  * Fecha: 23/01/2016
  * Empresa : Amedi S.a.S.
  */
-public class DeviceManager extends Application {
+public class DeviceManager extends MultiDexApplication {
     private static DeviceManager mInstance;
     private PowerManager.WakeLock mWakelock;
+
 
     /**
      * Retorna la instancia unica del dispositivo

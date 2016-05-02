@@ -1,4 +1,4 @@
-package com.amedidevelopment.notesaludr.views.fragments;
+package com.amedidevelopment.notesaludr.controllers.fragments;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -6,10 +6,10 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.amedidevelopment.notesaludr.R;
-import com.amedidevelopment.notesaludr.controllers.NavController;
+import com.amedidevelopment.notesaludr.models.bll.NavigationBll;
 import com.amedidevelopment.notesaludr.models.bll.AccountBll;
 
-import org.roszonelib.notetools.interfaces.OnLoginCallback;
+import org.roszonelib.notetools.interfaces.LoginCallback;
 import org.roszonelib.notetools.navigation.PageFragment;
 import org.roszonelib.notetools.utils.SimpleViewUtils;
 
@@ -23,14 +23,14 @@ import org.roszonelib.notetools.utils.SimpleViewUtils;
  * ====================================
  */
 public class LoginFragment extends PageFragment implements View.OnClickListener {
-    private AccountBll mLogic;
+    private AccountBll mBll;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup parent, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.login, parent, false);
-        mLogic = new AccountBll(getContext());
         SimpleViewUtils.addListener(view, R.id.btn_login, this);
         SimpleViewUtils.addListener(view, R.id.btn_manual, this);
+        mBll = new AccountBll(getContext());
         return view;
     }
 
@@ -38,12 +38,12 @@ public class LoginFragment extends PageFragment implements View.OnClickListener 
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btn_login:
-                mLogic.showDialogForLogin(AccountBll.DEFAULT_USER_NAME, new OnLoginCallback() {
+                mBll.showLoginDialog(AccountBll.DEFAULT_USER_NAME, new LoginCallback() {
                     @Override
                     public void onLoginSuccess(Integer userId) {
-                        mLogic.saveUserId(userId);
+                        mBll.saveUserId(userId);
                         getNavigation().onCreateDrawer();
-                        getNavigation().setPage(NavController.getPage(NavController.Pages.Main));
+                        getNavigation().setPage(NavigationBll.getPage(NavigationBll.Pages.Main));
                     }
 
                     @Override
@@ -56,4 +56,5 @@ public class LoginFragment extends PageFragment implements View.OnClickListener 
                 break;
         }
     }
+
 }

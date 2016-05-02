@@ -3,7 +3,7 @@ package com.amedidevelopment.notesaludr.models.vo;
 import android.graphics.Bitmap;
 import android.text.TextUtils;
 
-import org.roszonelib.notetools.utils.ImageUtils;
+import org.roszonelib.notetools.utils.ImageBaseUtils;
 
 import java.util.Date;
 
@@ -29,6 +29,6 @@ public class UserVo {
     public Boolean State;
 
     public Bitmap getProfileImage() {
-        return ProfileImage != null && !TextUtils.isEmpty(ProfileImage) ? ImageUtils.decodeBase64(ProfileImage) : null;
+        return ProfileImage != null && !TextUtils.isEmpty(ProfileImage) ? ImageBaseUtils.decodeBase64(ProfileImage) : null;
     }
 }

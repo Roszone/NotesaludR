@@ -42,7 +42,7 @@ public class NoteMaterialDialog {
     public NoteMaterialDialog setLoginDialog(int resIdTittle, String username, final OnLoginClickListener callback) {
         dismissDialog();
         mDialog = new MaterialDialog.Builder(mContext)
-                .customView(R.layout.dialog_login, false)
+                .customView(R.layout.dialog_login, true)
                 .title(mContext.getString(resIdTittle))
                 .titleGravity(GravityEnum.CENTER)
                 .autoDismiss(false)
@@ -84,7 +84,7 @@ public class NoteMaterialDialog {
         mDialog = new MaterialDialog.Builder(mContext)
                 .title(mContext.getString(resIdTittle))
                 .titleGravity(GravityEnum.START)
-                .customView(R.layout.dialog_recycler_view, false)
+                .customView(R.layout.dialog_recycler, false)
                 .autoDismiss(false)
                 .build();
         adapter.setOnClickListener(listener);
@@ -96,7 +96,7 @@ public class NoteMaterialDialog {
     public NoteMaterialDialog setFormUserDialog() {
         dismissDialog();
         mDialog = new MaterialDialog.Builder(mContext)
-                .customView(R.layout.dialog_create_user, false)
+                .customView(R.layout.dialog_form_user, true)
                 .autoDismiss(false)
                 .negativeText(R.string.back)
                 .positiveText(R.string.next)

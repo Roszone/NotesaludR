@@ -5,20 +5,20 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="14"
+        android:minSdkVersion="15"
         android:targetSdkVersion="23" />
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
-        android:name="com.amedidevelopment.notesaludr.controllers.DeviceManager"
+        android:name="com.amedidevelopment.notesaludr.controllers.device.DeviceManager"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.amedidevelopment.notesaludr.views.activity.DefaultActivity" >
+        <activity android:name="com.amedidevelopment.notesaludr.controllers.activity.DefaultActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -26,7 +26,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.amedidevelopment.notesaludr.views.activity.SettingsActivity"
+            android:name="com.amedidevelopment.notesaludr.controllers.activity.SettingsActivity"
             android:label="@string/title_settings" />
     </application>
 

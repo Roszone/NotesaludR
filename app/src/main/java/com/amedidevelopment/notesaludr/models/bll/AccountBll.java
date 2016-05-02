@@ -4,12 +4,12 @@ import android.content.Context;
 
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.amedidevelopment.notesaludr.R;
-import com.amedidevelopment.notesaludr.controllers.DeviceManager;
+import com.amedidevelopment.notesaludr.controllers.device.DeviceManager;
 import com.amedidevelopment.notesaludr.models.vo.CredentialsVo;
 import com.mikepenz.google_material_typeface_library.GoogleMaterial;
 
 import org.roszonelib.notetools.adapters.ListItemAdapter;
-import org.roszonelib.notetools.interfaces.OnLoginCallback;
+import org.roszonelib.notetools.interfaces.LoginCallback;
 import org.roszonelib.notetools.interfaces.OnLoginClickListener;
 import org.roszonelib.notetools.notifications.NoteMaterialDialog;
 import org.roszonelib.notetools.settings.CustomPreferences;
@@ -37,7 +37,6 @@ public class AccountBll {
     }
 
     public void saveUserId(Integer userId) {
-        //Guardamos el id en las preferencias locales
         CustomPreferences.newInstance(mContext).putInteger(R.string.sharedLoginId, userId);
     }
 
@@ -45,15 +44,13 @@ public class AccountBll {
      * Muestra en pantalla un dialog para recolectar
      * la informacion necesaria para iniciar sesión en el sistema
      */
-    public void showDialogForLogin(String username, final OnLoginCallback callback) {
+    public void showLoginDialog(String username, final LoginCallback callback) {
         mDialog.setLoginDialog(R.string.tittle_dialog_login, username, new OnLoginClickListener() {
             @Override
             public void onClickLogin(String username, String password, MaterialDialog dialog) {
                 dialog.dismiss();
                 //Creamos las credenciales para la autentificacion de usuario
                 CredentialsVo credentials = new CredentialsVo(username, password);
-                //Segun el estado de la conexion elegimos el modo conectado
-                // o desconectado para ingresar al sistema
                 if (DeviceManager.isConnectedToInternet(mContext)) {
                     loginWithInternet(credentials, callback);
                 } else {
@@ -64,17 +61,17 @@ public class AccountBll {
             @Override
             public void onClickOptions(MaterialDialog dialog) {
                 //Mostramos el dialog para las opciones avanzadas
-                showDialogForAdvanceOptions();
+                showAdvanceOptionsDialog();
             }
         });
         mDialog.show();
     }
 
-    private boolean loginWithoutInternet(CredentialsVo credentials, OnLoginCallback callback) {
+    private boolean loginWithoutInternet(CredentialsVo credentials, LoginCallback callback) {
         return loginWithInternet(credentials, callback);
     }
 
-    private boolean loginWithInternet(CredentialsVo credentials, OnLoginCallback callback) {
+    private boolean loginWithInternet(CredentialsVo credentials, LoginCallback callback) {
         /*mDialog = new NoteProgressDialog(mContext).showWaitDialog();
         mDialog.show();
         UserVo user = TestUSER.getTestUser(credentials);
@@ -108,12 +105,12 @@ public class AccountBll {
      * escoger las opciones avanzadas de registro de usuario
      * y recuperacion de contraseñas
      */
-    private void showDialogForAdvanceOptions() {
+    private void showAdvanceOptionsDialog() {
         //Creamos el adaptador con las opciones avanzadas
         ListItemAdapter adapter = new ListItemAdapter.builder(mContext)
-                .addSingleListItem(R.string.createUser, GoogleMaterial.Icon.gmd_person_add)
-                .addSingleListItem(R.string.restorePass, GoogleMaterial.Icon.gmd_lock)
-                .addSingleListItem(R.string.listUser, GoogleMaterial.Icon.gmd_contacts)
+                .addSingleListItem(R.string.register, GoogleMaterial.Icon.gmd_person_add)
+                .addSingleListItem(R.string.restore, GoogleMaterial.Icon.gmd_lock)
+                .addSingleListItem(R.string.choice, GoogleMaterial.Icon.gmd_contacts)
                 .build();
         //Creamos el dialog con el manejador de eventos
         mDialog.setAdapter(R.string.advance_options, adapter, new ListItemAdapter.OnListItemClickListener() {
@@ -121,14 +118,14 @@ public class AccountBll {
             public void onClick(ListItemAdapter.ListItem item, int position, MaterialDialog dialog) {
                 dialog.dismiss();
                 switch (item.Id) {
-                    case R.string.createUser:
-                        showDialogForCreateUser();
+                    case R.string.register:
+                        showRegisterUserDialog();
                         break;
-                    case R.string.restorePass:
-                        showDialogForRestorePassword();
+                    case R.string.restore:
+                        showRestorePasswordDialog();
                         break;
-                    case R.string.listUser:
-                        showDialogForSelectUser();
+                    case R.string.choice:
+                        showChoiceUserDialog();
                         break;
                 }
             }
@@ -139,21 +136,21 @@ public class AccountBll {
     /**
      * Muestra lista de usuarios almacenados localmente en el dispostivo
      */
-    private void showDialogForSelectUser() {
+    private void showChoiceUserDialog() {
 
     }
 
     /**
      * Muestra form para recolectar la informacion necesaria para restaurar la contraseña
      */
-    private void showDialogForRestorePassword() {
+    private void showRestorePasswordDialog() {
 
     }
 
     /**
      * Muestra form para recolectar la informacion necesaria para Registrar un usuario temporal
      */
-    private void showDialogForCreateUser() {
+    private void showRegisterUserDialog() {
         mDialog = new NoteMaterialDialog(mContext)
                 .setFormUserDialog();
         mDialog.show();

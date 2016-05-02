@@ -477,7 +477,7 @@
     <color name="md_yellow_A200">#FFFF00</color>
     <color name="md_yellow_A400">#FFEA00</color>
     <color name="md_yellow_A700">#FFD600</color>
-    <color name="primary">#03A9F4</color>
+    <color name="primary">#009AE2</color>
     <color name="primary_dark">#0288D1</color>
     <color name="primary_dark_material_dark">@android:color/black</color>
     <color name="primary_dark_material_light">@color/material_grey_600</color>
@@ -851,14 +851,15 @@
     <string name="back">Regresar</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
+    <string name="choice">Seleccionar Usuario</string>
     <string name="copyright_app">NotesaludR © AmediDevelopment 2016</string>
-    <string name="createUser">Registro Temporal</string>
     <string name="create_name_user">Nombre y Apellidos:</string>
     <string name="create_password">Contraseña:</string>
     <string name="create_password_alter">*******</string>
     <string name="create_user">Usuario:</string>
     <string name="create_user_note">&lt;strong>NOTA:&lt;/strong> Al crear su &lt;strong>usuario&lt;/strong> podrá registrar notas &lt;strong>localmente&lt;/strong>, sin embargo es necesario &lt;strong>validar&lt;/strong> su &lt;strong>asignación&lt;/strong> para el envío de la información 
     </string>
+    <string name="default_preferences">DefaultPreferences</string>
     <string name="default_text">Lorem ipsum</string>
     <string name="default_text_long">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
     <string name="defaut_verification_code">000-0000000</string>
@@ -867,7 +868,7 @@
     <string name="define_font_GoogleMaterial">com.mikepenz.google_material_typeface_library.GoogleMaterial</string>
     <string name="define_materialdrawer">year;owner</string>
     <string name="define_materialize">year;owner</string>
-    <string name="demo">Demo</string>
+    <string name="demo">Manual</string>
     <string name="device">Dispositivo</string>
     <string name="example_user">ejemplousuario123</string>
     <string name="exit">Salir</string>
@@ -935,7 +936,6 @@
     <string name="library_materialize_owner">Mike Penz</string>
     <string name="library_materialize_repositoryLink">https://github.com/mikepenz/Materialize</string>
     <string name="library_materialize_year">2016</string>
-    <string name="listUser">Seleccionar Usuario</string>
     <string name="login">Ingresar</string>
     <string name="material_drawer_close">Close</string>
     <string name="material_drawer_open">Open</string>
@@ -1006,8 +1006,9 @@
     <string name="pref_update_key">key</string>
     <string name="pref_update_summary">summary</string>
     <string name="pref_update_tittle">tittle</string>
+    <string name="register">Registro Temporal</string>
     <string name="register_user_nurse">Registro de usuarios temporales\nAuxiliar de enfermeria</string>
-    <string name="restorePass">Recuperar Contraseña</string>
+    <string name="restore">Restaurar Contraseña</string>
     <string name="settings">Configuración</string>
     <string name="sharedFirstBoot">shared-first-boot</string>
     <string name="sharedLoginId">shared-login-id</string>
@@ -1023,7 +1024,6 @@
     <string name="tittle_dialog_login">Iniciar Sesión</string>
     <string name="v7_preference_off">OFF</string>
     <string name="v7_preference_on">ON</string>
-    <string name="validateString">Campo no valido</string>
     <string name="verification_code">Codigo de verificación</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>

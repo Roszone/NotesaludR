@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Notesalud</string>
     <string name="login">Ingresar</string>
-    <string name="demo">Demo</string>
+    <string name="demo">Manual</string>
     <string name="support">Soporte</string>
     <string name="support_faq">Preguntas Frecuentes</string>
     <string name="support_video">Videos</string>
@@ -63,7 +63,7 @@
     <string name="pref_help_summary">sum</string>
     <string name="title_settings">Configuración</string>
     <string name="tittle_dialog_login">Iniciar Sesión</string>
-    <string name="createUser">Registro Temporal</string>
-    <string name="restorePass">Recuperar Contraseña</string>
-    <string name="listUser">Seleccionar Usuario</string>
+    <string name="register">Registro Temporal</string>
+    <string name="restore">Restaurar Contraseña</string>
+    <string name="choice">Seleccionar Usuario</string>
 </resources>

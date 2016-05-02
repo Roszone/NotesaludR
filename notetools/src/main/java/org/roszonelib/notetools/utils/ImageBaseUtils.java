@@ -14,7 +14,7 @@ import java.io.ByteArrayOutputStream;
  * Fecha    : 28/03/2016 15:33
  * ====================================
  */
-public class ImageUtils {
+public class ImageBaseUtils {
     public static String encodeToBase64(Bitmap image, Bitmap.CompressFormat compressFormat, int quality) {
         ByteArrayOutputStream byteArrayOS = new ByteArrayOutputStream();
         image.compress(compressFormat, quality, byteArrayOS);

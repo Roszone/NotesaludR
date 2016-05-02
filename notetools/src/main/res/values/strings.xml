@@ -48,7 +48,6 @@
     <string name="pref_title_vibrate">Vibrate</string>
     <string name="hint_user">Usuario</string>
     <string name="hint_password">Contraseña</string>
-    <string name="validateString">Campo no valido</string>
     <string name="InvalidValidation">Este campo es obligatorio</string>
     <string name="back">Regresar</string>
     <string name="next">Continuar</string>
@@ -68,4 +67,5 @@
     <string name="verification_code">Codigo de verificación</string>
     <string name="defaut_verification_code">000-0000000</string>
     <string name="tittle_dialog_login">Iniciar Sesión</string>
+    <string name="default_preferences">DefaultPreferences</string>
 </resources>

@@ -11,7 +11,7 @@ import org.roszonelib.notetools.navigation.PageFragment;
  * Fecha: 23/01/2016
  * Empresa : Amedi S.a.S.
  */
-public interface OnNavigationCallback {
+public interface NavigationCallback {
 
     void enableFullScreen(boolean enabled);
 

@@ -50,6 +50,7 @@
     <string name="create_user">Usuario:</string>
     <string name="create_user_note">&lt;strong>NOTA:&lt;/strong> Al crear su &lt;strong>usuario&lt;/strong> podrá registrar notas &lt;strong>localmente&lt;/strong>, sin embargo es necesario &lt;strong>validar&lt;/strong> su &lt;strong>asignación&lt;/strong> para el envío de la información 
     </string>
+    <string name="default_preferences">DefaultPreferences</string>
     <string name="default_text">Lorem ipsum</string>
     <string name="default_text_long">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
     <string name="defaut_verification_code">000-0000000</string>
@@ -80,7 +81,7 @@
     <string name="sharedLoginId">shared-login-id</string>
     <string name="sharedPortraitMode">shared-portrait-mode</string>
     <string name="sharedSplashScreen">shared-show-splash</string>
-    <string name="validateString">Campo no valido</string>
+    <string name="tittle_dialog_login">Iniciar Sesión</string>
     <string name="verification_code">Codigo de verificación</string>
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/primary</item>

@@ -1,7 +1,5 @@
-package com.amedidevelopment.notesaludr.views.activity;
+package com.amedidevelopment.notesaludr.controllers.activity;
 
-import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.preference.PreferenceFragment;
 
@@ -25,12 +23,6 @@ public class SettingsActivity extends BaseSettingsActivity {
         setPage(new GeneralPreferenceFragment());
         setHomeAsUpEnabled(true);
     }
-
-    public static void start(Activity activity) {
-        activity.startActivity(new Intent(activity, SettingsActivity.class));
-    }
-
-
 
     public static class GeneralPreferenceFragment extends PreferenceFragment {
         @Override

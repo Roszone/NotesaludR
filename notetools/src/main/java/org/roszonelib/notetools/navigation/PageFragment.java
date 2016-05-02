@@ -9,7 +9,7 @@ import android.support.v4.app.Fragment;
 import android.text.Html;
 import android.widget.Toast;
 
-import org.roszonelib.notetools.interfaces.OnNavigationCallback;
+import org.roszonelib.notetools.interfaces.NavigationCallback;
 
 
 /**
@@ -21,7 +21,7 @@ import org.roszonelib.notetools.interfaces.OnNavigationCallback;
  * ====================================
  */
 public abstract class PageFragment extends Fragment {
-    private OnNavigationCallback mListener;
+    private NavigationCallback mListener;
 
     /*
     * Debido a que onAttach(Context)
@@ -51,11 +51,11 @@ public abstract class PageFragment extends Fragment {
      * Called when the fragment attaches to the context
      */
     protected void onAttachToContext(Context context) {
-        OnNavigationCallback listener = (OnNavigationCallback) context;
+        NavigationCallback listener = (NavigationCallback) context;
         if (listener != null) {
             mListener = listener;
         } else {
-            throw new ClassCastException("Need Implement OnNavigationCallback");
+            throw new ClassCastException("Need Implement NavigationCallback");
         }
 
     }
@@ -65,7 +65,7 @@ public abstract class PageFragment extends Fragment {
      *
      * @return callback
      */
-    public OnNavigationCallback getNavigation() {
+    public NavigationCallback getNavigation() {
         return mListener;
     }
 

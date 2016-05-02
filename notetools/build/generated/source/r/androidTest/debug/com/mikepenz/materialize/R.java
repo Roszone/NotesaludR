@@ -930,7 +930,7 @@ public final class R {
 		public static final int select_dialog_item_material = 0x7f030062;
 		public static final int select_dialog_multichoice_material = 0x7f030063;
 		public static final int select_dialog_singlechoice_material = 0x7f030064;
-		public static final int support_simple_spinner_dropdown_item = 0x7f030066;
+		public static final int support_simple_spinner_dropdown_item = 0x7f030065;
 	}
 	public static final class string {
 		public static final int abc_action_bar_home_description = 0x7f050000;
@@ -952,18 +952,18 @@ public final class R {
 		public static final int abc_shareactionprovider_share_with = 0x7f050010;
 		public static final int abc_shareactionprovider_share_with_application = 0x7f050011;
 		public static final int abc_toolbar_collapse_description = 0x7f050012;
-		public static final int define_materialize = 0x7f050027;
-		public static final int library_materialize_author = 0x7f05004e;
-		public static final int library_materialize_authorWebsite = 0x7f05004f;
-		public static final int library_materialize_isOpenSource = 0x7f050050;
-		public static final int library_materialize_libraryDescription = 0x7f050051;
-		public static final int library_materialize_libraryName = 0x7f050052;
-		public static final int library_materialize_libraryVersion = 0x7f050053;
-		public static final int library_materialize_libraryWebsite = 0x7f050054;
-		public static final int library_materialize_licenseId = 0x7f050055;
-		public static final int library_materialize_owner = 0x7f050056;
-		public static final int library_materialize_repositoryLink = 0x7f050057;
-		public static final int library_materialize_year = 0x7f050058;
+		public static final int define_materialize = 0x7f050028;
+		public static final int library_materialize_author = 0x7f05004f;
+		public static final int library_materialize_authorWebsite = 0x7f050050;
+		public static final int library_materialize_isOpenSource = 0x7f050051;
+		public static final int library_materialize_libraryDescription = 0x7f050052;
+		public static final int library_materialize_libraryName = 0x7f050053;
+		public static final int library_materialize_libraryVersion = 0x7f050054;
+		public static final int library_materialize_libraryWebsite = 0x7f050055;
+		public static final int library_materialize_licenseId = 0x7f050056;
+		public static final int library_materialize_owner = 0x7f050057;
+		public static final int library_materialize_repositoryLink = 0x7f050058;
+		public static final int library_materialize_year = 0x7f050059;
 		public static final int status_bar_notification_info_overflow = 0x7f050013;
 	}
 	public static final class style {

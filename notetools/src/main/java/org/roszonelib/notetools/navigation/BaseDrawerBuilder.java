@@ -28,7 +28,7 @@ public abstract class BaseDrawerBuilder<navigation extends Enum> extends DrawerB
         withToolbar(toolbar);
     }
 
-    protected AccountHeaderBuilder getAccountHeader(int resIdBackground) {
+    protected AccountHeaderBuilder createAccountHeader(int resIdBackground) {
         return new AccountHeaderBuilder()
                 .withActivity(mActivity)
                 .withHeaderBackground(resIdBackground);

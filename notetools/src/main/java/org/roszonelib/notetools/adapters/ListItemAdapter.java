@@ -54,13 +54,13 @@ public class ListItemAdapter extends RecyclerView.Adapter<ListItemViewHolder> {
         ListItemType i = ListItemType.values()[type];
         switch (i) {
             case SINGLE_LINE:
-                return R.layout.itemviewholder_single_line;
+                return R.layout.itemview_single;
             case TWO_LINE:
-                return R.layout.itemviewholder_two_line;
+                return R.layout.itemview_double;
             case THREE_LINE:
-                return R.layout.itemviewholder_three_line;
+                return R.layout.itemview_triple;
             default:
-                return R.layout.itemviewholder_only_tittle;
+                return R.layout.itemview_tittle;
         }
     }
 
