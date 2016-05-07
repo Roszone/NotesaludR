@@ -56,25 +56,25 @@ public final class R {
         public static int pref_sync_frequency_values=0x7f0a0003;
     }
     public static final class attr {
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int actionBarDivider=0x7f01005a;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int actionBarItemBackground=0x7f01005b;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int actionBarPopupTheme=0x7f010054;
         /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
 <p>May be one of the following constant values.</p>
 <table>
@@ -86,161 +86,172 @@ containing a value of this type.
 </table>
          */
         public static int actionBarSize=0x7f010059;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int actionBarSplitStyle=0x7f010056;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int actionBarStyle=0x7f010055;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int actionBarTabBarStyle=0x7f010050;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int actionBarTabStyle=0x7f01004f;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int actionBarTabTextStyle=0x7f010051;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int actionBarTheme=0x7f010057;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int actionBarWidgetTheme=0x7f010058;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int actionButtonStyle=0x7f010074;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int actionDropDownStyle=0x7f010070;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
-        public static int actionLayout=0x7f01012a;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int actionLayout=0x7f010138;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int actionMenuTextAppearance=0x7f01005c;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
         public static int actionMenuTextColor=0x7f01005d;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int actionModeBackground=0x7f010060;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int actionModeCloseButtonStyle=0x7f01005f;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int actionModeCloseDrawable=0x7f010062;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int actionModeCopyDrawable=0x7f010064;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int actionModeCutDrawable=0x7f010063;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int actionModeFindDrawable=0x7f010068;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int actionModePasteDrawable=0x7f010065;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int actionModePopupWindowStyle=0x7f01006a;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int actionModeSelectAllDrawable=0x7f010066;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int actionModeShareDrawable=0x7f010067;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int actionModeSplitBackground=0x7f010061;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int actionModeStyle=0x7f01005e;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int actionModeWebSearchDrawable=0x7f010069;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int actionOverflowButtonStyle=0x7f010052;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int actionOverflowMenuStyle=0x7f010053;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int actionProviderClass=0x7f01012c;
+        public static int actionProviderClass=0x7f01013a;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int actionViewClass=0x7f01012b;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int actionViewClass=0x7f010139;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int activityChooserViewStyle=0x7f01007c;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int alertDialogButtonGroupStyle=0x7f01009f;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int alertDialogCenterButtons=0x7f0100a0;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int alertDialogStyle=0x7f01009e;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int alertDialogTheme=0x7f0100a1;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>alignBounds</code></td><td>0</td><td></td></tr>
+<tr><td><code>alignMargins</code></td><td>1</td><td></td></tr>
+</table>
+         */
+        public static int alignmentMode=0x7f0100f9;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int allowStacking=0x7f0100b8;
@@ -248,9 +259,9 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int arrowHeadLength=0x7f0100eb;
@@ -258,28 +269,28 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int arrowShaftLength=0x7f0100ec;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int autoCompleteTextViewStyle=0x7f0100a6;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int background=0x7f010028;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
         public static int backgroundSplit=0x7f01002a;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
@@ -287,12 +298,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int backgroundTint=0x7f0101a4;
+        public static int backgroundTint=0x7f0101b2;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -306,22 +317,22 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
          */
-        public static int backgroundTintMode=0x7f0101a5;
+        public static int backgroundTintMode=0x7f0101b3;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int barLength=0x7f0100ed;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int behavior_hideable=0x7f0100b7;
@@ -329,36 +340,36 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int behavior_overlapTop=0x7f010161;
+        public static int behavior_overlapTop=0x7f01016f;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int behavior_peekHeight=0x7f0100b6;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int biv_drawCircularShadow=0x7f0100b4;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int biv_maskDrawable=0x7f0100b3;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
@@ -367,62 +378,62 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int borderWidth=0x7f0100f2;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int borderlessButtonStyle=0x7f010079;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int bottomSheetDialogTheme=0x7f0100de;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int bottomSheetStyle=0x7f0100df;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int buttonBarButtonStyle=0x7f010076;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int buttonBarNegativeButtonStyle=0x7f0100a4;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int buttonBarNeutralButtonStyle=0x7f0100a5;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int buttonBarPositiveButtonStyle=0x7f0100a3;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int buttonBarStyle=0x7f010075;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int buttonPanelSideLayout=0x7f01003b;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int buttonStyle=0x7f0100a7;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int buttonStyleSmall=0x7f0100a8;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int buttonTint=0x7f0100d6;
@@ -443,9 +454,9 @@ containing a value of this type.
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int cardBackgroundColor=0x7f0100b9;
@@ -453,9 +464,9 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int cardCornerRadius=0x7f0100ba;
@@ -463,9 +474,9 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int cardElevation=0x7f0100bb;
@@ -473,60 +484,60 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int cardMaxElevation=0x7f0100bc;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int cardPreventCornerOverlap=0x7f0100be;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int cardUseCompatPadding=0x7f0100bd;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
-        public static int checkBoxPreferenceStyle=0x7f01014c;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int checkBoxPreferenceStyle=0x7f01015a;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int checkboxStyle=0x7f0100a9;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int checkedTextViewStyle=0x7f0100aa;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
-        public static int closeIcon=0x7f010166;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int closeIcon=0x7f010174;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int closeItemLayout=0x7f010038;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int collapseContentDescription=0x7f01019b;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int collapseContentDescription=0x7f0101a9;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
-        public static int collapseIcon=0x7f01019a;
+        public static int collapseIcon=0x7f0101a8;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -546,102 +557,118 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 </table>
          */
         public static int collapsedTitleGravity=0x7f0100d3;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int collapsedTitleTextAppearance=0x7f0100cf;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int color=0x7f0100e7;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int colorAccent=0x7f010097;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int colorButtonNormal=0x7f01009b;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int colorControlActivated=0x7f010099;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int colorControlHighlight=0x7f01009a;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int colorControlNormal=0x7f010098;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int colorPrimary=0x7f010095;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int colorPrimaryDark=0x7f010096;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int colorSwitchThumbNormal=0x7f01009c;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
+containing a value of this type.
          */
-        public static int commitIcon=0x7f01016b;
+        public static int columnCount=0x7f0100f7;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
+containing a value of this type.
+         */
+        public static int columnOrderPreserved=0x7f0100fb;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+         */
+        public static int commitIcon=0x7f010179;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int contentInsetEnd=0x7f010033;
@@ -649,9 +676,9 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int contentInsetLeft=0x7f010034;
@@ -659,9 +686,9 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int contentInsetRight=0x7f010035;
@@ -669,9 +696,9 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int contentInsetStart=0x7f010032;
@@ -679,9 +706,9 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int contentPadding=0x7f0100bf;
@@ -689,9 +716,9 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int contentPaddingBottom=0x7f0100c3;
@@ -699,9 +726,9 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int contentPaddingLeft=0x7f0100c0;
@@ -709,9 +736,9 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int contentPaddingRight=0x7f0100c1;
@@ -719,124 +746,124 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int contentPaddingTop=0x7f0100c2;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int contentScrim=0x7f0100d0;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int controlBackground=0x7f01009d;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int counterEnabled=0x7f01018d;
+        public static int counterEnabled=0x7f01019b;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int counterMaxLength=0x7f01018e;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int counterMaxLength=0x7f01019c;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
-        public static int counterOverflowTextAppearance=0x7f010190;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int counterOverflowTextAppearance=0x7f01019e;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
-        public static int counterTextAppearance=0x7f01018f;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int counterTextAppearance=0x7f01019d;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int customNavigationLayout=0x7f01002b;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int defaultQueryHint=0x7f010165;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int defaultQueryHint=0x7f010173;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>May be an integer value, such as "<code>100</code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>May be a floating point value, such as "<code>1.2</code>".
          */
-        public static int defaultValue=0x7f01013f;
+        public static int defaultValue=0x7f01014d;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int dependency=0x7f01013d;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int dependency=0x7f01014b;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int dialogIcon=0x7f0100e3;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int dialogLayout=0x7f0100e6;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int dialogMessage=0x7f0100e2;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
-        public static int dialogPreferenceStyle=0x7f01014e;
+        public static int dialogPreferenceStyle=0x7f01015c;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int dialogPreferredPadding=0x7f01006e;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int dialogTheme=0x7f01006d;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int dialogTitle=0x7f0100e1;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int disableDependentsState=0x7f0100c6;
@@ -856,121 +883,121 @@ containing a value of this type.
 </table>
          */
         public static int displayOptions=0x7f010021;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int divider=0x7f010027;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int dividerHorizontal=0x7f01007b;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int dividerPadding=0x7f010109;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int dividerPadding=0x7f010117;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int dividerVertical=0x7f01007a;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int drawableSize=0x7f0100e9;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int drawerArrowStyle=0x7f010000;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int dropDownListViewStyle=0x7f01008d;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int dropdownListPreferredItemHeight=0x7f010071;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int editTextBackground=0x7f010082;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
         public static int editTextColor=0x7f010081;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
-        public static int editTextPreferenceStyle=0x7f01014f;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int editTextPreferenceStyle=0x7f01015d;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int editTextStyle=0x7f0100ab;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int elevation=0x7f010036;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int enabled=0x7f01013b;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int enabled=0x7f010149;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
-        public static int entries=0x7f01010a;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int entries=0x7f010118;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
-        public static int entryValues=0x7f01010b;
+        public static int entryValues=0x7f010119;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int errorEnabled=0x7f01018b;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int errorEnabled=0x7f010199;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
-        public static int errorTextAppearance=0x7f01018c;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int errorTextAppearance=0x7f01019a;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int expandActivityOverflowButtonDrawable=0x7f01003a;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int expanded=0x7f010040;
@@ -997,9 +1024,9 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int expandedTitleMargin=0x7f0100c9;
@@ -1007,9 +1034,9 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int expandedTitleMarginBottom=0x7f0100cd;
@@ -1017,9 +1044,9 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int expandedTitleMarginEnd=0x7f0100cc;
@@ -1027,9 +1054,9 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int expandedTitleMarginStart=0x7f0100ca;
@@ -1037,14 +1064,14 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int expandedTitleMarginTop=0x7f0100cb;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int expandedTitleTextAppearance=0x7f0100ce;
         /** <p>Must be one of the following constant values.</p>
@@ -1060,310 +1087,310 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static int fabSize=0x7f0100f0;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int foregroundInsidePadding=0x7f0100f4;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int fragment=0x7f010139;
+        public static int fragment=0x7f010147;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int gapBetweenBars=0x7f0100ea;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
-        public static int goIcon=0x7f010167;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int goIcon=0x7f010175;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
-        public static int headerLayout=0x7f010133;
+        public static int headerLayout=0x7f010141;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int height=0x7f010001;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int hideOnContentScroll=0x7f010031;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int hintAnimationEnabled=0x7f010191;
+        public static int hintAnimationEnabled=0x7f01019f;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int hintEnabled=0x7f01018a;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int hintEnabled=0x7f010198;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
-        public static int hintTextAppearance=0x7f010189;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int hintTextAppearance=0x7f010197;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int homeAsUpIndicator=0x7f010073;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int homeLayout=0x7f01002c;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static int ico_background_color=0x7f0100fd;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int ico_background_color=0x7f01010b;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static int ico_color=0x7f0100f6;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int ico_color=0x7f010104;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static int ico_contour_color=0x7f0100fb;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int ico_contour_color=0x7f010109;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
          */
-        public static int ico_contour_width=0x7f0100fc;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int ico_contour_width=0x7f01010a;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
          */
-        public static int ico_corner_radius=0x7f0100fe;
+        public static int ico_corner_radius=0x7f01010c;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int ico_icon=0x7f0100f5;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int ico_icon=0x7f010103;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
          */
-        public static int ico_offset_x=0x7f0100f8;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int ico_offset_x=0x7f010106;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
          */
-        public static int ico_offset_y=0x7f0100f9;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int ico_offset_y=0x7f010107;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
          */
-        public static int ico_padding=0x7f0100fa;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int ico_padding=0x7f010108;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
          */
-        public static int ico_size=0x7f0100f7;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int ico_size=0x7f010105;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int icon=0x7f010025;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int iconifiedByDefault=0x7f010163;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int iconifiedByDefault=0x7f010171;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static int iiv_background_color=0x7f010105;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int iiv_background_color=0x7f010113;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static int iiv_color=0x7f010100;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int iiv_color=0x7f01010e;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static int iiv_contour_color=0x7f010103;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int iiv_contour_color=0x7f010111;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
          */
-        public static int iiv_contour_width=0x7f010104;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int iiv_contour_width=0x7f010112;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
          */
-        public static int iiv_corner_radius=0x7f010106;
+        public static int iiv_corner_radius=0x7f010114;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int iiv_icon=0x7f0100ff;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int iiv_icon=0x7f01010d;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
          */
-        public static int iiv_padding=0x7f010102;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int iiv_padding=0x7f010110;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
          */
-        public static int iiv_size=0x7f010101;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int iiv_size=0x7f01010f;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int imageButtonStyle=0x7f010083;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int indeterminateProgressStyle=0x7f01002e;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int initialActivityCount=0x7f010039;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static int insetForeground=0x7f01015e;
+        public static int insetForeground=0x7f01016c;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int isLightTheme=0x7f010002;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
-        public static int itemBackground=0x7f010131;
+        public static int itemBackground=0x7f01013f;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int itemIconTint=0x7f01012f;
+        public static int itemIconTint=0x7f01013d;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int itemPadding=0x7f010030;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
-        public static int itemTextAppearance=0x7f010132;
+        public static int itemTextAppearance=0x7f010140;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int itemTextColor=0x7f010130;
+        public static int itemTextColor=0x7f01013e;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int key=0x7f010136;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int key=0x7f010144;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int keylines=0x7f0100d8;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
-        public static int layout=0x7f010162;
+        public static int layout=0x7f010170;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int layoutManager=0x7f01015a;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int layoutManager=0x7f010168;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int layout_anchor=0x7f0100db;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -1391,9 +1418,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static int layout_anchorGravity=0x7f0100dd;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int layout_behavior=0x7f0100da;
@@ -1411,20 +1438,91 @@ containing a value of this type.
         public static int layout_collapseMode=0x7f0100c7;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int layout_collapseParallaxMultiplier=0x7f0100c8;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
+containing a value of this type.
+         */
+        public static int layout_column=0x7f0100ff;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
+containing a value of this type.
+         */
+        public static int layout_columnSpan=0x7f010100;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
+containing a value of this type.
+         */
+        public static int layout_columnWeight=0x7f010101;
+        /** <p>Must be one or more (separated by '|') of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>top</code></td><td>0x30</td><td></td></tr>
+<tr><td><code>bottom</code></td><td>0x50</td><td></td></tr>
+<tr><td><code>left</code></td><td>0x03</td><td></td></tr>
+<tr><td><code>right</code></td><td>0x05</td><td></td></tr>
+<tr><td><code>center_vertical</code></td><td>0x10</td><td></td></tr>
+<tr><td><code>fill_vertical</code></td><td>0x70</td><td></td></tr>
+<tr><td><code>center_horizontal</code></td><td>0x01</td><td></td></tr>
+<tr><td><code>fill_horizontal</code></td><td>0x07</td><td></td></tr>
+<tr><td><code>center</code></td><td>0x11</td><td></td></tr>
+<tr><td><code>fill</code></td><td>0x77</td><td></td></tr>
+<tr><td><code>clip_vertical</code></td><td>0x80</td><td></td></tr>
+<tr><td><code>clip_horizontal</code></td><td>0x08</td><td></td></tr>
+<tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
+<tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
+</table>
+         */
+        public static int layout_gravity=0x7f010102;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int layout_keyline=0x7f0100dc;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
+containing a value of this type.
+         */
+        public static int layout_row=0x7f0100fc;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
+containing a value of this type.
+         */
+        public static int layout_rowSpan=0x7f0100fd;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
+containing a value of this type.
+         */
+        public static int layout_rowWeight=0x7f0100fe;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1439,37 +1537,37 @@ containing a value of this type.
 </table>
          */
         public static int layout_scrollFlags=0x7f010041;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int layout_scrollInterpolator=0x7f010042;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int listChoiceBackgroundIndicator=0x7f010094;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int listDividerAlertDialog=0x7f01006f;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int listItemLayout=0x7f01003f;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int listLayout=0x7f01003c;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int listPopupWindowStyle=0x7f01008e;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int listPreferredItemHeight=0x7f010088;
@@ -1477,9 +1575,9 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int listPreferredItemHeightLarge=0x7f01008a;
@@ -1487,9 +1585,9 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int listPreferredItemHeightSmall=0x7f010089;
@@ -1497,9 +1595,9 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int listPreferredItemPaddingLeft=0x7f01008b;
@@ -1507,162 +1605,162 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int listPreferredItemPaddingRight=0x7f01008c;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int logo=0x7f010026;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int logoDescription=0x7f01019e;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int logoDescription=0x7f0101ac;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static int material_drawer_background=0x7f01010e;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int material_drawer_background=0x7f01011c;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static int material_drawer_divider=0x7f010114;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int material_drawer_divider=0x7f010122;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static int material_drawer_header_selection_text=0x7f010117;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int material_drawer_header_selection_text=0x7f010125;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static int material_drawer_hint_icon=0x7f010113;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int material_drawer_hint_icon=0x7f010121;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static int material_drawer_hint_text=0x7f010112;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int material_drawer_hint_text=0x7f010120;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static int material_drawer_primary_icon=0x7f010110;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int material_drawer_primary_icon=0x7f01011e;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static int material_drawer_primary_text=0x7f01010f;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int material_drawer_primary_text=0x7f01011d;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static int material_drawer_secondary_text=0x7f010111;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int material_drawer_secondary_text=0x7f01011f;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static int material_drawer_selected=0x7f010115;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int material_drawer_selected=0x7f010123;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static int material_drawer_selected_text=0x7f010116;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int material_drawer_selected_text=0x7f010124;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static int material_drawer_window_background=0x7f01010d;
+        public static int material_drawer_window_background=0x7f01011b;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int maxActionInlineWidth=0x7f01016f;
+        public static int maxActionInlineWidth=0x7f01017d;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int maxButtonHeight=0x7f010199;
+        public static int maxButtonHeight=0x7f0101a7;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int maxHeight=0x7f010143;
+        public static int maxHeight=0x7f010151;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int maxWidth=0x7f010142;
+        public static int maxWidth=0x7f010150;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int md_background_color=0x7f010003;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int md_btn_negative_selector=0x7f010004;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int md_btn_neutral_selector=0x7f010005;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int md_btn_positive_selector=0x7f010006;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int md_btn_ripple_color=0x7f010007;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int md_btn_stacked_selector=0x7f010008;
         /** <p>Must be one of the following constant values.</p>
@@ -1692,9 +1790,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int md_content_color=0x7f01000b;
@@ -1712,39 +1810,39 @@ containing a value of this type.
         public static int md_content_gravity=0x7f01000c;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int md_dark_theme=0x7f01000d;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int md_divider=0x7f01000e;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int md_divider_color=0x7f01000f;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int md_icon=0x7f010010;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int md_icon_limit_icon_to_default_size=0x7f010011;
@@ -1752,18 +1850,18 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int md_icon_max_size=0x7f010012;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int md_item_color=0x7f010013;
@@ -1782,73 +1880,73 @@ containing a value of this type.
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int md_link_color=0x7f010015;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int md_list_selector=0x7f010016;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int md_medium_font=0x7f010017;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int md_negative_color=0x7f010018;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int md_neutral_color=0x7f010019;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int md_positive_color=0x7f01001a;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int md_reduce_padding_no_title_no_buttons=0x7f01010c;
+        public static int md_reduce_padding_no_title_no_buttons=0x7f01011a;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int md_regular_font=0x7f01001b;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int md_title_color=0x7f01001c;
@@ -1867,24 +1965,24 @@ containing a value of this type.
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int md_widget_color=0x7f01001e;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int measureWithLargestChild=0x7f010107;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int measureWithLargestChild=0x7f010115;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
-        public static int menu=0x7f01012e;
+        public static int menu=0x7f01013c;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1895,23 +1993,23 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>horizontal</code></td><td>1</td><td></td></tr>
 </table>
          */
-        public static int mpb_progressStyle=0x7f010118;
+        public static int mpb_progressStyle=0x7f010126;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int mpb_setBothDrawables=0x7f010119;
+        public static int mpb_setBothDrawables=0x7f010127;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int mpb_showTrack=0x7f01011b;
+        public static int mpb_showTrack=0x7f010129;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1926,133 +2024,133 @@ containing a value of this type.
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
          */
-        public static int mpb_tintMode=0x7f01011c;
+        public static int mpb_tintMode=0x7f01012a;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int mpb_useIntrinsicPadding=0x7f01011a;
+        public static int mpb_useIntrinsicPadding=0x7f010128;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int mrl_rippleAlpha=0x7f010120;
+        public static int mrl_rippleAlpha=0x7f01012e;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int mrl_rippleBackground=0x7f010124;
+        public static int mrl_rippleBackground=0x7f010132;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int mrl_rippleColor=0x7f01011d;
+        public static int mrl_rippleColor=0x7f01012b;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int mrl_rippleDelayClick=0x7f010125;
+        public static int mrl_rippleDelayClick=0x7f010133;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int mrl_rippleDimension=0x7f01011e;
+        public static int mrl_rippleDimension=0x7f01012c;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int mrl_rippleDuration=0x7f010121;
+        public static int mrl_rippleDuration=0x7f01012f;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int mrl_rippleFadeDuration=0x7f010122;
+        public static int mrl_rippleFadeDuration=0x7f010130;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int mrl_rippleHover=0x7f010123;
+        public static int mrl_rippleHover=0x7f010131;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int mrl_rippleInAdapter=0x7f010127;
+        public static int mrl_rippleInAdapter=0x7f010135;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int mrl_rippleOverlay=0x7f01011f;
+        public static int mrl_rippleOverlay=0x7f01012d;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int mrl_ripplePersistent=0x7f010126;
+        public static int mrl_ripplePersistent=0x7f010134;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int mrl_rippleRoundedCorners=0x7f010128;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int mrl_rippleRoundedCorners=0x7f010136;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int multiChoiceItemLayout=0x7f01003d;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int navigationContentDescription=0x7f01019d;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int navigationContentDescription=0x7f0101ab;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
-        public static int navigationIcon=0x7f01019c;
+        public static int navigationIcon=0x7f0101aa;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -2067,179 +2165,190 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static int navigationMode=0x7f010020;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int negativeButtonText=0x7f0100e5;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int order=0x7f010138;
+        public static int order=0x7f010146;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int orderingFromXml=0x7f010141;
+        public static int orderingFromXml=0x7f01014f;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>horizontal</code></td><td>0</td><td></td></tr>
+<tr><td><code>vertical</code></td><td>1</td><td></td></tr>
+</table>
+         */
+        public static int orientation=0x7f0100f5;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int overlapAnchor=0x7f010134;
+        public static int overlapAnchor=0x7f010142;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int paddingEnd=0x7f0101a2;
+        public static int paddingEnd=0x7f0101b0;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int paddingStart=0x7f0101a1;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int paddingStart=0x7f0101af;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int panelBackground=0x7f010091;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int panelMenuListTheme=0x7f010093;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int panelMenuListWidth=0x7f010092;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int persistent=0x7f01013e;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int persistent=0x7f01014c;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int popupMenuStyle=0x7f01007f;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int popupTheme=0x7f010037;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int popupWindowStyle=0x7f010080;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int positiveButtonText=0x7f0100e4;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
-        public static int preferenceActivityStyle=0x7f010146;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int preferenceActivityStyle=0x7f010154;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
-        public static int preferenceCategoryStyle=0x7f010149;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int preferenceCategoryStyle=0x7f010157;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
-        public static int preferenceFragmentCompatStyle=0x7f010148;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int preferenceFragmentCompatStyle=0x7f010156;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
-        public static int preferenceFragmentListStyle=0x7f010155;
+        public static int preferenceFragmentListStyle=0x7f010163;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int preferenceFragmentPaddingSide=0x7f010156;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int preferenceFragmentPaddingSide=0x7f010164;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
-        public static int preferenceFragmentStyle=0x7f010147;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int preferenceFragmentStyle=0x7f010155;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
-        public static int preferenceHeaderPanelStyle=0x7f010153;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int preferenceHeaderPanelStyle=0x7f010161;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
-        public static int preferenceInformationStyle=0x7f01014b;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int preferenceInformationStyle=0x7f010159;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
-        public static int preferenceLayoutChild=0x7f010151;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int preferenceLayoutChild=0x7f01015f;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
-        public static int preferenceListStyle=0x7f010154;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int preferenceListStyle=0x7f010162;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
-        public static int preferencePanelStyle=0x7f010152;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int preferencePanelStyle=0x7f010160;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
-        public static int preferenceScreenStyle=0x7f010145;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int preferenceScreenStyle=0x7f010153;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
-        public static int preferenceStyle=0x7f01014a;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int preferenceStyle=0x7f010158;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
-        public static int preferenceTheme=0x7f010144;
+        public static int preferenceTheme=0x7f010152;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int preserveIconSpacing=0x7f01012d;
+        public static int preserveIconSpacing=0x7f01013b;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int pressedTranslationZ=0x7f0100f1;
@@ -2247,109 +2356,125 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int progressBarPadding=0x7f01002f;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int progressBarStyle=0x7f01002d;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
-        public static int queryBackground=0x7f01016d;
+        public static int queryBackground=0x7f01017b;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int queryHint=0x7f010164;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int queryHint=0x7f010172;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int radioButtonStyle=0x7f0100ac;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int ratingBarStyle=0x7f0100ad;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int ratingBarStyleIndicator=0x7f0100ae;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int ratingBarStyleSmall=0x7f0100af;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int reverseLayout=0x7f01015c;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int reverseLayout=0x7f01016a;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
-        public static int ringtonePreferenceStyle=0x7f010150;
+        public static int ringtonePreferenceStyle=0x7f01015e;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int rippleColor=0x7f0100ef;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
+containing a value of this type.
          */
-        public static int searchHintIcon=0x7f010169;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int rowCount=0x7f0100f6;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
+containing a value of this type.
          */
-        public static int searchIcon=0x7f010168;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int rowOrderPreserved=0x7f0100fa;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+         */
+        public static int searchHintIcon=0x7f010177;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+         */
+        public static int searchIcon=0x7f010176;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int searchViewStyle=0x7f010087;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
-        public static int seekBarPreferenceStyle=0x7f010159;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int seekBarPreferenceStyle=0x7f010167;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int seekBarStyle=0x7f0100b0;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int selectable=0x7f01013c;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int selectable=0x7f01014a;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int selectableItemBackground=0x7f010077;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int selectableItemBackgroundBorderless=0x7f010078;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int shouldDisableView=0x7f010140;
+        public static int shouldDisableView=0x7f01014e;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -2363,7 +2488,7 @@ containing a value of this type.
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
          */
-        public static int showAsAction=0x7f010129;
+        public static int showAsAction=0x7f010137;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -2376,150 +2501,150 @@ containing a value of this type.
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
          */
-        public static int showDividers=0x7f010108;
+        public static int showDividers=0x7f010116;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int showText=0x7f010176;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int showText=0x7f010184;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int singleChoiceItemLayout=0x7f01003e;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static int sirl_insetForeground=0x7f01015f;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int sirl_insetForeground=0x7f01016d;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static int siv_insetForeground=0x7f010160;
+        public static int siv_insetForeground=0x7f01016e;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int spanCount=0x7f01015b;
+        public static int spanCount=0x7f010169;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int spinBars=0x7f0100e8;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int spinnerDropDownItemStyle=0x7f010072;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int spinnerStyle=0x7f0100b1;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int splitTrack=0x7f010175;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int splitTrack=0x7f010183;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int srcCompat=0x7f010043;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int stackFromEnd=0x7f01015d;
+        public static int stackFromEnd=0x7f01016b;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int state_above_anchor=0x7f010135;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int state_above_anchor=0x7f010143;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int statusBarBackground=0x7f0100d9;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int statusBarScrim=0x7f0100d1;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
-        public static int submitBackground=0x7f01016e;
+        public static int submitBackground=0x7f01017c;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int subtitle=0x7f010022;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
-        public static int subtitleTextAppearance=0x7f010193;
+        public static int subtitleTextAppearance=0x7f0101a1;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int subtitleTextColor=0x7f0101a0;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int subtitleTextColor=0x7f0101ae;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int subtitleTextStyle=0x7f010024;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
-        public static int suggestionRowLayout=0x7f01016c;
+        public static int suggestionRowLayout=0x7f01017a;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int summary=0x7f010137;
+        public static int summary=0x7f010145;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int summaryOff=0x7f0100c5;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int summaryOn=0x7f0100c4;
@@ -2527,68 +2652,68 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int switchMinWidth=0x7f010173;
+        public static int switchMinWidth=0x7f010181;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int switchPadding=0x7f010174;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int switchPadding=0x7f010182;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
-        public static int switchPreferenceCompatStyle=0x7f010158;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int switchPreferenceCompatStyle=0x7f010166;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
-        public static int switchPreferenceStyle=0x7f010157;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int switchPreferenceStyle=0x7f010165;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int switchStyle=0x7f0100b2;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
-        public static int switchTextAppearance=0x7f010172;
+        public static int switchTextAppearance=0x7f010180;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int switchTextOff=0x7f010178;
+        public static int switchTextOff=0x7f010186;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int switchTextOn=0x7f010177;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int switchTextOn=0x7f010185;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
-        public static int tabBackground=0x7f01017c;
+        public static int tabBackground=0x7f01018a;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int tabContentStart=0x7f01017b;
+        public static int tabContentStart=0x7f010189;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -2599,46 +2724,46 @@ containing a value of this type.
 <tr><td><code>center</code></td><td>1</td><td></td></tr>
 </table>
          */
-        public static int tabGravity=0x7f01017e;
+        public static int tabGravity=0x7f01018c;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int tabIndicatorColor=0x7f010179;
+        public static int tabIndicatorColor=0x7f010187;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int tabIndicatorHeight=0x7f01017a;
+        public static int tabIndicatorHeight=0x7f010188;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int tabMaxWidth=0x7f010180;
+        public static int tabMaxWidth=0x7f01018e;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int tabMinWidth=0x7f01017f;
+        public static int tabMinWidth=0x7f01018d;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -2649,110 +2774,110 @@ containing a value of this type.
 <tr><td><code>fixed</code></td><td>1</td><td></td></tr>
 </table>
          */
-        public static int tabMode=0x7f01017d;
+        public static int tabMode=0x7f01018b;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int tabPadding=0x7f010188;
+        public static int tabPadding=0x7f010196;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int tabPaddingBottom=0x7f010187;
+        public static int tabPaddingBottom=0x7f010195;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int tabPaddingEnd=0x7f010186;
+        public static int tabPaddingEnd=0x7f010194;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int tabPaddingStart=0x7f010184;
+        public static int tabPaddingStart=0x7f010192;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int tabPaddingTop=0x7f010185;
+        public static int tabPaddingTop=0x7f010193;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int tabSelectedTextColor=0x7f010183;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int tabSelectedTextColor=0x7f010191;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
-        public static int tabTextAppearance=0x7f010181;
+        public static int tabTextAppearance=0x7f01018f;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int tabTextColor=0x7f010182;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int tabTextColor=0x7f010190;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
          */
         public static int textAllCaps=0x7f010044;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int textAppearanceLargePopupMenu=0x7f01006b;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int textAppearanceListItem=0x7f01008f;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int textAppearanceListItemSmall=0x7f010090;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int textAppearanceSearchResultSubtitle=0x7f010085;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int textAppearanceSearchResultTitle=0x7f010084;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int textAppearanceSmallPopupMenu=0x7f01006c;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
@@ -2760,29 +2885,29 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int textColorError=0x7f0100e0;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
         public static int textColorSearchUrl=0x7f010086;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
-        public static int theme=0x7f0101a3;
+        public static int theme=0x7f0101b1;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int thickness=0x7f0100ee;
@@ -2790,25 +2915,25 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int thumbTextPadding=0x7f010171;
+        public static int thumbTextPadding=0x7f01017f;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int title=0x7f01001f;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int titleEnabled=0x7f0100d5;
@@ -2816,122 +2941,130 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int titleMarginBottom=0x7f010198;
+        public static int titleMarginBottom=0x7f0101a6;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int titleMarginEnd=0x7f010196;
+        public static int titleMarginEnd=0x7f0101a4;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int titleMarginStart=0x7f010195;
+        public static int titleMarginStart=0x7f0101a3;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int titleMarginTop=0x7f010197;
+        public static int titleMarginTop=0x7f0101a5;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int titleMargins=0x7f010194;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int titleMargins=0x7f0101a2;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
-        public static int titleTextAppearance=0x7f010192;
+        public static int titleTextAppearance=0x7f0101a0;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
-        public static int titleTextColor=0x7f01019f;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static int titleTextColor=0x7f0101ad;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int titleTextStyle=0x7f010023;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int toolbarId=0x7f0100d2;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int toolbarNavigationButtonStyle=0x7f01007e;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
         public static int toolbarStyle=0x7f01007d;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
-        public static int track=0x7f010170;
+        public static int track=0x7f01017e;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int useCompatPadding=0x7f0100f3;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static int voiceIcon=0x7f01016a;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static int widgetLayout=0x7f01013a;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
+containing a value of this type.
+         */
+        public static int useDefaultMargins=0x7f0100f8;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+         */
+        public static int voiceIcon=0x7f010178;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+         */
+        public static int widgetLayout=0x7f010148;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int windowActionBar=0x7f010045;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int windowActionBarOverlay=0x7f010047;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int windowActionModeOverlay=0x7f010048;
@@ -2942,9 +3075,9 @@ in (inches), mm (millimeters).
 The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
 some parent container.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int windowFixedHeightMajor=0x7f01004c;
@@ -2955,9 +3088,9 @@ in (inches), mm (millimeters).
 The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
 some parent container.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int windowFixedHeightMinor=0x7f01004a;
@@ -2968,9 +3101,9 @@ in (inches), mm (millimeters).
 The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
 some parent container.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int windowFixedWidthMajor=0x7f010049;
@@ -2981,9 +3114,9 @@ in (inches), mm (millimeters).
 The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
 some parent container.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int windowFixedWidthMinor=0x7f01004b;
@@ -2994,9 +3127,9 @@ in (inches), mm (millimeters).
 The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
 some parent container.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int windowMinWidthMajor=0x7f01004d;
@@ -3007,24 +3140,24 @@ in (inches), mm (millimeters).
 The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
 some parent container.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int windowMinWidthMinor=0x7f01004e;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
          */
         public static int windowNoTitle=0x7f010046;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
          */
-        public static int yesNoPreferenceStyle=0x7f01014d;
+        public static int yesNoPreferenceStyle=0x7f01015b;
     }
     public static final class bool {
         public static int abc_action_bar_embed_tabs=0x7f060003;
@@ -3530,150 +3663,151 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static int cardview_default_elevation=0x7f07004f;
         public static int cardview_default_radius=0x7f070050;
         public static int circular_progress_border=0x7f070051;
-        public static int design_appbar_elevation=0x7f070052;
-        public static int design_bottom_sheet_modal_elevation=0x7f070053;
-        public static int design_bottom_sheet_modal_peek_height=0x7f070054;
-        public static int design_fab_border_width=0x7f070055;
-        public static int design_fab_elevation=0x7f070056;
-        public static int design_fab_image_size=0x7f070057;
-        public static int design_fab_size_mini=0x7f070058;
-        public static int design_fab_size_normal=0x7f070059;
-        public static int design_fab_translation_z_pressed=0x7f07005a;
-        public static int design_navigation_elevation=0x7f07005b;
-        public static int design_navigation_icon_padding=0x7f07005c;
-        public static int design_navigation_icon_size=0x7f07005d;
+        public static int default_gap=0x7f070052;
+        public static int design_appbar_elevation=0x7f070053;
+        public static int design_bottom_sheet_modal_elevation=0x7f070054;
+        public static int design_bottom_sheet_modal_peek_height=0x7f070055;
+        public static int design_fab_border_width=0x7f070056;
+        public static int design_fab_elevation=0x7f070057;
+        public static int design_fab_image_size=0x7f070058;
+        public static int design_fab_size_mini=0x7f070059;
+        public static int design_fab_size_normal=0x7f07005a;
+        public static int design_fab_translation_z_pressed=0x7f07005b;
+        public static int design_navigation_elevation=0x7f07005c;
+        public static int design_navigation_icon_padding=0x7f07005d;
+        public static int design_navigation_icon_size=0x7f07005e;
         public static int design_navigation_max_width=0x7f070010;
-        public static int design_navigation_padding_bottom=0x7f07005e;
-        public static int design_navigation_separator_vertical_padding=0x7f07005f;
+        public static int design_navigation_padding_bottom=0x7f07005f;
+        public static int design_navigation_separator_vertical_padding=0x7f070060;
         public static int design_snackbar_action_inline_max_width=0x7f070011;
         public static int design_snackbar_background_corner_radius=0x7f070012;
-        public static int design_snackbar_elevation=0x7f070060;
+        public static int design_snackbar_elevation=0x7f070061;
         public static int design_snackbar_extra_spacing_horizontal=0x7f070013;
         public static int design_snackbar_max_width=0x7f070014;
         public static int design_snackbar_min_width=0x7f070015;
-        public static int design_snackbar_padding_horizontal=0x7f070061;
-        public static int design_snackbar_padding_vertical=0x7f070062;
+        public static int design_snackbar_padding_horizontal=0x7f070062;
+        public static int design_snackbar_padding_vertical=0x7f070063;
         public static int design_snackbar_padding_vertical_2lines=0x7f070016;
-        public static int design_snackbar_text_size=0x7f070063;
-        public static int design_tab_max_width=0x7f070064;
+        public static int design_snackbar_text_size=0x7f070064;
+        public static int design_tab_max_width=0x7f070065;
         public static int design_tab_scrollable_min_width=0x7f070017;
-        public static int design_tab_text_size=0x7f070065;
-        public static int design_tab_text_size_2line=0x7f070066;
-        public static int disabled_alpha_material_dark=0x7f070067;
-        public static int disabled_alpha_material_light=0x7f070068;
-        public static int highlight_alpha_material_colored=0x7f070069;
-        public static int highlight_alpha_material_dark=0x7f07006a;
-        public static int highlight_alpha_material_light=0x7f07006b;
-        public static int item_touch_helper_max_drag_scroll_per_frame=0x7f07006c;
-        public static int item_touch_helper_swipe_escape_max_velocity=0x7f07006d;
-        public static int item_touch_helper_swipe_escape_velocity=0x7f07006e;
-        public static int material_drawer_account_header_compact=0x7f07006f;
-        public static int material_drawer_account_header_dropdown=0x7f070070;
-        public static int material_drawer_account_header_dropdown_margin_bottom=0x7f070071;
-        public static int material_drawer_account_header_dropdown_padding=0x7f070072;
-        public static int material_drawer_account_header_height=0x7f070073;
-        public static int material_drawer_account_header_height_compact=0x7f070074;
-        public static int material_drawer_account_header_horizontal_bottom=0x7f070075;
-        public static int material_drawer_account_header_horizontal_top=0x7f070076;
-        public static int material_drawer_account_header_secondary=0x7f070077;
-        public static int material_drawer_account_header_selected=0x7f070078;
-        public static int material_drawer_account_header_text=0x7f070079;
-        public static int material_drawer_item_padding=0x7f07007a;
-        public static int material_drawer_item_primary=0x7f07007b;
-        public static int material_drawer_item_primary_description=0x7f07007c;
-        public static int material_drawer_item_primary_icon=0x7f07007d;
-        public static int material_drawer_item_primary_icon_padding=0x7f07007e;
-        public static int material_drawer_item_primary_icon_padding_right=0x7f07007f;
-        public static int material_drawer_item_primary_text=0x7f070080;
-        public static int material_drawer_item_profile=0x7f070081;
-        public static int material_drawer_item_profile_description=0x7f070082;
-        public static int material_drawer_item_profile_icon=0x7f070083;
-        public static int material_drawer_item_profile_icon_padding=0x7f070084;
-        public static int material_drawer_item_profile_icon_padding_right=0x7f070085;
-        public static int material_drawer_item_profile_icon_width=0x7f070086;
-        public static int material_drawer_item_profile_setting_icon_padding=0x7f070087;
-        public static int material_drawer_item_profile_text=0x7f070088;
-        public static int material_drawer_item_secondary=0x7f070089;
-        public static int material_drawer_item_secondary_description=0x7f07008a;
-        public static int material_drawer_item_secondary_extra_text=0x7f07008b;
-        public static int material_drawer_item_secondary_icon=0x7f07008c;
-        public static int material_drawer_item_secondary_icon_padding=0x7f07008d;
-        public static int material_drawer_item_secondary_icon_padding_right=0x7f07008e;
-        public static int material_drawer_item_secondary_text=0x7f07008f;
-        public static int material_drawer_item_section_text=0x7f070090;
-        public static int material_drawer_margin=0x7f070091;
-        public static int material_drawer_padding=0x7f070092;
+        public static int design_tab_text_size=0x7f070066;
+        public static int design_tab_text_size_2line=0x7f070067;
+        public static int disabled_alpha_material_dark=0x7f070068;
+        public static int disabled_alpha_material_light=0x7f070069;
+        public static int highlight_alpha_material_colored=0x7f07006a;
+        public static int highlight_alpha_material_dark=0x7f07006b;
+        public static int highlight_alpha_material_light=0x7f07006c;
+        public static int item_touch_helper_max_drag_scroll_per_frame=0x7f07006d;
+        public static int item_touch_helper_swipe_escape_max_velocity=0x7f07006e;
+        public static int item_touch_helper_swipe_escape_velocity=0x7f07006f;
+        public static int material_drawer_account_header_compact=0x7f070070;
+        public static int material_drawer_account_header_dropdown=0x7f070071;
+        public static int material_drawer_account_header_dropdown_margin_bottom=0x7f070072;
+        public static int material_drawer_account_header_dropdown_padding=0x7f070073;
+        public static int material_drawer_account_header_height=0x7f070074;
+        public static int material_drawer_account_header_height_compact=0x7f070075;
+        public static int material_drawer_account_header_horizontal_bottom=0x7f070076;
+        public static int material_drawer_account_header_horizontal_top=0x7f070077;
+        public static int material_drawer_account_header_secondary=0x7f070078;
+        public static int material_drawer_account_header_selected=0x7f070079;
+        public static int material_drawer_account_header_text=0x7f07007a;
+        public static int material_drawer_item_padding=0x7f07007b;
+        public static int material_drawer_item_primary=0x7f07007c;
+        public static int material_drawer_item_primary_description=0x7f07007d;
+        public static int material_drawer_item_primary_icon=0x7f07007e;
+        public static int material_drawer_item_primary_icon_padding=0x7f07007f;
+        public static int material_drawer_item_primary_icon_padding_right=0x7f070080;
+        public static int material_drawer_item_primary_text=0x7f070081;
+        public static int material_drawer_item_profile=0x7f070082;
+        public static int material_drawer_item_profile_description=0x7f070083;
+        public static int material_drawer_item_profile_icon=0x7f070084;
+        public static int material_drawer_item_profile_icon_padding=0x7f070085;
+        public static int material_drawer_item_profile_icon_padding_right=0x7f070086;
+        public static int material_drawer_item_profile_icon_width=0x7f070087;
+        public static int material_drawer_item_profile_setting_icon_padding=0x7f070088;
+        public static int material_drawer_item_profile_text=0x7f070089;
+        public static int material_drawer_item_secondary=0x7f07008a;
+        public static int material_drawer_item_secondary_description=0x7f07008b;
+        public static int material_drawer_item_secondary_extra_text=0x7f07008c;
+        public static int material_drawer_item_secondary_icon=0x7f07008d;
+        public static int material_drawer_item_secondary_icon_padding=0x7f07008e;
+        public static int material_drawer_item_secondary_icon_padding_right=0x7f07008f;
+        public static int material_drawer_item_secondary_text=0x7f070090;
+        public static int material_drawer_item_section_text=0x7f070091;
+        public static int material_drawer_margin=0x7f070092;
+        public static int material_drawer_padding=0x7f070093;
         public static int material_drawer_vertical_padding=0x7f070018;
-        public static int material_drawer_width=0x7f070093;
-        public static int material_mini_drawer_item=0x7f070094;
-        public static int material_mini_drawer_item_badge_text=0x7f070095;
-        public static int material_mini_drawer_item_icon=0x7f070096;
-        public static int material_mini_drawer_item_icon_padding=0x7f070097;
-        public static int material_mini_drawer_item_padding=0x7f070098;
-        public static int materialize_avatar=0x7f070099;
-        public static int materialize_baseline_grid=0x7f07009a;
-        public static int materialize_baseline_grid_small=0x7f07009b;
-        public static int materialize_baseline_grid_x10=0x7f07009c;
-        public static int materialize_baseline_grid_x2=0x7f07009d;
-        public static int materialize_baseline_grid_x3=0x7f07009e;
-        public static int materialize_baseline_grid_x4=0x7f07009f;
-        public static int materialize_baseline_grid_x5=0x7f0700a0;
-        public static int materialize_baseline_grid_x6=0x7f0700a1;
-        public static int materialize_baseline_grid_x7=0x7f0700a2;
-        public static int materialize_baseline_grid_x8=0x7f0700a3;
-        public static int materialize_baseline_grid_x9=0x7f0700a4;
-        public static int materialize_content_margin_with_icon=0x7f0700a5;
-        public static int materialize_icon=0x7f0700a6;
-        public static int materialize_listitem=0x7f0700a7;
-        public static int materialize_right_side_icon_margin=0x7f0700a8;
+        public static int material_drawer_width=0x7f070094;
+        public static int material_mini_drawer_item=0x7f070095;
+        public static int material_mini_drawer_item_badge_text=0x7f070096;
+        public static int material_mini_drawer_item_icon=0x7f070097;
+        public static int material_mini_drawer_item_icon_padding=0x7f070098;
+        public static int material_mini_drawer_item_padding=0x7f070099;
+        public static int materialize_avatar=0x7f07009a;
+        public static int materialize_baseline_grid=0x7f07009b;
+        public static int materialize_baseline_grid_small=0x7f07009c;
+        public static int materialize_baseline_grid_x10=0x7f07009d;
+        public static int materialize_baseline_grid_x2=0x7f07009e;
+        public static int materialize_baseline_grid_x3=0x7f07009f;
+        public static int materialize_baseline_grid_x4=0x7f0700a0;
+        public static int materialize_baseline_grid_x5=0x7f0700a1;
+        public static int materialize_baseline_grid_x6=0x7f0700a2;
+        public static int materialize_baseline_grid_x7=0x7f0700a3;
+        public static int materialize_baseline_grid_x8=0x7f0700a4;
+        public static int materialize_baseline_grid_x9=0x7f0700a5;
+        public static int materialize_content_margin_with_icon=0x7f0700a6;
+        public static int materialize_icon=0x7f0700a7;
+        public static int materialize_listitem=0x7f0700a8;
+        public static int materialize_right_side_icon_margin=0x7f0700a9;
         public static int materialize_screen_edge=0x7f070019;
-        public static int materialize_spacing=0x7f0700a9;
-        public static int materialize_statusbar=0x7f0700aa;
-        public static int materialize_subtitle=0x7f0700ab;
-        public static int materialize_toolbar=0x7f0700ac;
-        public static int materialize_touch_target=0x7f0700ad;
-        public static int materialize_typography_body1=0x7f0700ae;
-        public static int materialize_typography_body2=0x7f0700af;
-        public static int materialize_typography_caption=0x7f0700b0;
-        public static int materialize_typography_display1=0x7f0700b1;
-        public static int materialize_typography_headline=0x7f0700b2;
-        public static int materialize_typography_subheading=0x7f0700b3;
-        public static int materialize_typography_title=0x7f0700b4;
-        public static int md_action_corner_radius=0x7f0700b5;
-        public static int md_bg_corner_radius=0x7f0700b6;
-        public static int md_button_frame_vertical_padding=0x7f0700b7;
-        public static int md_button_height=0x7f0700b8;
-        public static int md_button_inset_horizontal=0x7f0700b9;
-        public static int md_button_inset_vertical=0x7f0700ba;
-        public static int md_button_min_width=0x7f0700bb;
-        public static int md_button_padding_frame_side=0x7f0700bc;
-        public static int md_button_padding_horizontal=0x7f0700bd;
-        public static int md_button_padding_horizontal_internalexternal=0x7f0700be;
-        public static int md_button_padding_vertical=0x7f0700bf;
-        public static int md_button_textpadding_horizontal=0x7f0700c0;
-        public static int md_button_textsize=0x7f0700c1;
-        public static int md_content_padding_bottom=0x7f0700c2;
-        public static int md_content_padding_top=0x7f0700c3;
-        public static int md_content_textsize=0x7f0700c4;
-        public static int md_dialog_frame_margin=0x7f0700c5;
-        public static int md_divider_height=0x7f0700c6;
-        public static int md_icon_margin=0x7f0700c7;
-        public static int md_icon_max_size=0x7f0700c8;
-        public static int md_listitem_control_margin=0x7f0700c9;
-        public static int md_listitem_height=0x7f0700ca;
-        public static int md_listitem_margin_left=0x7f0700cb;
-        public static int md_listitem_textsize=0x7f0700cc;
-        public static int md_listitem_vertical_margin=0x7f0700cd;
-        public static int md_listitem_vertical_margin_choice=0x7f0700ce;
-        public static int md_neutral_button_margin=0x7f0700cf;
-        public static int md_notitle_vertical_padding=0x7f0700d0;
-        public static int md_simplelistitem_padding_top=0x7f0700d1;
-        public static int md_title_frame_margin_bottom=0x7f0700d2;
-        public static int md_title_frame_margin_bottom_less=0x7f0700d3;
-        public static int md_title_textsize=0x7f0700d4;
-        public static int notification_large_icon_height=0x7f0700d5;
-        public static int notification_large_icon_width=0x7f0700d6;
-        public static int notification_subtext_size=0x7f0700d7;
+        public static int materialize_spacing=0x7f0700aa;
+        public static int materialize_statusbar=0x7f0700ab;
+        public static int materialize_subtitle=0x7f0700ac;
+        public static int materialize_toolbar=0x7f0700ad;
+        public static int materialize_touch_target=0x7f0700ae;
+        public static int materialize_typography_body1=0x7f0700af;
+        public static int materialize_typography_body2=0x7f0700b0;
+        public static int materialize_typography_caption=0x7f0700b1;
+        public static int materialize_typography_display1=0x7f0700b2;
+        public static int materialize_typography_headline=0x7f0700b3;
+        public static int materialize_typography_subheading=0x7f0700b4;
+        public static int materialize_typography_title=0x7f0700b5;
+        public static int md_action_corner_radius=0x7f0700b6;
+        public static int md_bg_corner_radius=0x7f0700b7;
+        public static int md_button_frame_vertical_padding=0x7f0700b8;
+        public static int md_button_height=0x7f0700b9;
+        public static int md_button_inset_horizontal=0x7f0700ba;
+        public static int md_button_inset_vertical=0x7f0700bb;
+        public static int md_button_min_width=0x7f0700bc;
+        public static int md_button_padding_frame_side=0x7f0700bd;
+        public static int md_button_padding_horizontal=0x7f0700be;
+        public static int md_button_padding_horizontal_internalexternal=0x7f0700bf;
+        public static int md_button_padding_vertical=0x7f0700c0;
+        public static int md_button_textpadding_horizontal=0x7f0700c1;
+        public static int md_button_textsize=0x7f0700c2;
+        public static int md_content_padding_bottom=0x7f0700c3;
+        public static int md_content_padding_top=0x7f0700c4;
+        public static int md_content_textsize=0x7f0700c5;
+        public static int md_dialog_frame_margin=0x7f0700c6;
+        public static int md_divider_height=0x7f0700c7;
+        public static int md_icon_margin=0x7f0700c8;
+        public static int md_icon_max_size=0x7f0700c9;
+        public static int md_listitem_control_margin=0x7f0700ca;
+        public static int md_listitem_height=0x7f0700cb;
+        public static int md_listitem_margin_left=0x7f0700cc;
+        public static int md_listitem_textsize=0x7f0700cd;
+        public static int md_listitem_vertical_margin=0x7f0700ce;
+        public static int md_listitem_vertical_margin_choice=0x7f0700cf;
+        public static int md_neutral_button_margin=0x7f0700d0;
+        public static int md_notitle_vertical_padding=0x7f0700d1;
+        public static int md_simplelistitem_padding_top=0x7f0700d2;
+        public static int md_title_frame_margin_bottom=0x7f0700d3;
+        public static int md_title_frame_margin_bottom_less=0x7f0700d4;
+        public static int md_title_textsize=0x7f0700d5;
+        public static int notification_large_icon_height=0x7f0700d6;
+        public static int notification_large_icon_width=0x7f0700d7;
+        public static int notification_subtext_size=0x7f0700d8;
         public static int tool_bar_top_padding=0x7f07001b;
     }
     public static final class drawable {
@@ -3777,122 +3911,124 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static int notification_template_icon_bg=0x7f020061;
     }
     public static final class id {
-        public static int action0=0x7f0c00c2;
-        public static int action_bar=0x7f0c0073;
+        public static int action0=0x7f0c00c5;
+        public static int action_bar=0x7f0c0076;
         public static int action_bar_activity_content=0x7f0c0000;
-        public static int action_bar_container=0x7f0c0072;
-        public static int action_bar_root=0x7f0c006e;
+        public static int action_bar_container=0x7f0c0075;
+        public static int action_bar_root=0x7f0c0071;
         public static int action_bar_spinner=0x7f0c0001;
-        public static int action_bar_subtitle=0x7f0c0054;
-        public static int action_bar_title=0x7f0c0053;
-        public static int action_context_bar=0x7f0c0074;
-        public static int action_divider=0x7f0c00c6;
+        public static int action_bar_subtitle=0x7f0c0057;
+        public static int action_bar_title=0x7f0c0056;
+        public static int action_context_bar=0x7f0c0077;
+        public static int action_divider=0x7f0c00c9;
         public static int action_menu_divider=0x7f0c0002;
         public static int action_menu_presenter=0x7f0c0003;
-        public static int action_mode_bar=0x7f0c0070;
-        public static int action_mode_bar_stub=0x7f0c006f;
-        public static int action_mode_close_button=0x7f0c0055;
-        public static int activity_chooser_view_content=0x7f0c0056;
-        public static int add=0x7f0c004b;
-        public static int alertTitle=0x7f0c0062;
-        public static int always=0x7f0c004c;
-        public static int beginning=0x7f0c0047;
+        public static int action_mode_bar=0x7f0c0073;
+        public static int action_mode_bar_stub=0x7f0c0072;
+        public static int action_mode_close_button=0x7f0c0058;
+        public static int activity_chooser_view_content=0x7f0c0059;
+        public static int add=0x7f0c004e;
+        public static int alertTitle=0x7f0c0065;
+        public static int alignBounds=0x7f0c0049;
+        public static int alignMargins=0x7f0c004a;
+        public static int always=0x7f0c004f;
+        public static int beginning=0x7f0c004b;
         public static int bottom=0x7f0c0036;
-        public static int buttonDefaultNegative=0x7f0c00be;
-        public static int buttonDefaultNeutral=0x7f0c00bd;
-        public static int buttonDefaultPositive=0x7f0c00bf;
-        public static int buttonPanel=0x7f0c005d;
-        public static int cancel_action=0x7f0c00c3;
+        public static int buttonDefaultNegative=0x7f0c00c1;
+        public static int buttonDefaultNeutral=0x7f0c00c0;
+        public static int buttonDefaultPositive=0x7f0c00c2;
+        public static int buttonPanel=0x7f0c0060;
+        public static int cancel_action=0x7f0c00c6;
         public static int center=0x7f0c0021;
         public static int center_horizontal=0x7f0c0037;
         public static int center_vertical=0x7f0c0038;
-        public static int checkbox=0x7f0c006b;
-        public static int chronometer=0x7f0c00c9;
-        public static int circular=0x7f0c0049;
+        public static int checkbox=0x7f0c006e;
+        public static int chronometer=0x7f0c00cc;
+        public static int circular=0x7f0c004d;
         public static int clip_horizontal=0x7f0c0042;
         public static int clip_vertical=0x7f0c0043;
-        public static int collapseActionView=0x7f0c004d;
-        public static int content=0x7f0c00b6;
-        public static int contentListView=0x7f0c00bb;
-        public static int contentListViewFrame=0x7f0c00ba;
-        public static int contentPanel=0x7f0c0063;
-        public static int contentScrollView=0x7f0c00b5;
-        public static int content_layout=0x7f0c00b4;
-        public static int control=0x7f0c00bc;
-        public static int custom=0x7f0c0069;
-        public static int customPanel=0x7f0c0068;
-        public static int customViewFrame=0x7f0c00b8;
-        public static int decor_content_parent=0x7f0c0071;
-        public static int default_activity_button=0x7f0c0059;
-        public static int design_bottom_sheet=0x7f0c0083;
-        public static int design_menu_item_action_area=0x7f0c008a;
-        public static int design_menu_item_action_area_stub=0x7f0c0089;
-        public static int design_menu_item_text=0x7f0c0088;
-        public static int design_navigation_view=0x7f0c0087;
+        public static int collapseActionView=0x7f0c0050;
+        public static int content=0x7f0c00b9;
+        public static int contentListView=0x7f0c00be;
+        public static int contentListViewFrame=0x7f0c00bd;
+        public static int contentPanel=0x7f0c0066;
+        public static int contentScrollView=0x7f0c00b8;
+        public static int content_layout=0x7f0c00b7;
+        public static int control=0x7f0c00bf;
+        public static int custom=0x7f0c006c;
+        public static int customPanel=0x7f0c006b;
+        public static int customViewFrame=0x7f0c00bb;
+        public static int decor_content_parent=0x7f0c0074;
+        public static int default_activity_button=0x7f0c005c;
+        public static int design_bottom_sheet=0x7f0c0086;
+        public static int design_menu_item_action_area=0x7f0c008d;
+        public static int design_menu_item_action_area_stub=0x7f0c008c;
+        public static int design_menu_item_text=0x7f0c008b;
+        public static int design_navigation_view=0x7f0c008a;
         public static int disableHome=0x7f0c0027;
-        public static int edit_query=0x7f0c0075;
+        public static int edit_query=0x7f0c0078;
         public static int end=0x7f0c0022;
-        public static int end_padder=0x7f0c00ce;
+        public static int end_padder=0x7f0c00d1;
         public static int enterAlways=0x7f0c002e;
         public static int enterAlwaysCollapsed=0x7f0c002f;
         public static int exitUntilCollapsed=0x7f0c0030;
-        public static int expand_activities_button=0x7f0c0057;
-        public static int expanded_menu=0x7f0c006a;
+        public static int expand_activities_button=0x7f0c005a;
+        public static int expanded_menu=0x7f0c006d;
         public static int fill=0x7f0c0044;
         public static int fill_horizontal=0x7f0c0045;
         public static int fill_vertical=0x7f0c0039;
-        public static int fixed=0x7f0c0051;
-        public static int fragment_container=0x7f0c0094;
+        public static int fixed=0x7f0c0054;
+        public static int fragment_container=0x7f0c0097;
         public static int home=0x7f0c0004;
         public static int homeAsUp=0x7f0c0028;
-        public static int horizontal=0x7f0c004a;
-        public static int icon=0x7f0c005b;
-        public static int icon_frame=0x7f0c00cf;
+        public static int horizontal=0x7f0c0047;
+        public static int icon=0x7f0c005e;
+        public static int icon_frame=0x7f0c00d2;
         public static int iconics_tag_id=0x7f0c0005;
-        public static int ifRoom=0x7f0c004e;
-        public static int image=0x7f0c0058;
-        public static int image_avatar=0x7f0c0095;
-        public static int image_info=0x7f0c0098;
-        public static int info=0x7f0c00cd;
-        public static int input_code=0x7f0c008f;
-        public static int input_name=0x7f0c008c;
-        public static int input_password=0x7f0c008e;
-        public static int input_user=0x7f0c008d;
+        public static int ifRoom=0x7f0c0051;
+        public static int image=0x7f0c005b;
+        public static int image_avatar=0x7f0c0098;
+        public static int image_info=0x7f0c009b;
+        public static int info=0x7f0c00d0;
+        public static int input_code=0x7f0c0092;
+        public static int input_name=0x7f0c008f;
+        public static int input_password=0x7f0c0091;
+        public static int input_user=0x7f0c0090;
         public static int item_touch_helper_previous_elevation=0x7f0c0006;
-        public static int label=0x7f0c00c0;
-        public static int label_advance_options=0x7f0c0091;
-        public static int label_content=0x7f0c009a;
-        public static int label_spec=0x7f0c0090;
-        public static int label_subtittle=0x7f0c0099;
-        public static int label_tittle=0x7f0c0097;
+        public static int label=0x7f0c00c3;
+        public static int label_advance_options=0x7f0c0094;
+        public static int label_content=0x7f0c009d;
+        public static int label_spec=0x7f0c0093;
+        public static int label_subtittle=0x7f0c009c;
+        public static int label_tittle=0x7f0c009a;
         public static int left=0x7f0c003a;
-        public static int line1=0x7f0c00c7;
-        public static int line3=0x7f0c00cb;
-        public static int linearLayout2=0x7f0c0096;
-        public static int list=0x7f0c00d1;
+        public static int line1=0x7f0c00ca;
+        public static int line3=0x7f0c00ce;
+        public static int linearLayout2=0x7f0c0099;
+        public static int list=0x7f0c00d4;
         public static int listMode=0x7f0c0024;
-        public static int list_container=0x7f0c00d0;
-        public static int list_item=0x7f0c005a;
-        public static int material_drawer_account_header=0x7f0c009d;
-        public static int material_drawer_account_header_background=0x7f0c009c;
-        public static int material_drawer_account_header_current=0x7f0c00a1;
-        public static int material_drawer_account_header_email=0x7f0c00a5;
-        public static int material_drawer_account_header_name=0x7f0c00a4;
-        public static int material_drawer_account_header_small_first=0x7f0c009e;
-        public static int material_drawer_account_header_small_second=0x7f0c009f;
-        public static int material_drawer_account_header_small_third=0x7f0c00a0;
-        public static int material_drawer_account_header_text_section=0x7f0c00a2;
-        public static int material_drawer_account_header_text_switcher=0x7f0c00a3;
+        public static int list_container=0x7f0c00d3;
+        public static int list_item=0x7f0c005d;
+        public static int material_drawer_account_header=0x7f0c00a0;
+        public static int material_drawer_account_header_background=0x7f0c009f;
+        public static int material_drawer_account_header_current=0x7f0c00a4;
+        public static int material_drawer_account_header_email=0x7f0c00a8;
+        public static int material_drawer_account_header_name=0x7f0c00a7;
+        public static int material_drawer_account_header_small_first=0x7f0c00a1;
+        public static int material_drawer_account_header_small_second=0x7f0c00a2;
+        public static int material_drawer_account_header_small_third=0x7f0c00a3;
+        public static int material_drawer_account_header_text_section=0x7f0c00a5;
+        public static int material_drawer_account_header_text_switcher=0x7f0c00a6;
         public static int material_drawer_animation=0x7f0c0007;
-        public static int material_drawer_arrow=0x7f0c00ab;
-        public static int material_drawer_arrow_container=0x7f0c00aa;
-        public static int material_drawer_badge=0x7f0c00ac;
-        public static int material_drawer_badge_container=0x7f0c00ad;
-        public static int material_drawer_description=0x7f0c00a9;
-        public static int material_drawer_divider=0x7f0c00a6;
-        public static int material_drawer_email=0x7f0c00af;
-        public static int material_drawer_icon=0x7f0c00a7;
-        public static int material_drawer_inner_shadow=0x7f0c00b3;
+        public static int material_drawer_arrow=0x7f0c00ae;
+        public static int material_drawer_arrow_container=0x7f0c00ad;
+        public static int material_drawer_badge=0x7f0c00af;
+        public static int material_drawer_badge_container=0x7f0c00b0;
+        public static int material_drawer_description=0x7f0c00ac;
+        public static int material_drawer_divider=0x7f0c00a9;
+        public static int material_drawer_email=0x7f0c00b2;
+        public static int material_drawer_icon=0x7f0c00aa;
+        public static int material_drawer_inner_shadow=0x7f0c00b6;
         public static int material_drawer_item_container=0x7f0c0008;
         public static int material_drawer_item_divider=0x7f0c0009;
         public static int material_drawer_item_expandable=0x7f0c000a;
@@ -3907,86 +4043,87 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static int material_drawer_item_secondary_switch=0x7f0c0013;
         public static int material_drawer_item_secondary_toggle=0x7f0c0014;
         public static int material_drawer_item_section=0x7f0c0015;
-        public static int material_drawer_layout=0x7f0c009b;
+        public static int material_drawer_layout=0x7f0c009e;
         public static int material_drawer_menu_default_group=0x7f0c0016;
-        public static int material_drawer_name=0x7f0c00a8;
-        public static int material_drawer_profileIcon=0x7f0c00ae;
+        public static int material_drawer_name=0x7f0c00ab;
+        public static int material_drawer_profileIcon=0x7f0c00b1;
         public static int material_drawer_profile_header=0x7f0c0017;
-        public static int material_drawer_recycler_view=0x7f0c00b2;
+        public static int material_drawer_recycler_view=0x7f0c00b5;
         public static int material_drawer_slider_layout=0x7f0c0018;
         public static int material_drawer_sticky_footer=0x7f0c0019;
         public static int material_drawer_sticky_header=0x7f0c001a;
-        public static int material_drawer_switch=0x7f0c00b0;
-        public static int material_drawer_toggle=0x7f0c00b1;
+        public static int material_drawer_switch=0x7f0c00b3;
+        public static int material_drawer_toggle=0x7f0c00b4;
         public static int materialize_root=0x7f0c001b;
-        public static int media_actions=0x7f0c00c5;
-        public static int middle=0x7f0c0048;
-        public static int minMax=0x7f0c00b9;
+        public static int media_actions=0x7f0c00c8;
+        public static int middle=0x7f0c004c;
+        public static int minMax=0x7f0c00bc;
         public static int mini=0x7f0c0046;
         public static int multiply=0x7f0c003d;
-        public static int navigation_header_container=0x7f0c0086;
-        public static int never=0x7f0c004f;
+        public static int navigation_header_container=0x7f0c0089;
+        public static int never=0x7f0c0052;
         public static int none=0x7f0c0029;
         public static int normal=0x7f0c0025;
         public static int parallax=0x7f0c0034;
-        public static int parentPanel=0x7f0c005f;
+        public static int parentPanel=0x7f0c0062;
         public static int pin=0x7f0c0035;
         public static int progress_circular=0x7f0c001c;
         public static int progress_horizontal=0x7f0c001d;
-        public static int radio=0x7f0c006d;
-        public static int recycler_view=0x7f0c0092;
+        public static int radio=0x7f0c0070;
+        public static int recycler_view=0x7f0c0095;
         public static int right=0x7f0c003b;
-        public static int root=0x7f0c00b7;
+        public static int root=0x7f0c00ba;
         public static int screen=0x7f0c003e;
         public static int scroll=0x7f0c0031;
-        public static int scrollIndicatorDown=0x7f0c0067;
-        public static int scrollIndicatorUp=0x7f0c0064;
-        public static int scrollView=0x7f0c0065;
-        public static int scrollable=0x7f0c0052;
-        public static int search_badge=0x7f0c0077;
-        public static int search_bar=0x7f0c0076;
-        public static int search_button=0x7f0c0078;
-        public static int search_close_btn=0x7f0c007d;
-        public static int search_edit_frame=0x7f0c0079;
-        public static int search_go_btn=0x7f0c007f;
-        public static int search_mag_icon=0x7f0c007a;
-        public static int search_plate=0x7f0c007b;
-        public static int search_src_text=0x7f0c007c;
-        public static int search_voice_btn=0x7f0c0080;
-        public static int select_dialog_listview=0x7f0c0081;
-        public static int shortcut=0x7f0c006c;
+        public static int scrollIndicatorDown=0x7f0c006a;
+        public static int scrollIndicatorUp=0x7f0c0067;
+        public static int scrollView=0x7f0c0068;
+        public static int scrollable=0x7f0c0055;
+        public static int search_badge=0x7f0c007a;
+        public static int search_bar=0x7f0c0079;
+        public static int search_button=0x7f0c007b;
+        public static int search_close_btn=0x7f0c0080;
+        public static int search_edit_frame=0x7f0c007c;
+        public static int search_go_btn=0x7f0c0082;
+        public static int search_mag_icon=0x7f0c007d;
+        public static int search_plate=0x7f0c007e;
+        public static int search_src_text=0x7f0c007f;
+        public static int search_voice_btn=0x7f0c0083;
+        public static int select_dialog_listview=0x7f0c0084;
+        public static int shortcut=0x7f0c006f;
         public static int showCustom=0x7f0c002a;
         public static int showHome=0x7f0c002b;
         public static int showTitle=0x7f0c002c;
-        public static int snackbar_action=0x7f0c0085;
-        public static int snackbar_text=0x7f0c0084;
+        public static int snackbar_action=0x7f0c0088;
+        public static int snackbar_text=0x7f0c0087;
         public static int snap=0x7f0c0032;
-        public static int spacer=0x7f0c005e;
+        public static int spacer=0x7f0c0061;
         public static int split_action_bar=0x7f0c001e;
         public static int src_atop=0x7f0c003f;
         public static int src_in=0x7f0c0040;
         public static int src_over=0x7f0c0041;
         public static int start=0x7f0c0023;
-        public static int status_bar_latest_event_content=0x7f0c00c4;
-        public static int submit_area=0x7f0c007e;
-        public static int switchWidget=0x7f0c00d2;
+        public static int status_bar_latest_event_content=0x7f0c00c7;
+        public static int submit_area=0x7f0c0081;
+        public static int switchWidget=0x7f0c00d5;
         public static int tabMode=0x7f0c0026;
-        public static int text=0x7f0c00cc;
-        public static int text2=0x7f0c00ca;
-        public static int textSpacerNoButtons=0x7f0c0066;
-        public static int textView4=0x7f0c008b;
-        public static int time=0x7f0c00c8;
-        public static int title=0x7f0c005c;
-        public static int titleFrame=0x7f0c00c1;
-        public static int title_template=0x7f0c0061;
-        public static int toolbar=0x7f0c0093;
+        public static int text=0x7f0c00cf;
+        public static int text2=0x7f0c00cd;
+        public static int textSpacerNoButtons=0x7f0c0069;
+        public static int textView4=0x7f0c008e;
+        public static int time=0x7f0c00cb;
+        public static int title=0x7f0c005f;
+        public static int titleFrame=0x7f0c00c4;
+        public static int title_template=0x7f0c0064;
+        public static int toolbar=0x7f0c0096;
         public static int top=0x7f0c003c;
-        public static int topPanel=0x7f0c0060;
-        public static int touch_outside=0x7f0c0082;
+        public static int topPanel=0x7f0c0063;
+        public static int touch_outside=0x7f0c0085;
         public static int up=0x7f0c001f;
         public static int useLogo=0x7f0c002d;
+        public static int vertical=0x7f0c0048;
         public static int view_offset_helper=0x7f0c0020;
-        public static int withText=0x7f0c0050;
+        public static int withText=0x7f0c0053;
         public static int wrap_content=0x7f0c0033;
     }
     public static final class integer {
@@ -4398,23 +4535,23 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
          */
         public static int MaterialBaseBaseTheme_Light_DarkToolbar=0x7f0800e9;
         /** 
-        <item name="android:dialogTheme">@style/MaterialBaseTheme.Dialog</item>
-        <item name="android:alertDialogTheme">@style/MaterialBaseTheme.AlertDialog</item>
+        <item tableName="android:dialogTheme">@style/MaterialBaseTheme.Dialog</item>
+        <item tableName="android:alertDialogTheme">@style/MaterialBaseTheme.AlertDialog</item>
         
          */
         public static int MaterialBaseTheme=0x7f080022;
         public static int MaterialBaseTheme_AlertDialog=0x7f080023;
         public static int MaterialBaseTheme_Dialog=0x7f080024;
         /** 
-        <item name="android:dialogTheme">@style/MaterialBaseTheme.Light.Dialog</item>
-        <item name="android:alertDialogTheme">@style/MaterialBaseTheme.Light.AlertDialog</item>
+        <item tableName="android:dialogTheme">@style/MaterialBaseTheme.Light.Dialog</item>
+        <item tableName="android:alertDialogTheme">@style/MaterialBaseTheme.Light.AlertDialog</item>
         
          */
         public static int MaterialBaseTheme_Light=0x7f080025;
         public static int MaterialBaseTheme_Light_AlertDialog=0x7f080026;
         /** 
-        <item name="android:dialogTheme">@style/MaterialBaseTheme.Light.Dialog</item>
-        <item name="android:alertDialogTheme">@style/MaterialBaseTheme.Light.AlertDialog</item>
+        <item tableName="android:dialogTheme">@style/MaterialBaseTheme.Light.Dialog</item>
+        <item tableName="android:alertDialogTheme">@style/MaterialBaseTheme.Light.AlertDialog</item>
         
          */
         public static int MaterialBaseTheme_Light_DarkToolbar=0x7f080027;
@@ -4748,9 +4885,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #ActionBar} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:background
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:background
         */
         public static int ActionBar_background = 10;
         /**
@@ -4758,11 +4895,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #ActionBar} array.
 
 
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name org.roszonelib.notetools:backgroundSplit
+          @attr tableName org.roszonelib.notetools:backgroundSplit
         */
         public static int ActionBar_backgroundSplit = 12;
         /**
@@ -4770,11 +4907,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #ActionBar} array.
 
 
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name org.roszonelib.notetools:backgroundStacked
+          @attr tableName org.roszonelib.notetools:backgroundStacked
         */
         public static int ActionBar_backgroundStacked = 11;
         /**
@@ -4786,11 +4923,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:contentInsetEnd
+          @attr tableName org.roszonelib.notetools:contentInsetEnd
         */
         public static int ActionBar_contentInsetEnd = 21;
         /**
@@ -4802,11 +4939,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:contentInsetLeft
+          @attr tableName org.roszonelib.notetools:contentInsetLeft
         */
         public static int ActionBar_contentInsetLeft = 22;
         /**
@@ -4818,11 +4955,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:contentInsetRight
+          @attr tableName org.roszonelib.notetools:contentInsetRight
         */
         public static int ActionBar_contentInsetRight = 23;
         /**
@@ -4834,11 +4971,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:contentInsetStart
+          @attr tableName org.roszonelib.notetools:contentInsetStart
         */
         public static int ActionBar_contentInsetStart = 20;
         /**
@@ -4846,9 +4983,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #ActionBar} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:customNavigationLayout
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:customNavigationLayout
         */
         public static int ActionBar_customNavigationLayout = 13;
         /**
@@ -4870,7 +5007,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>showCustom</code></td><td>0x10</td><td></td></tr>
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
-          @attr name org.roszonelib.notetools:displayOptions
+          @attr tableName org.roszonelib.notetools:displayOptions
         */
         public static int ActionBar_displayOptions = 3;
         /**
@@ -4878,9 +5015,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #ActionBar} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:divider
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:divider
         */
         public static int ActionBar_divider = 9;
         /**
@@ -4892,11 +5029,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:elevation
+          @attr tableName org.roszonelib.notetools:elevation
         */
         public static int ActionBar_elevation = 24;
         /**
@@ -4908,11 +5045,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:height
+          @attr tableName org.roszonelib.notetools:height
         */
         public static int ActionBar_height = 0;
         /**
@@ -4922,11 +5059,11 @@ containing a value of this type.
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:hideOnContentScroll
+          @attr tableName org.roszonelib.notetools:hideOnContentScroll
         */
         public static int ActionBar_hideOnContentScroll = 19;
         /**
@@ -4934,9 +5071,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #ActionBar} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:homeAsUpIndicator
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:homeAsUpIndicator
         */
         public static int ActionBar_homeAsUpIndicator = 26;
         /**
@@ -4944,9 +5081,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #ActionBar} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:homeLayout
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:homeLayout
         */
         public static int ActionBar_homeLayout = 14;
         /**
@@ -4954,9 +5091,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #ActionBar} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:icon
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:icon
         */
         public static int ActionBar_icon = 7;
         /**
@@ -4964,9 +5101,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #ActionBar} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:indeterminateProgressStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:indeterminateProgressStyle
         */
         public static int ActionBar_indeterminateProgressStyle = 16;
         /**
@@ -4978,11 +5115,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:itemPadding
+          @attr tableName org.roszonelib.notetools:itemPadding
         */
         public static int ActionBar_itemPadding = 18;
         /**
@@ -4990,9 +5127,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #ActionBar} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:logo
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:logo
         */
         public static int ActionBar_logo = 8;
         /**
@@ -5010,7 +5147,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>listMode</code></td><td>1</td><td></td></tr>
 <tr><td><code>tabMode</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name org.roszonelib.notetools:navigationMode
+          @attr tableName org.roszonelib.notetools:navigationMode
         */
         public static int ActionBar_navigationMode = 2;
         /**
@@ -5018,9 +5155,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #ActionBar} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:popupTheme
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:popupTheme
         */
         public static int ActionBar_popupTheme = 25;
         /**
@@ -5032,11 +5169,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:progressBarPadding
+          @attr tableName org.roszonelib.notetools:progressBarPadding
         */
         public static int ActionBar_progressBarPadding = 17;
         /**
@@ -5044,9 +5181,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #ActionBar} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:progressBarStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:progressBarStyle
         */
         public static int ActionBar_progressBarStyle = 15;
         /**
@@ -5056,11 +5193,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:subtitle
+          @attr tableName org.roszonelib.notetools:subtitle
         */
         public static int ActionBar_subtitle = 4;
         /**
@@ -5068,9 +5205,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #ActionBar} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:subtitleTextStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:subtitleTextStyle
         */
         public static int ActionBar_subtitleTextStyle = 6;
         /**
@@ -5080,11 +5217,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:title
+          @attr tableName org.roszonelib.notetools:title
         */
         public static int ActionBar_title = 1;
         /**
@@ -5092,9 +5229,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #ActionBar} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:titleTextStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:titleTextStyle
         */
         public static int ActionBar_titleTextStyle = 5;
         /** Attributes that can be used with a ActionBarLayout.
@@ -5113,7 +5250,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /**
           <p>This symbol is the offset where the {@link android.R.attr#layout_gravity}
           attribute's value can be found in the {@link #ActionBarLayout} array.
-          @attr name android:layout_gravity
+          @attr tableName android:layout_gravity
         */
         public static int ActionBarLayout_android_layout_gravity = 0;
         /** Attributes that can be used with a ActionMenuItemView.
@@ -5132,7 +5269,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /**
           <p>This symbol is the offset where the {@link android.R.attr#minWidth}
           attribute's value can be found in the {@link #ActionMenuItemView} array.
-          @attr name android:minWidth
+          @attr tableName android:minWidth
         */
         public static int ActionMenuItemView_android_minWidth = 0;
         /** Attributes that can be used with a ActionMenuView.
@@ -5169,9 +5306,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #ActionMode} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:background
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:background
         */
         public static int ActionMode_background = 3;
         /**
@@ -5179,11 +5316,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #ActionMode} array.
 
 
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name org.roszonelib.notetools:backgroundSplit
+          @attr tableName org.roszonelib.notetools:backgroundSplit
         */
         public static int ActionMode_backgroundSplit = 4;
         /**
@@ -5191,9 +5328,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #ActionMode} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:closeItemLayout
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:closeItemLayout
         */
         public static int ActionMode_closeItemLayout = 5;
         /**
@@ -5205,11 +5342,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:height
+          @attr tableName org.roszonelib.notetools:height
         */
         public static int ActionMode_height = 0;
         /**
@@ -5217,9 +5354,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #ActionMode} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:subtitleTextStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:subtitleTextStyle
         */
         public static int ActionMode_subtitleTextStyle = 2;
         /**
@@ -5227,9 +5364,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #ActionMode} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:titleTextStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:titleTextStyle
         */
         public static int ActionMode_titleTextStyle = 1;
         /** Attributes that can be used with a ActivityChooserView.
@@ -5252,9 +5389,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:expandActivityOverflowButtonDrawable
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:expandActivityOverflowButtonDrawable
         */
         public static int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
@@ -5264,11 +5401,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:initialActivityCount
+          @attr tableName org.roszonelib.notetools:initialActivityCount
         */
         public static int ActivityChooserView_initialActivityCount = 0;
         /** Attributes that can be used with a AlertDialog.
@@ -5298,7 +5435,7 @@ containing a value of this type.
         /**
           <p>This symbol is the offset where the {@link android.R.attr#layout}
           attribute's value can be found in the {@link #AlertDialog} array.
-          @attr name android:layout
+          @attr tableName android:layout
         */
         public static int AlertDialog_android_layout = 0;
         /**
@@ -5306,9 +5443,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:buttonPanelSideLayout
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:buttonPanelSideLayout
         */
         public static int AlertDialog_buttonPanelSideLayout = 1;
         /**
@@ -5316,9 +5453,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:listItemLayout
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:listItemLayout
         */
         public static int AlertDialog_listItemLayout = 5;
         /**
@@ -5326,9 +5463,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:listLayout
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:listLayout
         */
         public static int AlertDialog_listLayout = 2;
         /**
@@ -5336,9 +5473,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:multiChoiceItemLayout
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:multiChoiceItemLayout
         */
         public static int AlertDialog_multiChoiceItemLayout = 3;
         /**
@@ -5346,9 +5483,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:singleChoiceItemLayout
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:singleChoiceItemLayout
         */
         public static int AlertDialog_singleChoiceItemLayout = 4;
         /** Attributes that can be used with a AppBarLayout.
@@ -5371,7 +5508,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /**
           <p>This symbol is the offset where the {@link android.R.attr#background}
           attribute's value can be found in the {@link #AppBarLayout} array.
-          @attr name android:background
+          @attr tableName android:background
         */
         public static int AppBarLayout_android_background = 0;
         /**
@@ -5383,11 +5520,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:elevation
+          @attr tableName org.roszonelib.notetools:elevation
         */
         public static int AppBarLayout_elevation = 1;
         /**
@@ -5397,11 +5534,11 @@ containing a value of this type.
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:expanded
+          @attr tableName org.roszonelib.notetools:expanded
         */
         public static int AppBarLayout_expanded = 2;
         /** Attributes that can be used with a AppBarLayout_LayoutParams.
@@ -5436,7 +5573,7 @@ containing a value of this type.
 <tr><td><code>enterAlwaysCollapsed</code></td><td>0x8</td><td></td></tr>
 <tr><td><code>snap</code></td><td>0x10</td><td></td></tr>
 </table>
-          @attr name org.roszonelib.notetools:layout_scrollFlags
+          @attr tableName org.roszonelib.notetools:layout_scrollFlags
         */
         public static int AppBarLayout_LayoutParams_layout_scrollFlags = 0;
         /**
@@ -5444,9 +5581,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #AppBarLayout_LayoutParams} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:layout_scrollInterpolator
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:layout_scrollInterpolator
         */
         public static int AppBarLayout_LayoutParams_layout_scrollInterpolator = 1;
         /** Attributes that can be used with a AppCompatImageView.
@@ -5467,7 +5604,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /**
           <p>This symbol is the offset where the {@link android.R.attr#src}
           attribute's value can be found in the {@link #AppCompatImageView} array.
-          @attr name android:src
+          @attr tableName android:src
         */
         public static int AppCompatImageView_android_src = 0;
         /**
@@ -5475,9 +5612,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatImageView} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:srcCompat
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:srcCompat
         */
         public static int AppCompatImageView_srcCompat = 1;
         /** Attributes that can be used with a AppCompatTextView.
@@ -5498,7 +5635,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /**
           <p>This symbol is the offset where the {@link android.R.attr#textAppearance}
           attribute's value can be found in the {@link #AppCompatTextView} array.
-          @attr name android:textAppearance
+          @attr tableName android:textAppearance
         */
         public static int AppCompatTextView_android_textAppearance = 0;
         /**
@@ -5506,10 +5643,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTextView} array.
 
 
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name org.roszonelib.notetools:textAllCaps
+          @attr tableName org.roszonelib.notetools:textAllCaps
         */
         public static int AppCompatTextView_textAllCaps = 1;
         /** Attributes that can be used with a AppCompatTheme.
@@ -5779,9 +5916,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:actionBarDivider
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:actionBarDivider
         */
         public static int AppCompatTheme_actionBarDivider = 23;
         /**
@@ -5789,9 +5926,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:actionBarItemBackground
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:actionBarItemBackground
         */
         public static int AppCompatTheme_actionBarItemBackground = 24;
         /**
@@ -5799,9 +5936,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:actionBarPopupTheme
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:actionBarPopupTheme
         */
         public static int AppCompatTheme_actionBarPopupTheme = 17;
         /**
@@ -5813,9 +5950,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
 <p>May be one of the following constant values.</p>
 <table>
@@ -5825,7 +5962,7 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name org.roszonelib.notetools:actionBarSize
+          @attr tableName org.roszonelib.notetools:actionBarSize
         */
         public static int AppCompatTheme_actionBarSize = 22;
         /**
@@ -5833,9 +5970,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:actionBarSplitStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:actionBarSplitStyle
         */
         public static int AppCompatTheme_actionBarSplitStyle = 19;
         /**
@@ -5843,9 +5980,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:actionBarStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:actionBarStyle
         */
         public static int AppCompatTheme_actionBarStyle = 18;
         /**
@@ -5853,9 +5990,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:actionBarTabBarStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:actionBarTabBarStyle
         */
         public static int AppCompatTheme_actionBarTabBarStyle = 13;
         /**
@@ -5863,9 +6000,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:actionBarTabStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:actionBarTabStyle
         */
         public static int AppCompatTheme_actionBarTabStyle = 12;
         /**
@@ -5873,9 +6010,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:actionBarTabTextStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:actionBarTabTextStyle
         */
         public static int AppCompatTheme_actionBarTabTextStyle = 14;
         /**
@@ -5883,9 +6020,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:actionBarTheme
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:actionBarTheme
         */
         public static int AppCompatTheme_actionBarTheme = 20;
         /**
@@ -5893,9 +6030,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:actionBarWidgetTheme
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:actionBarWidgetTheme
         */
         public static int AppCompatTheme_actionBarWidgetTheme = 21;
         /**
@@ -5903,9 +6040,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:actionButtonStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:actionButtonStyle
         */
         public static int AppCompatTheme_actionButtonStyle = 49;
         /**
@@ -5913,9 +6050,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:actionDropDownStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:actionDropDownStyle
         */
         public static int AppCompatTheme_actionDropDownStyle = 45;
         /**
@@ -5923,9 +6060,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:actionMenuTextAppearance
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:actionMenuTextAppearance
         */
         public static int AppCompatTheme_actionMenuTextAppearance = 25;
         /**
@@ -5933,11 +6070,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name org.roszonelib.notetools:actionMenuTextColor
+          @attr tableName org.roszonelib.notetools:actionMenuTextColor
         */
         public static int AppCompatTheme_actionMenuTextColor = 26;
         /**
@@ -5945,9 +6082,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:actionModeBackground
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:actionModeBackground
         */
         public static int AppCompatTheme_actionModeBackground = 29;
         /**
@@ -5955,9 +6092,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:actionModeCloseButtonStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:actionModeCloseButtonStyle
         */
         public static int AppCompatTheme_actionModeCloseButtonStyle = 28;
         /**
@@ -5965,9 +6102,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:actionModeCloseDrawable
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:actionModeCloseDrawable
         */
         public static int AppCompatTheme_actionModeCloseDrawable = 31;
         /**
@@ -5975,9 +6112,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:actionModeCopyDrawable
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:actionModeCopyDrawable
         */
         public static int AppCompatTheme_actionModeCopyDrawable = 33;
         /**
@@ -5985,9 +6122,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:actionModeCutDrawable
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:actionModeCutDrawable
         */
         public static int AppCompatTheme_actionModeCutDrawable = 32;
         /**
@@ -5995,9 +6132,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:actionModeFindDrawable
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:actionModeFindDrawable
         */
         public static int AppCompatTheme_actionModeFindDrawable = 37;
         /**
@@ -6005,9 +6142,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:actionModePasteDrawable
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:actionModePasteDrawable
         */
         public static int AppCompatTheme_actionModePasteDrawable = 34;
         /**
@@ -6015,9 +6152,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:actionModePopupWindowStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:actionModePopupWindowStyle
         */
         public static int AppCompatTheme_actionModePopupWindowStyle = 39;
         /**
@@ -6025,9 +6162,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:actionModeSelectAllDrawable
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:actionModeSelectAllDrawable
         */
         public static int AppCompatTheme_actionModeSelectAllDrawable = 35;
         /**
@@ -6035,9 +6172,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:actionModeShareDrawable
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:actionModeShareDrawable
         */
         public static int AppCompatTheme_actionModeShareDrawable = 36;
         /**
@@ -6045,9 +6182,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:actionModeSplitBackground
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:actionModeSplitBackground
         */
         public static int AppCompatTheme_actionModeSplitBackground = 30;
         /**
@@ -6055,9 +6192,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:actionModeStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:actionModeStyle
         */
         public static int AppCompatTheme_actionModeStyle = 27;
         /**
@@ -6065,9 +6202,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:actionModeWebSearchDrawable
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:actionModeWebSearchDrawable
         */
         public static int AppCompatTheme_actionModeWebSearchDrawable = 38;
         /**
@@ -6075,9 +6212,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:actionOverflowButtonStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:actionOverflowButtonStyle
         */
         public static int AppCompatTheme_actionOverflowButtonStyle = 15;
         /**
@@ -6085,9 +6222,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:actionOverflowMenuStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:actionOverflowMenuStyle
         */
         public static int AppCompatTheme_actionOverflowMenuStyle = 16;
         /**
@@ -6095,9 +6232,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:activityChooserViewStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:activityChooserViewStyle
         */
         public static int AppCompatTheme_activityChooserViewStyle = 57;
         /**
@@ -6105,9 +6242,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:alertDialogButtonGroupStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:alertDialogButtonGroupStyle
         */
         public static int AppCompatTheme_alertDialogButtonGroupStyle = 92;
         /**
@@ -6117,11 +6254,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:alertDialogCenterButtons
+          @attr tableName org.roszonelib.notetools:alertDialogCenterButtons
         */
         public static int AppCompatTheme_alertDialogCenterButtons = 93;
         /**
@@ -6129,9 +6266,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:alertDialogStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:alertDialogStyle
         */
         public static int AppCompatTheme_alertDialogStyle = 91;
         /**
@@ -6139,21 +6276,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:alertDialogTheme
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:alertDialogTheme
         */
         public static int AppCompatTheme_alertDialogTheme = 94;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
-          @attr name android:windowAnimationStyle
+          @attr tableName android:windowAnimationStyle
         */
         public static int AppCompatTheme_android_windowAnimationStyle = 1;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#windowIsFloating}
           attribute's value can be found in the {@link #AppCompatTheme} array.
-          @attr name android:windowIsFloating
+          @attr tableName android:windowIsFloating
         */
         public static int AppCompatTheme_android_windowIsFloating = 0;
         /**
@@ -6161,9 +6298,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:autoCompleteTextViewStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:autoCompleteTextViewStyle
         */
         public static int AppCompatTheme_autoCompleteTextViewStyle = 99;
         /**
@@ -6171,9 +6308,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:borderlessButtonStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:borderlessButtonStyle
         */
         public static int AppCompatTheme_borderlessButtonStyle = 54;
         /**
@@ -6181,9 +6318,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:buttonBarButtonStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:buttonBarButtonStyle
         */
         public static int AppCompatTheme_buttonBarButtonStyle = 51;
         /**
@@ -6191,9 +6328,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:buttonBarNegativeButtonStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:buttonBarNegativeButtonStyle
         */
         public static int AppCompatTheme_buttonBarNegativeButtonStyle = 97;
         /**
@@ -6201,9 +6338,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:buttonBarNeutralButtonStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:buttonBarNeutralButtonStyle
         */
         public static int AppCompatTheme_buttonBarNeutralButtonStyle = 98;
         /**
@@ -6211,9 +6348,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:buttonBarPositiveButtonStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:buttonBarPositiveButtonStyle
         */
         public static int AppCompatTheme_buttonBarPositiveButtonStyle = 96;
         /**
@@ -6221,9 +6358,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:buttonBarStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:buttonBarStyle
         */
         public static int AppCompatTheme_buttonBarStyle = 50;
         /**
@@ -6231,9 +6368,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:buttonStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:buttonStyle
         */
         public static int AppCompatTheme_buttonStyle = 100;
         /**
@@ -6241,9 +6378,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:buttonStyleSmall
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:buttonStyleSmall
         */
         public static int AppCompatTheme_buttonStyleSmall = 101;
         /**
@@ -6251,9 +6388,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:checkboxStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:checkboxStyle
         */
         public static int AppCompatTheme_checkboxStyle = 102;
         /**
@@ -6261,9 +6398,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:checkedTextViewStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:checkedTextViewStyle
         */
         public static int AppCompatTheme_checkedTextViewStyle = 103;
         /**
@@ -6274,11 +6411,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:colorAccent
+          @attr tableName org.roszonelib.notetools:colorAccent
         */
         public static int AppCompatTheme_colorAccent = 84;
         /**
@@ -6289,11 +6426,11 @@ containing a value of this type.
           <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:colorButtonNormal
+          @attr tableName org.roszonelib.notetools:colorButtonNormal
         */
         public static int AppCompatTheme_colorButtonNormal = 88;
         /**
@@ -6304,11 +6441,11 @@ containing a value of this type.
           <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:colorControlActivated
+          @attr tableName org.roszonelib.notetools:colorControlActivated
         */
         public static int AppCompatTheme_colorControlActivated = 86;
         /**
@@ -6319,11 +6456,11 @@ containing a value of this type.
           <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:colorControlHighlight
+          @attr tableName org.roszonelib.notetools:colorControlHighlight
         */
         public static int AppCompatTheme_colorControlHighlight = 87;
         /**
@@ -6334,11 +6471,11 @@ containing a value of this type.
           <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:colorControlNormal
+          @attr tableName org.roszonelib.notetools:colorControlNormal
         */
         public static int AppCompatTheme_colorControlNormal = 85;
         /**
@@ -6349,11 +6486,11 @@ containing a value of this type.
           <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:colorPrimary
+          @attr tableName org.roszonelib.notetools:colorPrimary
         */
         public static int AppCompatTheme_colorPrimary = 82;
         /**
@@ -6364,11 +6501,11 @@ containing a value of this type.
           <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:colorPrimaryDark
+          @attr tableName org.roszonelib.notetools:colorPrimaryDark
         */
         public static int AppCompatTheme_colorPrimaryDark = 83;
         /**
@@ -6379,11 +6516,11 @@ containing a value of this type.
           <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:colorSwitchThumbNormal
+          @attr tableName org.roszonelib.notetools:colorSwitchThumbNormal
         */
         public static int AppCompatTheme_colorSwitchThumbNormal = 89;
         /**
@@ -6391,9 +6528,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:controlBackground
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:controlBackground
         */
         public static int AppCompatTheme_controlBackground = 90;
         /**
@@ -6405,11 +6542,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:dialogPreferredPadding
+          @attr tableName org.roszonelib.notetools:dialogPreferredPadding
         */
         public static int AppCompatTheme_dialogPreferredPadding = 43;
         /**
@@ -6417,9 +6554,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:dialogTheme
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:dialogTheme
         */
         public static int AppCompatTheme_dialogTheme = 42;
         /**
@@ -6427,9 +6564,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:dividerHorizontal
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:dividerHorizontal
         */
         public static int AppCompatTheme_dividerHorizontal = 56;
         /**
@@ -6437,9 +6574,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:dividerVertical
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:dividerVertical
         */
         public static int AppCompatTheme_dividerVertical = 55;
         /**
@@ -6447,9 +6584,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:dropDownListViewStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:dropDownListViewStyle
         */
         public static int AppCompatTheme_dropDownListViewStyle = 74;
         /**
@@ -6461,11 +6598,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:dropdownListPreferredItemHeight
+          @attr tableName org.roszonelib.notetools:dropdownListPreferredItemHeight
         */
         public static int AppCompatTheme_dropdownListPreferredItemHeight = 46;
         /**
@@ -6473,9 +6610,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:editTextBackground
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:editTextBackground
         */
         public static int AppCompatTheme_editTextBackground = 63;
         /**
@@ -6483,11 +6620,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name org.roszonelib.notetools:editTextColor
+          @attr tableName org.roszonelib.notetools:editTextColor
         */
         public static int AppCompatTheme_editTextColor = 62;
         /**
@@ -6495,9 +6632,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:editTextStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:editTextStyle
         */
         public static int AppCompatTheme_editTextStyle = 104;
         /**
@@ -6505,9 +6642,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:homeAsUpIndicator
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:homeAsUpIndicator
         */
         public static int AppCompatTheme_homeAsUpIndicator = 48;
         /**
@@ -6515,9 +6652,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:imageButtonStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:imageButtonStyle
         */
         public static int AppCompatTheme_imageButtonStyle = 64;
         /**
@@ -6525,9 +6662,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:listChoiceBackgroundIndicator
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:listChoiceBackgroundIndicator
         */
         public static int AppCompatTheme_listChoiceBackgroundIndicator = 81;
         /**
@@ -6535,9 +6672,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:listDividerAlertDialog
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:listDividerAlertDialog
         */
         public static int AppCompatTheme_listDividerAlertDialog = 44;
         /**
@@ -6545,9 +6682,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:listPopupWindowStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:listPopupWindowStyle
         */
         public static int AppCompatTheme_listPopupWindowStyle = 75;
         /**
@@ -6559,11 +6696,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:listPreferredItemHeight
+          @attr tableName org.roszonelib.notetools:listPreferredItemHeight
         */
         public static int AppCompatTheme_listPreferredItemHeight = 69;
         /**
@@ -6575,11 +6712,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:listPreferredItemHeightLarge
+          @attr tableName org.roszonelib.notetools:listPreferredItemHeightLarge
         */
         public static int AppCompatTheme_listPreferredItemHeightLarge = 71;
         /**
@@ -6591,11 +6728,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:listPreferredItemHeightSmall
+          @attr tableName org.roszonelib.notetools:listPreferredItemHeightSmall
         */
         public static int AppCompatTheme_listPreferredItemHeightSmall = 70;
         /**
@@ -6607,11 +6744,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:listPreferredItemPaddingLeft
+          @attr tableName org.roszonelib.notetools:listPreferredItemPaddingLeft
         */
         public static int AppCompatTheme_listPreferredItemPaddingLeft = 72;
         /**
@@ -6623,11 +6760,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:listPreferredItemPaddingRight
+          @attr tableName org.roszonelib.notetools:listPreferredItemPaddingRight
         */
         public static int AppCompatTheme_listPreferredItemPaddingRight = 73;
         /**
@@ -6635,9 +6772,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:panelBackground
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:panelBackground
         */
         public static int AppCompatTheme_panelBackground = 78;
         /**
@@ -6645,9 +6782,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:panelMenuListTheme
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:panelMenuListTheme
         */
         public static int AppCompatTheme_panelMenuListTheme = 80;
         /**
@@ -6659,11 +6796,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:panelMenuListWidth
+          @attr tableName org.roszonelib.notetools:panelMenuListWidth
         */
         public static int AppCompatTheme_panelMenuListWidth = 79;
         /**
@@ -6671,9 +6808,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:popupMenuStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:popupMenuStyle
         */
         public static int AppCompatTheme_popupMenuStyle = 60;
         /**
@@ -6681,9 +6818,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:popupWindowStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:popupWindowStyle
         */
         public static int AppCompatTheme_popupWindowStyle = 61;
         /**
@@ -6691,9 +6828,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:radioButtonStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:radioButtonStyle
         */
         public static int AppCompatTheme_radioButtonStyle = 105;
         /**
@@ -6701,9 +6838,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:ratingBarStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:ratingBarStyle
         */
         public static int AppCompatTheme_ratingBarStyle = 106;
         /**
@@ -6711,9 +6848,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:ratingBarStyleIndicator
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:ratingBarStyleIndicator
         */
         public static int AppCompatTheme_ratingBarStyleIndicator = 107;
         /**
@@ -6721,9 +6858,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:ratingBarStyleSmall
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:ratingBarStyleSmall
         */
         public static int AppCompatTheme_ratingBarStyleSmall = 108;
         /**
@@ -6731,9 +6868,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:searchViewStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:searchViewStyle
         */
         public static int AppCompatTheme_searchViewStyle = 68;
         /**
@@ -6741,9 +6878,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:seekBarStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:seekBarStyle
         */
         public static int AppCompatTheme_seekBarStyle = 109;
         /**
@@ -6751,9 +6888,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:selectableItemBackground
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:selectableItemBackground
         */
         public static int AppCompatTheme_selectableItemBackground = 52;
         /**
@@ -6761,9 +6898,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:selectableItemBackgroundBorderless
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:selectableItemBackgroundBorderless
         */
         public static int AppCompatTheme_selectableItemBackgroundBorderless = 53;
         /**
@@ -6771,9 +6908,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:spinnerDropDownItemStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:spinnerDropDownItemStyle
         */
         public static int AppCompatTheme_spinnerDropDownItemStyle = 47;
         /**
@@ -6781,9 +6918,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:spinnerStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:spinnerStyle
         */
         public static int AppCompatTheme_spinnerStyle = 110;
         /**
@@ -6791,9 +6928,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:switchStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:switchStyle
         */
         public static int AppCompatTheme_switchStyle = 111;
         /**
@@ -6801,9 +6938,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:textAppearanceLargePopupMenu
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:textAppearanceLargePopupMenu
         */
         public static int AppCompatTheme_textAppearanceLargePopupMenu = 40;
         /**
@@ -6811,9 +6948,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:textAppearanceListItem
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:textAppearanceListItem
         */
         public static int AppCompatTheme_textAppearanceListItem = 76;
         /**
@@ -6821,9 +6958,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:textAppearanceListItemSmall
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:textAppearanceListItemSmall
         */
         public static int AppCompatTheme_textAppearanceListItemSmall = 77;
         /**
@@ -6831,9 +6968,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:textAppearanceSearchResultSubtitle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:textAppearanceSearchResultSubtitle
         */
         public static int AppCompatTheme_textAppearanceSearchResultSubtitle = 66;
         /**
@@ -6841,9 +6978,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:textAppearanceSearchResultTitle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:textAppearanceSearchResultTitle
         */
         public static int AppCompatTheme_textAppearanceSearchResultTitle = 65;
         /**
@@ -6851,9 +6988,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:textAppearanceSmallPopupMenu
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:textAppearanceSmallPopupMenu
         */
         public static int AppCompatTheme_textAppearanceSmallPopupMenu = 41;
         /**
@@ -6861,11 +6998,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name org.roszonelib.notetools:textColorAlertDialogListItem
+          @attr tableName org.roszonelib.notetools:textColorAlertDialogListItem
         */
         public static int AppCompatTheme_textColorAlertDialogListItem = 95;
         /**
@@ -6873,11 +7010,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name org.roszonelib.notetools:textColorSearchUrl
+          @attr tableName org.roszonelib.notetools:textColorSearchUrl
         */
         public static int AppCompatTheme_textColorSearchUrl = 67;
         /**
@@ -6885,9 +7022,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:toolbarNavigationButtonStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:toolbarNavigationButtonStyle
         */
         public static int AppCompatTheme_toolbarNavigationButtonStyle = 59;
         /**
@@ -6895,9 +7032,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:toolbarStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:toolbarStyle
         */
         public static int AppCompatTheme_toolbarStyle = 58;
         /**
@@ -6907,11 +7044,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:windowActionBar
+          @attr tableName org.roszonelib.notetools:windowActionBar
         */
         public static int AppCompatTheme_windowActionBar = 2;
         /**
@@ -6921,11 +7058,11 @@ containing a value of this type.
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:windowActionBarOverlay
+          @attr tableName org.roszonelib.notetools:windowActionBarOverlay
         */
         public static int AppCompatTheme_windowActionBarOverlay = 4;
         /**
@@ -6935,11 +7072,11 @@ containing a value of this type.
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:windowActionModeOverlay
+          @attr tableName org.roszonelib.notetools:windowActionModeOverlay
         */
         public static int AppCompatTheme_windowActionModeOverlay = 5;
         /**
@@ -6954,11 +7091,11 @@ in (inches), mm (millimeters).
 The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
 some parent container.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:windowFixedHeightMajor
+          @attr tableName org.roszonelib.notetools:windowFixedHeightMajor
         */
         public static int AppCompatTheme_windowFixedHeightMajor = 9;
         /**
@@ -6973,11 +7110,11 @@ in (inches), mm (millimeters).
 The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
 some parent container.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:windowFixedHeightMinor
+          @attr tableName org.roszonelib.notetools:windowFixedHeightMinor
         */
         public static int AppCompatTheme_windowFixedHeightMinor = 7;
         /**
@@ -6992,11 +7129,11 @@ in (inches), mm (millimeters).
 The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
 some parent container.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:windowFixedWidthMajor
+          @attr tableName org.roszonelib.notetools:windowFixedWidthMajor
         */
         public static int AppCompatTheme_windowFixedWidthMajor = 6;
         /**
@@ -7011,11 +7148,11 @@ in (inches), mm (millimeters).
 The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
 some parent container.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:windowFixedWidthMinor
+          @attr tableName org.roszonelib.notetools:windowFixedWidthMinor
         */
         public static int AppCompatTheme_windowFixedWidthMinor = 8;
         /**
@@ -7030,11 +7167,11 @@ in (inches), mm (millimeters).
 The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
 some parent container.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:windowMinWidthMajor
+          @attr tableName org.roszonelib.notetools:windowMinWidthMajor
         */
         public static int AppCompatTheme_windowMinWidthMajor = 10;
         /**
@@ -7049,11 +7186,11 @@ in (inches), mm (millimeters).
 The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
 some parent container.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:windowMinWidthMinor
+          @attr tableName org.roszonelib.notetools:windowMinWidthMinor
         */
         public static int AppCompatTheme_windowMinWidthMinor = 11;
         /**
@@ -7063,11 +7200,11 @@ containing a value of this type.
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:windowNoTitle
+          @attr tableName org.roszonelib.notetools:windowNoTitle
         */
         public static int AppCompatTheme_windowNoTitle = 3;
         /** Attributes that can be used with a BezelImageView.
@@ -7094,11 +7231,11 @@ containing a value of this type.
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:biv_drawCircularShadow
+          @attr tableName org.roszonelib.notetools:biv_drawCircularShadow
         */
         public static int BezelImageView_biv_drawCircularShadow = 1;
         /**
@@ -7106,9 +7243,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #BezelImageView} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:biv_maskDrawable
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:biv_maskDrawable
         */
         public static int BezelImageView_biv_maskDrawable = 0;
         /**
@@ -7116,11 +7253,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #BezelImageView} array.
 
 
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name org.roszonelib.notetools:biv_selectorOnPress
+          @attr tableName org.roszonelib.notetools:biv_selectorOnPress
         */
         public static int BezelImageView_biv_selectorOnPress = 2;
         /** Attributes that can be used with a BottomSheetBehavior_Params.
@@ -7145,11 +7282,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:behavior_hideable
+          @attr tableName org.roszonelib.notetools:behavior_hideable
         */
         public static int BottomSheetBehavior_Params_behavior_hideable = 1;
         /**
@@ -7161,11 +7298,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:behavior_peekHeight
+          @attr tableName org.roszonelib.notetools:behavior_peekHeight
         */
         public static int BottomSheetBehavior_Params_behavior_peekHeight = 0;
         /** Attributes that can be used with a ButtonBarLayout.
@@ -7188,11 +7325,11 @@ containing a value of this type.
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:allowStacking
+          @attr tableName org.roszonelib.notetools:allowStacking
         */
         public static int ButtonBarLayout_allowStacking = 0;
         /** Attributes that can be used with a CardView.
@@ -7238,13 +7375,13 @@ containing a value of this type.
         /**
           <p>This symbol is the offset where the {@link android.R.attr#minHeight}
           attribute's value can be found in the {@link #CardView} array.
-          @attr name android:minHeight
+          @attr tableName android:minHeight
         */
         public static int CardView_android_minHeight = 1;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#minWidth}
           attribute's value can be found in the {@link #CardView} array.
-          @attr name android:minWidth
+          @attr tableName android:minWidth
         */
         public static int CardView_android_minWidth = 0;
         /**
@@ -7255,11 +7392,11 @@ containing a value of this type.
           <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:cardBackgroundColor
+          @attr tableName org.roszonelib.notetools:cardBackgroundColor
         */
         public static int CardView_cardBackgroundColor = 2;
         /**
@@ -7271,11 +7408,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:cardCornerRadius
+          @attr tableName org.roszonelib.notetools:cardCornerRadius
         */
         public static int CardView_cardCornerRadius = 3;
         /**
@@ -7287,11 +7424,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:cardElevation
+          @attr tableName org.roszonelib.notetools:cardElevation
         */
         public static int CardView_cardElevation = 4;
         /**
@@ -7303,11 +7440,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:cardMaxElevation
+          @attr tableName org.roszonelib.notetools:cardMaxElevation
         */
         public static int CardView_cardMaxElevation = 5;
         /**
@@ -7317,11 +7454,11 @@ containing a value of this type.
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:cardPreventCornerOverlap
+          @attr tableName org.roszonelib.notetools:cardPreventCornerOverlap
         */
         public static int CardView_cardPreventCornerOverlap = 7;
         /**
@@ -7331,11 +7468,11 @@ containing a value of this type.
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:cardUseCompatPadding
+          @attr tableName org.roszonelib.notetools:cardUseCompatPadding
         */
         public static int CardView_cardUseCompatPadding = 6;
         /**
@@ -7347,11 +7484,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:contentPadding
+          @attr tableName org.roszonelib.notetools:contentPadding
         */
         public static int CardView_contentPadding = 8;
         /**
@@ -7363,11 +7500,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:contentPaddingBottom
+          @attr tableName org.roszonelib.notetools:contentPaddingBottom
         */
         public static int CardView_contentPaddingBottom = 12;
         /**
@@ -7379,11 +7516,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:contentPaddingLeft
+          @attr tableName org.roszonelib.notetools:contentPaddingLeft
         */
         public static int CardView_contentPaddingLeft = 9;
         /**
@@ -7395,11 +7532,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:contentPaddingRight
+          @attr tableName org.roszonelib.notetools:contentPaddingRight
         */
         public static int CardView_contentPaddingRight = 10;
         /**
@@ -7411,11 +7548,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:contentPaddingTop
+          @attr tableName org.roszonelib.notetools:contentPaddingTop
         */
         public static int CardView_contentPaddingTop = 11;
         /** Attributes that can be used with a CheckBoxPreference.
@@ -7445,19 +7582,19 @@ containing a value of this type.
         /**
           <p>This symbol is the offset where the {@link android.R.attr#disableDependentsState}
           attribute's value can be found in the {@link #CheckBoxPreference} array.
-          @attr name android:disableDependentsState
+          @attr tableName android:disableDependentsState
         */
         public static int CheckBoxPreference_android_disableDependentsState = 2;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#summaryOff}
           attribute's value can be found in the {@link #CheckBoxPreference} array.
-          @attr name android:summaryOff
+          @attr tableName android:summaryOff
         */
         public static int CheckBoxPreference_android_summaryOff = 1;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#summaryOn}
           attribute's value can be found in the {@link #CheckBoxPreference} array.
-          @attr name android:summaryOn
+          @attr tableName android:summaryOn
         */
         public static int CheckBoxPreference_android_summaryOn = 0;
         /**
@@ -7467,11 +7604,11 @@ containing a value of this type.
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:disableDependentsState
+          @attr tableName org.roszonelib.notetools:disableDependentsState
         */
         public static int CheckBoxPreference_disableDependentsState = 5;
         /**
@@ -7481,11 +7618,11 @@ containing a value of this type.
 
           <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:summaryOff
+          @attr tableName org.roszonelib.notetools:summaryOff
         */
         public static int CheckBoxPreference_summaryOff = 4;
         /**
@@ -7495,11 +7632,11 @@ containing a value of this type.
 
           <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:summaryOn
+          @attr tableName org.roszonelib.notetools:summaryOn
         */
         public static int CheckBoxPreference_summaryOn = 3;
         /** Attributes that can be used with a CollapsingAppBarLayout_LayoutParams.
@@ -7532,7 +7669,7 @@ containing a value of this type.
 <tr><td><code>pin</code></td><td>1</td><td></td></tr>
 <tr><td><code>parallax</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name org.roszonelib.notetools:layout_collapseMode
+          @attr tableName org.roszonelib.notetools:layout_collapseMode
         */
         public static int CollapsingAppBarLayout_LayoutParams_layout_collapseMode = 0;
         /**
@@ -7542,11 +7679,11 @@ containing a value of this type.
 
           <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:layout_collapseParallaxMultiplier
+          @attr tableName org.roszonelib.notetools:layout_collapseParallaxMultiplier
         */
         public static int CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier = 1;
         /** Attributes that can be used with a CollapsingToolbarLayout.
@@ -7613,7 +7750,7 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name org.roszonelib.notetools:collapsedTitleGravity
+          @attr tableName org.roszonelib.notetools:collapsedTitleGravity
         */
         public static int CollapsingToolbarLayout_collapsedTitleGravity = 11;
         /**
@@ -7621,9 +7758,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:collapsedTitleTextAppearance
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:collapsedTitleTextAppearance
         */
         public static int CollapsingToolbarLayout_collapsedTitleTextAppearance = 7;
         /**
@@ -7634,11 +7771,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:contentScrim
+          @attr tableName org.roszonelib.notetools:contentScrim
         */
         public static int CollapsingToolbarLayout_contentScrim = 8;
         /**
@@ -7663,7 +7800,7 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name org.roszonelib.notetools:expandedTitleGravity
+          @attr tableName org.roszonelib.notetools:expandedTitleGravity
         */
         public static int CollapsingToolbarLayout_expandedTitleGravity = 12;
         /**
@@ -7675,11 +7812,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:expandedTitleMargin
+          @attr tableName org.roszonelib.notetools:expandedTitleMargin
         */
         public static int CollapsingToolbarLayout_expandedTitleMargin = 1;
         /**
@@ -7691,11 +7828,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:expandedTitleMarginBottom
+          @attr tableName org.roszonelib.notetools:expandedTitleMarginBottom
         */
         public static int CollapsingToolbarLayout_expandedTitleMarginBottom = 5;
         /**
@@ -7707,11 +7844,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:expandedTitleMarginEnd
+          @attr tableName org.roszonelib.notetools:expandedTitleMarginEnd
         */
         public static int CollapsingToolbarLayout_expandedTitleMarginEnd = 4;
         /**
@@ -7723,11 +7860,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:expandedTitleMarginStart
+          @attr tableName org.roszonelib.notetools:expandedTitleMarginStart
         */
         public static int CollapsingToolbarLayout_expandedTitleMarginStart = 2;
         /**
@@ -7739,11 +7876,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:expandedTitleMarginTop
+          @attr tableName org.roszonelib.notetools:expandedTitleMarginTop
         */
         public static int CollapsingToolbarLayout_expandedTitleMarginTop = 3;
         /**
@@ -7751,9 +7888,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:expandedTitleTextAppearance
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:expandedTitleTextAppearance
         */
         public static int CollapsingToolbarLayout_expandedTitleTextAppearance = 6;
         /**
@@ -7764,11 +7901,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:statusBarScrim
+          @attr tableName org.roszonelib.notetools:statusBarScrim
         */
         public static int CollapsingToolbarLayout_statusBarScrim = 9;
         /**
@@ -7778,11 +7915,11 @@ containing a value of this type.
 
           <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:title
+          @attr tableName org.roszonelib.notetools:title
         */
         public static int CollapsingToolbarLayout_title = 0;
         /**
@@ -7792,11 +7929,11 @@ containing a value of this type.
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:titleEnabled
+          @attr tableName org.roszonelib.notetools:titleEnabled
         */
         public static int CollapsingToolbarLayout_titleEnabled = 13;
         /**
@@ -7804,9 +7941,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:toolbarId
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:toolbarId
         */
         public static int CollapsingToolbarLayout_toolbarId = 10;
         /** Attributes that can be used with a CompoundButton.
@@ -7829,7 +7966,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /**
           <p>This symbol is the offset where the {@link android.R.attr#button}
           attribute's value can be found in the {@link #CompoundButton} array.
-          @attr name android:button
+          @attr tableName android:button
         */
         public static int CompoundButton_android_button = 0;
         /**
@@ -7840,11 +7977,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:buttonTint
+          @attr tableName org.roszonelib.notetools:buttonTint
         */
         public static int CompoundButton_buttonTint = 1;
         /**
@@ -7864,7 +8001,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name org.roszonelib.notetools:buttonTintMode
+          @attr tableName org.roszonelib.notetools:buttonTintMode
         */
         public static int CompoundButton_buttonTintMode = 2;
         /** Attributes that can be used with a CoordinatorLayout.
@@ -7887,9 +8024,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #CoordinatorLayout} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:keylines
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:keylines
         */
         public static int CoordinatorLayout_keylines = 0;
         /**
@@ -7897,9 +8034,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #CoordinatorLayout} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:statusBarBackground
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:statusBarBackground
         */
         public static int CoordinatorLayout_statusBarBackground = 1;
         /** Attributes that can be used with a CoordinatorLayout_LayoutParams.
@@ -7927,7 +8064,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /**
           <p>This symbol is the offset where the {@link android.R.attr#layout_gravity}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
-          @attr name android:layout_gravity
+          @attr tableName android:layout_gravity
         */
         public static int CoordinatorLayout_LayoutParams_android_layout_gravity = 0;
         /**
@@ -7935,9 +8072,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:layout_anchor
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:layout_anchor
         */
         public static int CoordinatorLayout_LayoutParams_layout_anchor = 2;
         /**
@@ -7966,7 +8103,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name org.roszonelib.notetools:layout_anchorGravity
+          @attr tableName org.roszonelib.notetools:layout_anchorGravity
         */
         public static int CoordinatorLayout_LayoutParams_layout_anchorGravity = 4;
         /**
@@ -7976,11 +8113,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:layout_behavior
+          @attr tableName org.roszonelib.notetools:layout_behavior
         */
         public static int CoordinatorLayout_LayoutParams_layout_behavior = 1;
         /**
@@ -7990,11 +8127,11 @@ containing a value of this type.
 
           <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:layout_keyline
+          @attr tableName org.roszonelib.notetools:layout_keyline
         */
         public static int CoordinatorLayout_LayoutParams_layout_keyline = 3;
         /** Attributes that can be used with a DesignTheme.
@@ -8019,9 +8156,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #DesignTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:bottomSheetDialogTheme
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:bottomSheetDialogTheme
         */
         public static int DesignTheme_bottomSheetDialogTheme = 0;
         /**
@@ -8029,9 +8166,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #DesignTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:bottomSheetStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:bottomSheetStyle
         */
         public static int DesignTheme_bottomSheetStyle = 1;
         /**
@@ -8042,11 +8179,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:textColorError
+          @attr tableName org.roszonelib.notetools:textColorError
         */
         public static int DesignTheme_textColorError = 2;
         /** Attributes that can be used with a DialogPreference.
@@ -8089,37 +8226,37 @@ containing a value of this type.
         /**
           <p>This symbol is the offset where the {@link android.R.attr#dialogIcon}
           attribute's value can be found in the {@link #DialogPreference} array.
-          @attr name android:dialogIcon
+          @attr tableName android:dialogIcon
         */
         public static int DialogPreference_android_dialogIcon = 2;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#dialogLayout}
           attribute's value can be found in the {@link #DialogPreference} array.
-          @attr name android:dialogLayout
+          @attr tableName android:dialogLayout
         */
         public static int DialogPreference_android_dialogLayout = 5;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#dialogMessage}
           attribute's value can be found in the {@link #DialogPreference} array.
-          @attr name android:dialogMessage
+          @attr tableName android:dialogMessage
         */
         public static int DialogPreference_android_dialogMessage = 1;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#dialogTitle}
           attribute's value can be found in the {@link #DialogPreference} array.
-          @attr name android:dialogTitle
+          @attr tableName android:dialogTitle
         */
         public static int DialogPreference_android_dialogTitle = 0;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#negativeButtonText}
           attribute's value can be found in the {@link #DialogPreference} array.
-          @attr name android:negativeButtonText
+          @attr tableName android:negativeButtonText
         */
         public static int DialogPreference_android_negativeButtonText = 4;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#positiveButtonText}
           attribute's value can be found in the {@link #DialogPreference} array.
-          @attr name android:positiveButtonText
+          @attr tableName android:positiveButtonText
         */
         public static int DialogPreference_android_positiveButtonText = 3;
         /**
@@ -8127,9 +8264,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #DialogPreference} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:dialogIcon
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:dialogIcon
         */
         public static int DialogPreference_dialogIcon = 8;
         /**
@@ -8137,9 +8274,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #DialogPreference} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:dialogLayout
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:dialogLayout
         */
         public static int DialogPreference_dialogLayout = 11;
         /**
@@ -8149,11 +8286,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:dialogMessage
+          @attr tableName org.roszonelib.notetools:dialogMessage
         */
         public static int DialogPreference_dialogMessage = 7;
         /**
@@ -8163,11 +8300,11 @@ containing a value of this type.
 
           <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:dialogTitle
+          @attr tableName org.roszonelib.notetools:dialogTitle
         */
         public static int DialogPreference_dialogTitle = 6;
         /**
@@ -8177,11 +8314,11 @@ containing a value of this type.
 
           <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:negativeButtonText
+          @attr tableName org.roszonelib.notetools:negativeButtonText
         */
         public static int DialogPreference_negativeButtonText = 10;
         /**
@@ -8191,11 +8328,11 @@ containing a value of this type.
 
           <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:positiveButtonText
+          @attr tableName org.roszonelib.notetools:positiveButtonText
         */
         public static int DialogPreference_positiveButtonText = 9;
         /** Attributes that can be used with a DrawerArrowToggle.
@@ -8235,11 +8372,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:arrowHeadLength
+          @attr tableName org.roszonelib.notetools:arrowHeadLength
         */
         public static int DrawerArrowToggle_arrowHeadLength = 4;
         /**
@@ -8251,11 +8388,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:arrowShaftLength
+          @attr tableName org.roszonelib.notetools:arrowShaftLength
         */
         public static int DrawerArrowToggle_arrowShaftLength = 5;
         /**
@@ -8267,11 +8404,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:barLength
+          @attr tableName org.roszonelib.notetools:barLength
         */
         public static int DrawerArrowToggle_barLength = 6;
         /**
@@ -8282,11 +8419,11 @@ containing a value of this type.
           <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:color
+          @attr tableName org.roszonelib.notetools:color
         */
         public static int DrawerArrowToggle_color = 0;
         /**
@@ -8298,11 +8435,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:drawableSize
+          @attr tableName org.roszonelib.notetools:drawableSize
         */
         public static int DrawerArrowToggle_drawableSize = 2;
         /**
@@ -8314,11 +8451,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:gapBetweenBars
+          @attr tableName org.roszonelib.notetools:gapBetweenBars
         */
         public static int DrawerArrowToggle_gapBetweenBars = 3;
         /**
@@ -8328,11 +8465,11 @@ containing a value of this type.
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:spinBars
+          @attr tableName org.roszonelib.notetools:spinBars
         */
         public static int DrawerArrowToggle_spinBars = 1;
         /**
@@ -8344,11 +8481,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:thickness
+          @attr tableName org.roszonelib.notetools:thickness
         */
         public static int DrawerArrowToggle_thickness = 7;
         /** Attributes that can be used with a FloatingActionButton.
@@ -8377,7 +8514,7 @@ containing a value of this type.
          */
         public static final int[] FloatingActionButton = {
             0x7f010036, 0x7f0100ef, 0x7f0100f0, 0x7f0100f1,
-            0x7f0100f2, 0x7f0100f3, 0x7f0101a4, 0x7f0101a5
+            0x7f0100f2, 0x7f0100f3, 0x7f0101b2, 0x7f0101b3
         };
         /**
           <p>This symbol is the offset where the {@link org.roszonelib.notetools.R.attr#backgroundTint}
@@ -8387,11 +8524,11 @@ containing a value of this type.
           <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:backgroundTint
+          @attr tableName org.roszonelib.notetools:backgroundTint
         */
         public static int FloatingActionButton_backgroundTint = 6;
         /**
@@ -8411,7 +8548,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name org.roszonelib.notetools:backgroundTintMode
+          @attr tableName org.roszonelib.notetools:backgroundTintMode
         */
         public static int FloatingActionButton_backgroundTintMode = 7;
         /**
@@ -8423,11 +8560,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:borderWidth
+          @attr tableName org.roszonelib.notetools:borderWidth
         */
         public static int FloatingActionButton_borderWidth = 4;
         /**
@@ -8439,11 +8576,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:elevation
+          @attr tableName org.roszonelib.notetools:elevation
         */
         public static int FloatingActionButton_elevation = 0;
         /**
@@ -8460,7 +8597,7 @@ containing a value of this type.
 <tr><td><code>normal</code></td><td>0</td><td></td></tr>
 <tr><td><code>mini</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name org.roszonelib.notetools:fabSize
+          @attr tableName org.roszonelib.notetools:fabSize
         */
         public static int FloatingActionButton_fabSize = 2;
         /**
@@ -8472,11 +8609,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:pressedTranslationZ
+          @attr tableName org.roszonelib.notetools:pressedTranslationZ
         */
         public static int FloatingActionButton_pressedTranslationZ = 3;
         /**
@@ -8487,11 +8624,11 @@ containing a value of this type.
           <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:rippleColor
+          @attr tableName org.roszonelib.notetools:rippleColor
         */
         public static int FloatingActionButton_rippleColor = 1;
         /**
@@ -8501,11 +8638,11 @@ containing a value of this type.
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:useCompatPadding
+          @attr tableName org.roszonelib.notetools:useCompatPadding
         */
         public static int FloatingActionButton_useCompatPadding = 5;
         /** Attributes that can be used with a ForegroundLinearLayout.
@@ -8528,13 +8665,13 @@ containing a value of this type.
         /**
           <p>This symbol is the offset where the {@link android.R.attr#foreground}
           attribute's value can be found in the {@link #ForegroundLinearLayout} array.
-          @attr name android:foreground
+          @attr tableName android:foreground
         */
         public static int ForegroundLinearLayout_android_foreground = 0;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#foregroundGravity}
           attribute's value can be found in the {@link #ForegroundLinearLayout} array.
-          @attr name android:foregroundGravity
+          @attr tableName android:foregroundGravity
         */
         public static int ForegroundLinearLayout_android_foregroundGravity = 1;
         /**
@@ -8544,13 +8681,340 @@ containing a value of this type.
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:foregroundInsidePadding
+          @attr tableName org.roszonelib.notetools:foregroundInsidePadding
         */
         public static int ForegroundLinearLayout_foregroundInsidePadding = 2;
+        /** Attributes that can be used with a GridLayout.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #GridLayout_alignmentMode org.roszonelib.notetools:alignmentMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #GridLayout_columnCount org.roszonelib.notetools:columnCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #GridLayout_columnOrderPreserved org.roszonelib.notetools:columnOrderPreserved}</code></td><td></td></tr>
+           <tr><td><code>{@link #GridLayout_orientation org.roszonelib.notetools:orientation}</code></td><td></td></tr>
+           <tr><td><code>{@link #GridLayout_rowCount org.roszonelib.notetools:rowCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #GridLayout_rowOrderPreserved org.roszonelib.notetools:rowOrderPreserved}</code></td><td></td></tr>
+           <tr><td><code>{@link #GridLayout_useDefaultMargins org.roszonelib.notetools:useDefaultMargins}</code></td><td></td></tr>
+           </table>
+           @see #GridLayout_alignmentMode
+           @see #GridLayout_columnCount
+           @see #GridLayout_columnOrderPreserved
+           @see #GridLayout_orientation
+           @see #GridLayout_rowCount
+           @see #GridLayout_rowOrderPreserved
+           @see #GridLayout_useDefaultMargins
+         */
+        public static final int[] GridLayout = {
+            0x7f0100f5, 0x7f0100f6, 0x7f0100f7, 0x7f0100f8,
+            0x7f0100f9, 0x7f0100fa, 0x7f0100fb
+        };
+        /**
+          <p>This symbol is the offset where the {@link org.roszonelib.notetools.R.attr#alignmentMode}
+          attribute's value can be found in the {@link #GridLayout} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>alignBounds</code></td><td>0</td><td></td></tr>
+<tr><td><code>alignMargins</code></td><td>1</td><td></td></tr>
+</table>
+          @attr tableName org.roszonelib.notetools:alignmentMode
+        */
+        public static int GridLayout_alignmentMode = 4;
+        /**
+          <p>This symbol is the offset where the {@link org.roszonelib.notetools.R.attr#columnCount}
+          attribute's value can be found in the {@link #GridLayout} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
+containing a value of this type.
+          @attr tableName org.roszonelib.notetools:columnCount
+        */
+        public static int GridLayout_columnCount = 2;
+        /**
+          <p>This symbol is the offset where the {@link org.roszonelib.notetools.R.attr#columnOrderPreserved}
+          attribute's value can be found in the {@link #GridLayout} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
+containing a value of this type.
+          @attr tableName org.roszonelib.notetools:columnOrderPreserved
+        */
+        public static int GridLayout_columnOrderPreserved = 6;
+        /**
+          <p>This symbol is the offset where the {@link org.roszonelib.notetools.R.attr#orientation}
+          attribute's value can be found in the {@link #GridLayout} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>horizontal</code></td><td>0</td><td></td></tr>
+<tr><td><code>vertical</code></td><td>1</td><td></td></tr>
+</table>
+          @attr tableName org.roszonelib.notetools:orientation
+        */
+        public static int GridLayout_orientation = 0;
+        /**
+          <p>This symbol is the offset where the {@link org.roszonelib.notetools.R.attr#rowCount}
+          attribute's value can be found in the {@link #GridLayout} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
+containing a value of this type.
+          @attr tableName org.roszonelib.notetools:rowCount
+        */
+        public static int GridLayout_rowCount = 1;
+        /**
+          <p>This symbol is the offset where the {@link org.roszonelib.notetools.R.attr#rowOrderPreserved}
+          attribute's value can be found in the {@link #GridLayout} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
+containing a value of this type.
+          @attr tableName org.roszonelib.notetools:rowOrderPreserved
+        */
+        public static int GridLayout_rowOrderPreserved = 5;
+        /**
+          <p>This symbol is the offset where the {@link org.roszonelib.notetools.R.attr#useDefaultMargins}
+          attribute's value can be found in the {@link #GridLayout} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
+containing a value of this type.
+          @attr tableName org.roszonelib.notetools:useDefaultMargins
+        */
+        public static int GridLayout_useDefaultMargins = 3;
+        /** Attributes that can be used with a GridLayout_Layout.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #GridLayout_Layout_android_layout_height android:layout_height}</code></td><td></td></tr>
+           <tr><td><code>{@link #GridLayout_Layout_android_layout_margin android:layout_margin}</code></td><td></td></tr>
+           <tr><td><code>{@link #GridLayout_Layout_android_layout_marginBottom android:layout_marginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #GridLayout_Layout_android_layout_marginLeft android:layout_marginLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #GridLayout_Layout_android_layout_marginRight android:layout_marginRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #GridLayout_Layout_android_layout_marginTop android:layout_marginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #GridLayout_Layout_android_layout_width android:layout_width}</code></td><td></td></tr>
+           <tr><td><code>{@link #GridLayout_Layout_layout_column org.roszonelib.notetools:layout_column}</code></td><td></td></tr>
+           <tr><td><code>{@link #GridLayout_Layout_layout_columnSpan org.roszonelib.notetools:layout_columnSpan}</code></td><td></td></tr>
+           <tr><td><code>{@link #GridLayout_Layout_layout_columnWeight org.roszonelib.notetools:layout_columnWeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #GridLayout_Layout_layout_gravity org.roszonelib.notetools:layout_gravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #GridLayout_Layout_layout_row org.roszonelib.notetools:layout_row}</code></td><td></td></tr>
+           <tr><td><code>{@link #GridLayout_Layout_layout_rowSpan org.roszonelib.notetools:layout_rowSpan}</code></td><td></td></tr>
+           <tr><td><code>{@link #GridLayout_Layout_layout_rowWeight org.roszonelib.notetools:layout_rowWeight}</code></td><td></td></tr>
+           </table>
+           @see #GridLayout_Layout_android_layout_height
+           @see #GridLayout_Layout_android_layout_margin
+           @see #GridLayout_Layout_android_layout_marginBottom
+           @see #GridLayout_Layout_android_layout_marginLeft
+           @see #GridLayout_Layout_android_layout_marginRight
+           @see #GridLayout_Layout_android_layout_marginTop
+           @see #GridLayout_Layout_android_layout_width
+           @see #GridLayout_Layout_layout_column
+           @see #GridLayout_Layout_layout_columnSpan
+           @see #GridLayout_Layout_layout_columnWeight
+           @see #GridLayout_Layout_layout_gravity
+           @see #GridLayout_Layout_layout_row
+           @see #GridLayout_Layout_layout_rowSpan
+           @see #GridLayout_Layout_layout_rowWeight
+         */
+        public static final int[] GridLayout_Layout = {
+            0x010100f4, 0x010100f5, 0x010100f6, 0x010100f7,
+            0x010100f8, 0x010100f9, 0x010100fa, 0x7f0100fc,
+            0x7f0100fd, 0x7f0100fe, 0x7f0100ff, 0x7f010100,
+            0x7f010101, 0x7f010102
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#layout_height}
+          attribute's value can be found in the {@link #GridLayout_Layout} array.
+          @attr tableName android:layout_height
+        */
+        public static int GridLayout_Layout_android_layout_height = 1;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#layout_margin}
+          attribute's value can be found in the {@link #GridLayout_Layout} array.
+          @attr tableName android:layout_margin
+        */
+        public static int GridLayout_Layout_android_layout_margin = 2;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#layout_marginBottom}
+          attribute's value can be found in the {@link #GridLayout_Layout} array.
+          @attr tableName android:layout_marginBottom
+        */
+        public static int GridLayout_Layout_android_layout_marginBottom = 6;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#layout_marginLeft}
+          attribute's value can be found in the {@link #GridLayout_Layout} array.
+          @attr tableName android:layout_marginLeft
+        */
+        public static int GridLayout_Layout_android_layout_marginLeft = 3;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#layout_marginRight}
+          attribute's value can be found in the {@link #GridLayout_Layout} array.
+          @attr tableName android:layout_marginRight
+        */
+        public static int GridLayout_Layout_android_layout_marginRight = 5;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#layout_marginTop}
+          attribute's value can be found in the {@link #GridLayout_Layout} array.
+          @attr tableName android:layout_marginTop
+        */
+        public static int GridLayout_Layout_android_layout_marginTop = 4;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#layout_width}
+          attribute's value can be found in the {@link #GridLayout_Layout} array.
+          @attr tableName android:layout_width
+        */
+        public static int GridLayout_Layout_android_layout_width = 0;
+        /**
+          <p>This symbol is the offset where the {@link org.roszonelib.notetools.R.attr#layout_column}
+          attribute's value can be found in the {@link #GridLayout_Layout} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
+containing a value of this type.
+          @attr tableName org.roszonelib.notetools:layout_column
+        */
+        public static int GridLayout_Layout_layout_column = 10;
+        /**
+          <p>This symbol is the offset where the {@link org.roszonelib.notetools.R.attr#layout_columnSpan}
+          attribute's value can be found in the {@link #GridLayout_Layout} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
+containing a value of this type.
+          @attr tableName org.roszonelib.notetools:layout_columnSpan
+        */
+        public static int GridLayout_Layout_layout_columnSpan = 11;
+        /**
+          <p>This symbol is the offset where the {@link org.roszonelib.notetools.R.attr#layout_columnWeight}
+          attribute's value can be found in the {@link #GridLayout_Layout} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
+containing a value of this type.
+          @attr tableName org.roszonelib.notetools:layout_columnWeight
+        */
+        public static int GridLayout_Layout_layout_columnWeight = 12;
+        /**
+          <p>This symbol is the offset where the {@link org.roszonelib.notetools.R.attr#layout_gravity}
+          attribute's value can be found in the {@link #GridLayout_Layout} array.
+
+
+          <p>Must be one or more (separated by '|') of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>top</code></td><td>0x30</td><td></td></tr>
+<tr><td><code>bottom</code></td><td>0x50</td><td></td></tr>
+<tr><td><code>left</code></td><td>0x03</td><td></td></tr>
+<tr><td><code>right</code></td><td>0x05</td><td></td></tr>
+<tr><td><code>center_vertical</code></td><td>0x10</td><td></td></tr>
+<tr><td><code>fill_vertical</code></td><td>0x70</td><td></td></tr>
+<tr><td><code>center_horizontal</code></td><td>0x01</td><td></td></tr>
+<tr><td><code>fill_horizontal</code></td><td>0x07</td><td></td></tr>
+<tr><td><code>center</code></td><td>0x11</td><td></td></tr>
+<tr><td><code>fill</code></td><td>0x77</td><td></td></tr>
+<tr><td><code>clip_vertical</code></td><td>0x80</td><td></td></tr>
+<tr><td><code>clip_horizontal</code></td><td>0x08</td><td></td></tr>
+<tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
+<tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
+</table>
+          @attr tableName org.roszonelib.notetools:layout_gravity
+        */
+        public static int GridLayout_Layout_layout_gravity = 13;
+        /**
+          <p>This symbol is the offset where the {@link org.roszonelib.notetools.R.attr#layout_row}
+          attribute's value can be found in the {@link #GridLayout_Layout} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
+containing a value of this type.
+          @attr tableName org.roszonelib.notetools:layout_row
+        */
+        public static int GridLayout_Layout_layout_row = 7;
+        /**
+          <p>This symbol is the offset where the {@link org.roszonelib.notetools.R.attr#layout_rowSpan}
+          attribute's value can be found in the {@link #GridLayout_Layout} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
+containing a value of this type.
+          @attr tableName org.roszonelib.notetools:layout_rowSpan
+        */
+        public static int GridLayout_Layout_layout_rowSpan = 8;
+        /**
+          <p>This symbol is the offset where the {@link org.roszonelib.notetools.R.attr#layout_rowWeight}
+          attribute's value can be found in the {@link #GridLayout_Layout} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
+containing a value of this type.
+          @attr tableName org.roszonelib.notetools:layout_rowWeight
+        */
+        public static int GridLayout_Layout_layout_rowWeight = 9;
         /** Attributes that can be used with a Iconics.
            <p>Includes the following attributes:</p>
            <table>
@@ -8580,20 +9044,20 @@ containing a value of this type.
            @see #Iconics_ico_size
          */
         public static final int[] Iconics = {
-            0x7f0100f5, 0x7f0100f6, 0x7f0100f7, 0x7f0100f8,
-            0x7f0100f9, 0x7f0100fa, 0x7f0100fb, 0x7f0100fc,
-            0x7f0100fd, 0x7f0100fe
+            0x7f010103, 0x7f010104, 0x7f010105, 0x7f010106,
+            0x7f010107, 0x7f010108, 0x7f010109, 0x7f01010a,
+            0x7f01010b, 0x7f01010c
         };
         /**
           <p>This symbol is the offset where the {@link org.roszonelib.notetools.R.attr#ico_background_color}
           attribute's value can be found in the {@link #Iconics} array.
 
 
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name org.roszonelib.notetools:ico_background_color
+          @attr tableName org.roszonelib.notetools:ico_background_color
         */
         public static int Iconics_ico_background_color = 8;
         /**
@@ -8601,11 +9065,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #Iconics} array.
 
 
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name org.roszonelib.notetools:ico_color
+          @attr tableName org.roszonelib.notetools:ico_color
         */
         public static int Iconics_ico_color = 1;
         /**
@@ -8613,11 +9077,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #Iconics} array.
 
 
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name org.roszonelib.notetools:ico_contour_color
+          @attr tableName org.roszonelib.notetools:ico_contour_color
         */
         public static int Iconics_ico_contour_color = 6;
         /**
@@ -8625,12 +9089,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #Iconics} array.
 
 
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
-          @attr name org.roszonelib.notetools:ico_contour_width
+          @attr tableName org.roszonelib.notetools:ico_contour_width
         */
         public static int Iconics_ico_contour_width = 7;
         /**
@@ -8638,12 +9102,12 @@ in (inches), mm (millimeters).
           attribute's value can be found in the {@link #Iconics} array.
 
 
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
-          @attr name org.roszonelib.notetools:ico_corner_radius
+          @attr tableName org.roszonelib.notetools:ico_corner_radius
         */
         public static int Iconics_ico_corner_radius = 9;
         /**
@@ -8653,11 +9117,11 @@ in (inches), mm (millimeters).
 
           <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:ico_icon
+          @attr tableName org.roszonelib.notetools:ico_icon
         */
         public static int Iconics_ico_icon = 0;
         /**
@@ -8665,12 +9129,12 @@ containing a value of this type.
           attribute's value can be found in the {@link #Iconics} array.
 
 
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
-          @attr name org.roszonelib.notetools:ico_offset_x
+          @attr tableName org.roszonelib.notetools:ico_offset_x
         */
         public static int Iconics_ico_offset_x = 3;
         /**
@@ -8678,12 +9142,12 @@ in (inches), mm (millimeters).
           attribute's value can be found in the {@link #Iconics} array.
 
 
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
-          @attr name org.roszonelib.notetools:ico_offset_y
+          @attr tableName org.roszonelib.notetools:ico_offset_y
         */
         public static int Iconics_ico_offset_y = 4;
         /**
@@ -8691,12 +9155,12 @@ in (inches), mm (millimeters).
           attribute's value can be found in the {@link #Iconics} array.
 
 
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
-          @attr name org.roszonelib.notetools:ico_padding
+          @attr tableName org.roszonelib.notetools:ico_padding
         */
         public static int Iconics_ico_padding = 5;
         /**
@@ -8704,12 +9168,12 @@ in (inches), mm (millimeters).
           attribute's value can be found in the {@link #Iconics} array.
 
 
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
-          @attr name org.roszonelib.notetools:ico_size
+          @attr tableName org.roszonelib.notetools:ico_size
         */
         public static int Iconics_ico_size = 2;
         /** Attributes that can be used with a IconicsImageView.
@@ -8737,19 +9201,19 @@ in (inches), mm (millimeters).
            @see #IconicsImageView_iiv_size
          */
         public static final int[] IconicsImageView = {
-            0x7f0100ff, 0x7f010100, 0x7f010101, 0x7f010102,
-            0x7f010103, 0x7f010104, 0x7f010105, 0x7f010106
+            0x7f01010d, 0x7f01010e, 0x7f01010f, 0x7f010110,
+            0x7f010111, 0x7f010112, 0x7f010113, 0x7f010114
         };
         /**
           <p>This symbol is the offset where the {@link org.roszonelib.notetools.R.attr#iiv_background_color}
           attribute's value can be found in the {@link #IconicsImageView} array.
 
 
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name org.roszonelib.notetools:iiv_background_color
+          @attr tableName org.roszonelib.notetools:iiv_background_color
         */
         public static int IconicsImageView_iiv_background_color = 6;
         /**
@@ -8757,11 +9221,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #IconicsImageView} array.
 
 
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name org.roszonelib.notetools:iiv_color
+          @attr tableName org.roszonelib.notetools:iiv_color
         */
         public static int IconicsImageView_iiv_color = 1;
         /**
@@ -8769,11 +9233,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #IconicsImageView} array.
 
 
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name org.roszonelib.notetools:iiv_contour_color
+          @attr tableName org.roszonelib.notetools:iiv_contour_color
         */
         public static int IconicsImageView_iiv_contour_color = 4;
         /**
@@ -8781,12 +9245,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #IconicsImageView} array.
 
 
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
-          @attr name org.roszonelib.notetools:iiv_contour_width
+          @attr tableName org.roszonelib.notetools:iiv_contour_width
         */
         public static int IconicsImageView_iiv_contour_width = 5;
         /**
@@ -8794,12 +9258,12 @@ in (inches), mm (millimeters).
           attribute's value can be found in the {@link #IconicsImageView} array.
 
 
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
-          @attr name org.roszonelib.notetools:iiv_corner_radius
+          @attr tableName org.roszonelib.notetools:iiv_corner_radius
         */
         public static int IconicsImageView_iiv_corner_radius = 7;
         /**
@@ -8809,11 +9273,11 @@ in (inches), mm (millimeters).
 
           <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:iiv_icon
+          @attr tableName org.roszonelib.notetools:iiv_icon
         */
         public static int IconicsImageView_iiv_icon = 0;
         /**
@@ -8821,12 +9285,12 @@ containing a value of this type.
           attribute's value can be found in the {@link #IconicsImageView} array.
 
 
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
-          @attr name org.roszonelib.notetools:iiv_padding
+          @attr tableName org.roszonelib.notetools:iiv_padding
         */
         public static int IconicsImageView_iiv_padding = 3;
         /**
@@ -8834,12 +9298,12 @@ in (inches), mm (millimeters).
           attribute's value can be found in the {@link #IconicsImageView} array.
 
 
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
-          @attr name org.roszonelib.notetools:iiv_size
+          @attr tableName org.roszonelib.notetools:iiv_size
         */
         public static int IconicsImageView_iiv_size = 2;
         /** Attributes that can be used with a LinearLayoutCompat.
@@ -8870,37 +9334,37 @@ in (inches), mm (millimeters).
          */
         public static final int[] LinearLayoutCompat = {
             0x010100af, 0x010100c4, 0x01010126, 0x01010127,
-            0x01010128, 0x7f010027, 0x7f010107, 0x7f010108,
-            0x7f010109
+            0x01010128, 0x7f010027, 0x7f010115, 0x7f010116,
+            0x7f010117
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#baselineAligned}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
-          @attr name android:baselineAligned
+          @attr tableName android:baselineAligned
         */
         public static int LinearLayoutCompat_android_baselineAligned = 2;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#baselineAlignedChildIndex}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
-          @attr name android:baselineAlignedChildIndex
+          @attr tableName android:baselineAlignedChildIndex
         */
         public static int LinearLayoutCompat_android_baselineAlignedChildIndex = 3;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#gravity}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
-          @attr name android:gravity
+          @attr tableName android:gravity
         */
         public static int LinearLayoutCompat_android_gravity = 0;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#orientation}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
-          @attr name android:orientation
+          @attr tableName android:orientation
         */
         public static int LinearLayoutCompat_android_orientation = 1;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#weightSum}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
-          @attr name android:weightSum
+          @attr tableName android:weightSum
         */
         public static int LinearLayoutCompat_android_weightSum = 4;
         /**
@@ -8908,9 +9372,9 @@ in (inches), mm (millimeters).
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:divider
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:divider
         */
         public static int LinearLayoutCompat_divider = 5;
         /**
@@ -8922,11 +9386,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:dividerPadding
+          @attr tableName org.roszonelib.notetools:dividerPadding
         */
         public static int LinearLayoutCompat_dividerPadding = 8;
         /**
@@ -8936,11 +9400,11 @@ containing a value of this type.
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:measureWithLargestChild
+          @attr tableName org.roszonelib.notetools:measureWithLargestChild
         */
         public static int LinearLayoutCompat_measureWithLargestChild = 6;
         /**
@@ -8959,7 +9423,7 @@ containing a value of this type.
 <tr><td><code>middle</code></td><td>2</td><td></td></tr>
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name org.roszonelib.notetools:showDividers
+          @attr tableName org.roszonelib.notetools:showDividers
         */
         public static int LinearLayoutCompat_showDividers = 7;
         /** Attributes that can be used with a LinearLayoutCompat_Layout.
@@ -8984,25 +9448,25 @@ containing a value of this type.
         /**
           <p>This symbol is the offset where the {@link android.R.attr#layout_gravity}
           attribute's value can be found in the {@link #LinearLayoutCompat_Layout} array.
-          @attr name android:layout_gravity
+          @attr tableName android:layout_gravity
         */
         public static int LinearLayoutCompat_Layout_android_layout_gravity = 0;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#layout_height}
           attribute's value can be found in the {@link #LinearLayoutCompat_Layout} array.
-          @attr name android:layout_height
+          @attr tableName android:layout_height
         */
         public static int LinearLayoutCompat_Layout_android_layout_height = 2;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#layout_weight}
           attribute's value can be found in the {@link #LinearLayoutCompat_Layout} array.
-          @attr name android:layout_weight
+          @attr tableName android:layout_weight
         */
         public static int LinearLayoutCompat_Layout_android_layout_weight = 3;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#layout_width}
           attribute's value can be found in the {@link #LinearLayoutCompat_Layout} array.
-          @attr name android:layout_width
+          @attr tableName android:layout_width
         */
         public static int LinearLayoutCompat_Layout_android_layout_width = 1;
         /** Attributes that can be used with a ListPopupWindow.
@@ -9023,13 +9487,13 @@ containing a value of this type.
         /**
           <p>This symbol is the offset where the {@link android.R.attr#dropDownHorizontalOffset}
           attribute's value can be found in the {@link #ListPopupWindow} array.
-          @attr name android:dropDownHorizontalOffset
+          @attr tableName android:dropDownHorizontalOffset
         */
         public static int ListPopupWindow_android_dropDownHorizontalOffset = 0;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#dropDownVerticalOffset}
           attribute's value can be found in the {@link #ListPopupWindow} array.
-          @attr name android:dropDownVerticalOffset
+          @attr tableName android:dropDownVerticalOffset
         */
         public static int ListPopupWindow_android_dropDownVerticalOffset = 1;
         /** Attributes that can be used with a ListPreference.
@@ -9049,18 +9513,18 @@ containing a value of this type.
            @see #ListPreference_entryValues
          */
         public static final int[] ListPreference = {
-            0x010100b2, 0x010101f8, 0x7f01010a, 0x7f01010b
+            0x010100b2, 0x010101f8, 0x7f010118, 0x7f010119
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#entries}
           attribute's value can be found in the {@link #ListPreference} array.
-          @attr name android:entries
+          @attr tableName android:entries
         */
         public static int ListPreference_android_entries = 0;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#entryValues}
           attribute's value can be found in the {@link #ListPreference} array.
-          @attr name android:entryValues
+          @attr tableName android:entryValues
         */
         public static int ListPreference_android_entryValues = 1;
         /**
@@ -9068,9 +9532,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #ListPreference} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:entries
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:entries
         */
         public static int ListPreference_entries = 2;
         /**
@@ -9078,9 +9542,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #ListPreference} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:entryValues
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:entryValues
         */
         public static int ListPreference_entryValues = 3;
         /** Attributes that can be used with a MDRootLayout.
@@ -9094,7 +9558,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #MDRootLayout_md_reduce_padding_no_title_no_buttons
          */
         public static final int[] MDRootLayout = {
-            0x7f01010c
+            0x7f01011a
         };
         /**
           <p>This symbol is the offset where the {@link org.roszonelib.notetools.R.attr#md_reduce_padding_no_title_no_buttons}
@@ -9103,11 +9567,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:md_reduce_padding_no_title_no_buttons
+          @attr tableName org.roszonelib.notetools:md_reduce_padding_no_title_no_buttons
         */
         public static int MDRootLayout_md_reduce_padding_no_title_no_buttons = 0;
         /** Attributes that can be used with a MaterialDrawer.
@@ -9141,20 +9605,20 @@ containing a value of this type.
            @see #MaterialDrawer_material_drawer_window_background
          */
         public static final int[] MaterialDrawer = {
-            0x7f01010d, 0x7f01010e, 0x7f01010f, 0x7f010110,
-            0x7f010111, 0x7f010112, 0x7f010113, 0x7f010114,
-            0x7f010115, 0x7f010116, 0x7f010117
+            0x7f01011b, 0x7f01011c, 0x7f01011d, 0x7f01011e,
+            0x7f01011f, 0x7f010120, 0x7f010121, 0x7f010122,
+            0x7f010123, 0x7f010124, 0x7f010125
         };
         /**
           <p>This symbol is the offset where the {@link org.roszonelib.notetools.R.attr#material_drawer_background}
           attribute's value can be found in the {@link #MaterialDrawer} array.
 
 
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name org.roszonelib.notetools:material_drawer_background
+          @attr tableName org.roszonelib.notetools:material_drawer_background
         */
         public static int MaterialDrawer_material_drawer_background = 1;
         /**
@@ -9162,11 +9626,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #MaterialDrawer} array.
 
 
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name org.roszonelib.notetools:material_drawer_divider
+          @attr tableName org.roszonelib.notetools:material_drawer_divider
         */
         public static int MaterialDrawer_material_drawer_divider = 7;
         /**
@@ -9174,11 +9638,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #MaterialDrawer} array.
 
 
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name org.roszonelib.notetools:material_drawer_header_selection_text
+          @attr tableName org.roszonelib.notetools:material_drawer_header_selection_text
         */
         public static int MaterialDrawer_material_drawer_header_selection_text = 10;
         /**
@@ -9186,11 +9650,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #MaterialDrawer} array.
 
 
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name org.roszonelib.notetools:material_drawer_hint_icon
+          @attr tableName org.roszonelib.notetools:material_drawer_hint_icon
         */
         public static int MaterialDrawer_material_drawer_hint_icon = 6;
         /**
@@ -9198,11 +9662,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #MaterialDrawer} array.
 
 
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name org.roszonelib.notetools:material_drawer_hint_text
+          @attr tableName org.roszonelib.notetools:material_drawer_hint_text
         */
         public static int MaterialDrawer_material_drawer_hint_text = 5;
         /**
@@ -9210,11 +9674,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #MaterialDrawer} array.
 
 
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name org.roszonelib.notetools:material_drawer_primary_icon
+          @attr tableName org.roszonelib.notetools:material_drawer_primary_icon
         */
         public static int MaterialDrawer_material_drawer_primary_icon = 3;
         /**
@@ -9222,11 +9686,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #MaterialDrawer} array.
 
 
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name org.roszonelib.notetools:material_drawer_primary_text
+          @attr tableName org.roszonelib.notetools:material_drawer_primary_text
         */
         public static int MaterialDrawer_material_drawer_primary_text = 2;
         /**
@@ -9234,11 +9698,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #MaterialDrawer} array.
 
 
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name org.roszonelib.notetools:material_drawer_secondary_text
+          @attr tableName org.roszonelib.notetools:material_drawer_secondary_text
         */
         public static int MaterialDrawer_material_drawer_secondary_text = 4;
         /**
@@ -9246,11 +9710,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #MaterialDrawer} array.
 
 
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name org.roszonelib.notetools:material_drawer_selected
+          @attr tableName org.roszonelib.notetools:material_drawer_selected
         */
         public static int MaterialDrawer_material_drawer_selected = 8;
         /**
@@ -9258,11 +9722,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #MaterialDrawer} array.
 
 
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name org.roszonelib.notetools:material_drawer_selected_text
+          @attr tableName org.roszonelib.notetools:material_drawer_selected_text
         */
         public static int MaterialDrawer_material_drawer_selected_text = 9;
         /**
@@ -9270,11 +9734,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #MaterialDrawer} array.
 
 
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name org.roszonelib.notetools:material_drawer_window_background
+          @attr tableName org.roszonelib.notetools:material_drawer_window_background
         */
         public static int MaterialDrawer_material_drawer_window_background = 0;
         /** Attributes that can be used with a MaterialProgressBar.
@@ -9298,13 +9762,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #MaterialProgressBar_mpb_useIntrinsicPadding
          */
         public static final int[] MaterialProgressBar = {
-            0x01010121, 0x7f010118, 0x7f010119, 0x7f01011a,
-            0x7f01011b, 0x7f01011c
+            0x01010121, 0x7f010126, 0x7f010127, 0x7f010128,
+            0x7f010129, 0x7f01012a
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#tint}
           attribute's value can be found in the {@link #MaterialProgressBar} array.
-          @attr name android:tint
+          @attr tableName android:tint
         */
         public static int MaterialProgressBar_android_tint = 0;
         /**
@@ -9321,7 +9785,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>circular</code></td><td>0</td><td></td></tr>
 <tr><td><code>horizontal</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name org.roszonelib.notetools:mpb_progressStyle
+          @attr tableName org.roszonelib.notetools:mpb_progressStyle
         */
         public static int MaterialProgressBar_mpb_progressStyle = 1;
         /**
@@ -9331,11 +9795,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:mpb_setBothDrawables
+          @attr tableName org.roszonelib.notetools:mpb_setBothDrawables
         */
         public static int MaterialProgressBar_mpb_setBothDrawables = 2;
         /**
@@ -9345,11 +9809,11 @@ containing a value of this type.
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:mpb_showTrack
+          @attr tableName org.roszonelib.notetools:mpb_showTrack
         */
         public static int MaterialProgressBar_mpb_showTrack = 4;
         /**
@@ -9370,7 +9834,7 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
-          @attr name org.roszonelib.notetools:mpb_tintMode
+          @attr tableName org.roszonelib.notetools:mpb_tintMode
         */
         public static int MaterialProgressBar_mpb_tintMode = 5;
         /**
@@ -9380,11 +9844,11 @@ containing a value of this type.
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:mpb_useIntrinsicPadding
+          @attr tableName org.roszonelib.notetools:mpb_useIntrinsicPadding
         */
         public static int MaterialProgressBar_mpb_useIntrinsicPadding = 3;
         /** Attributes that can be used with a MaterialRippleLayout.
@@ -9420,9 +9884,9 @@ containing a value of this type.
            @see #MaterialRippleLayout_mrl_rippleRoundedCorners
          */
         public static final int[] MaterialRippleLayout = {
-            0x7f01011d, 0x7f01011e, 0x7f01011f, 0x7f010120,
-            0x7f010121, 0x7f010122, 0x7f010123, 0x7f010124,
-            0x7f010125, 0x7f010126, 0x7f010127, 0x7f010128
+            0x7f01012b, 0x7f01012c, 0x7f01012d, 0x7f01012e,
+            0x7f01012f, 0x7f010130, 0x7f010131, 0x7f010132,
+            0x7f010133, 0x7f010134, 0x7f010135, 0x7f010136
         };
         /**
           <p>This symbol is the offset where the {@link org.roszonelib.notetools.R.attr#mrl_rippleAlpha}
@@ -9431,11 +9895,11 @@ containing a value of this type.
 
           <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:mrl_rippleAlpha
+          @attr tableName org.roszonelib.notetools:mrl_rippleAlpha
         */
         public static int MaterialRippleLayout_mrl_rippleAlpha = 3;
         /**
@@ -9446,11 +9910,11 @@ containing a value of this type.
           <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:mrl_rippleBackground
+          @attr tableName org.roszonelib.notetools:mrl_rippleBackground
         */
         public static int MaterialRippleLayout_mrl_rippleBackground = 7;
         /**
@@ -9461,11 +9925,11 @@ containing a value of this type.
           <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:mrl_rippleColor
+          @attr tableName org.roszonelib.notetools:mrl_rippleColor
         */
         public static int MaterialRippleLayout_mrl_rippleColor = 0;
         /**
@@ -9475,11 +9939,11 @@ containing a value of this type.
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:mrl_rippleDelayClick
+          @attr tableName org.roszonelib.notetools:mrl_rippleDelayClick
         */
         public static int MaterialRippleLayout_mrl_rippleDelayClick = 8;
         /**
@@ -9491,11 +9955,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:mrl_rippleDimension
+          @attr tableName org.roszonelib.notetools:mrl_rippleDimension
         */
         public static int MaterialRippleLayout_mrl_rippleDimension = 1;
         /**
@@ -9505,11 +9969,11 @@ containing a value of this type.
 
           <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:mrl_rippleDuration
+          @attr tableName org.roszonelib.notetools:mrl_rippleDuration
         */
         public static int MaterialRippleLayout_mrl_rippleDuration = 4;
         /**
@@ -9519,11 +9983,11 @@ containing a value of this type.
 
           <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:mrl_rippleFadeDuration
+          @attr tableName org.roszonelib.notetools:mrl_rippleFadeDuration
         */
         public static int MaterialRippleLayout_mrl_rippleFadeDuration = 5;
         /**
@@ -9533,11 +9997,11 @@ containing a value of this type.
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:mrl_rippleHover
+          @attr tableName org.roszonelib.notetools:mrl_rippleHover
         */
         public static int MaterialRippleLayout_mrl_rippleHover = 6;
         /**
@@ -9547,11 +10011,11 @@ containing a value of this type.
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:mrl_rippleInAdapter
+          @attr tableName org.roszonelib.notetools:mrl_rippleInAdapter
         */
         public static int MaterialRippleLayout_mrl_rippleInAdapter = 10;
         /**
@@ -9561,11 +10025,11 @@ containing a value of this type.
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:mrl_rippleOverlay
+          @attr tableName org.roszonelib.notetools:mrl_rippleOverlay
         */
         public static int MaterialRippleLayout_mrl_rippleOverlay = 2;
         /**
@@ -9575,11 +10039,11 @@ containing a value of this type.
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:mrl_ripplePersistent
+          @attr tableName org.roszonelib.notetools:mrl_ripplePersistent
         */
         public static int MaterialRippleLayout_mrl_ripplePersistent = 9;
         /**
@@ -9591,11 +10055,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:mrl_rippleRoundedCorners
+          @attr tableName org.roszonelib.notetools:mrl_rippleRoundedCorners
         */
         public static int MaterialRippleLayout_mrl_rippleRoundedCorners = 11;
         /** Attributes that can be used with a MenuGroup.
@@ -9606,7 +10070,7 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #MenuGroup_android_checkableBehavior android:checkableBehavior}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuGroup_android_enabled android:enabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuGroup_android_id android:id}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuGroup_android_id android:isPrimaryKey}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuGroup_android_menuCategory android:menuCategory}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuGroup_android_orderInCategory android:orderInCategory}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuGroup_android_visible android:visible}</code></td><td></td></tr>
@@ -9625,37 +10089,37 @@ containing a value of this type.
         /**
           <p>This symbol is the offset where the {@link android.R.attr#checkableBehavior}
           attribute's value can be found in the {@link #MenuGroup} array.
-          @attr name android:checkableBehavior
+          @attr tableName android:checkableBehavior
         */
         public static int MenuGroup_android_checkableBehavior = 5;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#enabled}
           attribute's value can be found in the {@link #MenuGroup} array.
-          @attr name android:enabled
+          @attr tableName android:enabled
         */
         public static int MenuGroup_android_enabled = 0;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#id}
           attribute's value can be found in the {@link #MenuGroup} array.
-          @attr name android:id
+          @attr tableName android:isPrimaryKey
         */
         public static int MenuGroup_android_id = 1;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#menuCategory}
           attribute's value can be found in the {@link #MenuGroup} array.
-          @attr name android:menuCategory
+          @attr tableName android:menuCategory
         */
         public static int MenuGroup_android_menuCategory = 3;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#orderInCategory}
           attribute's value can be found in the {@link #MenuGroup} array.
-          @attr name android:orderInCategory
+          @attr tableName android:orderInCategory
         */
         public static int MenuGroup_android_orderInCategory = 4;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#visible}
           attribute's value can be found in the {@link #MenuGroup} array.
-          @attr name android:visible
+          @attr tableName android:visible
         */
         public static int MenuGroup_android_visible = 2;
         /** Attributes that can be used with a MenuItem.
@@ -9672,7 +10136,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuItem_android_checked android:checked}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_enabled android:enabled}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_icon android:icon}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_android_id android:id}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_android_id android:isPrimaryKey}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_menuCategory android:menuCategory}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_numericShortcut android:numericShortcut}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_onClick android:onClick}</code></td><td></td></tr>
@@ -9704,17 +10168,17 @@ containing a value of this type.
             0x01010002, 0x0101000e, 0x010100d0, 0x01010106,
             0x01010194, 0x010101de, 0x010101df, 0x010101e1,
             0x010101e2, 0x010101e3, 0x010101e4, 0x010101e5,
-            0x0101026f, 0x7f010129, 0x7f01012a, 0x7f01012b,
-            0x7f01012c
+            0x0101026f, 0x7f010137, 0x7f010138, 0x7f010139,
+            0x7f01013a
         };
         /**
           <p>This symbol is the offset where the {@link org.roszonelib.notetools.R.attr#actionLayout}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:actionLayout
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:actionLayout
         */
         public static int MenuItem_actionLayout = 14;
         /**
@@ -9724,11 +10188,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:actionProviderClass
+          @attr tableName org.roszonelib.notetools:actionProviderClass
         */
         public static int MenuItem_actionProviderClass = 16;
         /**
@@ -9738,89 +10202,89 @@ containing a value of this type.
 
           <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:actionViewClass
+          @attr tableName org.roszonelib.notetools:actionViewClass
         */
         public static int MenuItem_actionViewClass = 15;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#alphabeticShortcut}
           attribute's value can be found in the {@link #MenuItem} array.
-          @attr name android:alphabeticShortcut
+          @attr tableName android:alphabeticShortcut
         */
         public static int MenuItem_android_alphabeticShortcut = 9;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#checkable}
           attribute's value can be found in the {@link #MenuItem} array.
-          @attr name android:checkable
+          @attr tableName android:checkable
         */
         public static int MenuItem_android_checkable = 11;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#checked}
           attribute's value can be found in the {@link #MenuItem} array.
-          @attr name android:checked
+          @attr tableName android:checked
         */
         public static int MenuItem_android_checked = 3;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#enabled}
           attribute's value can be found in the {@link #MenuItem} array.
-          @attr name android:enabled
+          @attr tableName android:enabled
         */
         public static int MenuItem_android_enabled = 1;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#icon}
           attribute's value can be found in the {@link #MenuItem} array.
-          @attr name android:icon
+          @attr tableName android:icon
         */
         public static int MenuItem_android_icon = 0;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#id}
           attribute's value can be found in the {@link #MenuItem} array.
-          @attr name android:id
+          @attr tableName android:isPrimaryKey
         */
         public static int MenuItem_android_id = 2;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#menuCategory}
           attribute's value can be found in the {@link #MenuItem} array.
-          @attr name android:menuCategory
+          @attr tableName android:menuCategory
         */
         public static int MenuItem_android_menuCategory = 5;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#numericShortcut}
           attribute's value can be found in the {@link #MenuItem} array.
-          @attr name android:numericShortcut
+          @attr tableName android:numericShortcut
         */
         public static int MenuItem_android_numericShortcut = 10;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#onClick}
           attribute's value can be found in the {@link #MenuItem} array.
-          @attr name android:onClick
+          @attr tableName android:onClick
         */
         public static int MenuItem_android_onClick = 12;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#orderInCategory}
           attribute's value can be found in the {@link #MenuItem} array.
-          @attr name android:orderInCategory
+          @attr tableName android:orderInCategory
         */
         public static int MenuItem_android_orderInCategory = 6;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#title}
           attribute's value can be found in the {@link #MenuItem} array.
-          @attr name android:title
+          @attr tableName android:title
         */
         public static int MenuItem_android_title = 7;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#titleCondensed}
           attribute's value can be found in the {@link #MenuItem} array.
-          @attr name android:titleCondensed
+          @attr tableName android:titleCondensed
         */
         public static int MenuItem_android_titleCondensed = 8;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#visible}
           attribute's value can be found in the {@link #MenuItem} array.
-          @attr name android:visible
+          @attr tableName android:visible
         */
         public static int MenuItem_android_visible = 4;
         /**
@@ -9840,7 +10304,7 @@ containing a value of this type.
 <tr><td><code>withText</code></td><td>4</td><td></td></tr>
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
-          @attr name org.roszonelib.notetools:showAsAction
+          @attr tableName org.roszonelib.notetools:showAsAction
         */
         public static int MenuItem_showAsAction = 13;
         /** Attributes that can be used with a MenuView.
@@ -9869,48 +10333,48 @@ containing a value of this type.
          */
         public static final int[] MenuView = {
             0x010100ae, 0x0101012c, 0x0101012d, 0x0101012e,
-            0x0101012f, 0x01010130, 0x01010131, 0x7f01012d
+            0x0101012f, 0x01010130, 0x01010131, 0x7f01013b
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#headerBackground}
           attribute's value can be found in the {@link #MenuView} array.
-          @attr name android:headerBackground
+          @attr tableName android:headerBackground
         */
         public static int MenuView_android_headerBackground = 4;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#horizontalDivider}
           attribute's value can be found in the {@link #MenuView} array.
-          @attr name android:horizontalDivider
+          @attr tableName android:horizontalDivider
         */
         public static int MenuView_android_horizontalDivider = 2;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#itemBackground}
           attribute's value can be found in the {@link #MenuView} array.
-          @attr name android:itemBackground
+          @attr tableName android:itemBackground
         */
         public static int MenuView_android_itemBackground = 5;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#itemIconDisabledAlpha}
           attribute's value can be found in the {@link #MenuView} array.
-          @attr name android:itemIconDisabledAlpha
+          @attr tableName android:itemIconDisabledAlpha
         */
         public static int MenuView_android_itemIconDisabledAlpha = 6;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#itemTextAppearance}
           attribute's value can be found in the {@link #MenuView} array.
-          @attr name android:itemTextAppearance
+          @attr tableName android:itemTextAppearance
         */
         public static int MenuView_android_itemTextAppearance = 1;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#verticalDivider}
           attribute's value can be found in the {@link #MenuView} array.
-          @attr name android:verticalDivider
+          @attr tableName android:verticalDivider
         */
         public static int MenuView_android_verticalDivider = 3;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
           attribute's value can be found in the {@link #MenuView} array.
-          @attr name android:windowAnimationStyle
+          @attr tableName android:windowAnimationStyle
         */
         public static int MenuView_android_windowAnimationStyle = 0;
         /**
@@ -9920,11 +10384,11 @@ containing a value of this type.
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:preserveIconSpacing
+          @attr tableName org.roszonelib.notetools:preserveIconSpacing
         */
         public static int MenuView_preserveIconSpacing = 7;
         /** Attributes that can be used with a MultiSelectListPreference.
@@ -9944,18 +10408,18 @@ containing a value of this type.
            @see #MultiSelectListPreference_entryValues
          */
         public static final int[] MultiSelectListPreference = {
-            0x010100b2, 0x010101f8, 0x7f01010a, 0x7f01010b
+            0x010100b2, 0x010101f8, 0x7f010118, 0x7f010119
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#entries}
           attribute's value can be found in the {@link #MultiSelectListPreference} array.
-          @attr name android:entries
+          @attr tableName android:entries
         */
         public static int MultiSelectListPreference_android_entries = 0;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#entryValues}
           attribute's value can be found in the {@link #MultiSelectListPreference} array.
-          @attr name android:entryValues
+          @attr tableName android:entryValues
         */
         public static int MultiSelectListPreference_android_entryValues = 1;
         /**
@@ -9963,9 +10427,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #MultiSelectListPreference} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:entries
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:entries
         */
         public static int MultiSelectListPreference_entries = 2;
         /**
@@ -9973,9 +10437,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #MultiSelectListPreference} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:entryValues
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:entryValues
         */
         public static int MultiSelectListPreference_entryValues = 3;
         /** Attributes that can be used with a NavigationView.
@@ -10008,25 +10472,25 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
          */
         public static final int[] NavigationView = {
             0x010100d4, 0x010100dd, 0x0101011f, 0x7f010036,
-            0x7f01012e, 0x7f01012f, 0x7f010130, 0x7f010131,
-            0x7f010132, 0x7f010133
+            0x7f01013c, 0x7f01013d, 0x7f01013e, 0x7f01013f,
+            0x7f010140, 0x7f010141
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#background}
           attribute's value can be found in the {@link #NavigationView} array.
-          @attr name android:background
+          @attr tableName android:background
         */
         public static int NavigationView_android_background = 0;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#fitsSystemWindows}
           attribute's value can be found in the {@link #NavigationView} array.
-          @attr name android:fitsSystemWindows
+          @attr tableName android:fitsSystemWindows
         */
         public static int NavigationView_android_fitsSystemWindows = 1;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
           attribute's value can be found in the {@link #NavigationView} array.
-          @attr name android:maxWidth
+          @attr tableName android:maxWidth
         */
         public static int NavigationView_android_maxWidth = 2;
         /**
@@ -10038,11 +10502,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:elevation
+          @attr tableName org.roszonelib.notetools:elevation
         */
         public static int NavigationView_elevation = 3;
         /**
@@ -10050,9 +10514,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #NavigationView} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:headerLayout
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:headerLayout
         */
         public static int NavigationView_headerLayout = 9;
         /**
@@ -10060,9 +10524,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #NavigationView} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:itemBackground
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:itemBackground
         */
         public static int NavigationView_itemBackground = 7;
         /**
@@ -10073,11 +10537,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:itemIconTint
+          @attr tableName org.roszonelib.notetools:itemIconTint
         */
         public static int NavigationView_itemIconTint = 5;
         /**
@@ -10085,9 +10549,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #NavigationView} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:itemTextAppearance
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:itemTextAppearance
         */
         public static int NavigationView_itemTextAppearance = 8;
         /**
@@ -10098,11 +10562,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:itemTextColor
+          @attr tableName org.roszonelib.notetools:itemTextColor
         */
         public static int NavigationView_itemTextColor = 6;
         /**
@@ -10110,9 +10574,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #NavigationView} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:menu
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:menu
         */
         public static int NavigationView_menu = 4;
         /** Attributes that can be used with a PopupWindow.
@@ -10128,12 +10592,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #PopupWindow_overlapAnchor
          */
         public static final int[] PopupWindow = {
-            0x01010176, 0x7f010134
+            0x01010176, 0x7f010142
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#popupBackground}
           attribute's value can be found in the {@link #PopupWindow} array.
-          @attr name android:popupBackground
+          @attr tableName android:popupBackground
         */
         public static int PopupWindow_android_popupBackground = 0;
         /**
@@ -10143,11 +10607,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:overlapAnchor
+          @attr tableName org.roszonelib.notetools:overlapAnchor
         */
         public static int PopupWindow_overlapAnchor = 1;
         /** Attributes that can be used with a PopupWindowBackgroundState.
@@ -10161,7 +10625,7 @@ containing a value of this type.
            @see #PopupWindowBackgroundState_state_above_anchor
          */
         public static final int[] PopupWindowBackgroundState = {
-            0x7f010135
+            0x7f010143
         };
         /**
           <p>This symbol is the offset where the {@link org.roszonelib.notetools.R.attr#state_above_anchor}
@@ -10170,11 +10634,11 @@ containing a value of this type.
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:state_above_anchor
+          @attr tableName org.roszonelib.notetools:state_above_anchor
         */
         public static int PopupWindowBackgroundState_state_above_anchor = 0;
         /** Attributes that can be used with a Preference.
@@ -10246,92 +10710,92 @@ containing a value of this type.
             0x010101e1, 0x010101e6, 0x010101e8, 0x010101e9,
             0x010101ea, 0x010101eb, 0x010101ec, 0x010101ed,
             0x010101ee, 0x010102e3, 0x7f01001f, 0x7f010025,
-            0x7f010136, 0x7f010137, 0x7f010138, 0x7f010139,
-            0x7f01013a, 0x7f01013b, 0x7f01013c, 0x7f01013d,
-            0x7f01013e, 0x7f01013f, 0x7f010140, 0x7f010162
+            0x7f010144, 0x7f010145, 0x7f010146, 0x7f010147,
+            0x7f010148, 0x7f010149, 0x7f01014a, 0x7f01014b,
+            0x7f01014c, 0x7f01014d, 0x7f01014e, 0x7f010170
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#defaultValue}
           attribute's value can be found in the {@link #Preference} array.
-          @attr name android:defaultValue
+          @attr tableName android:defaultValue
         */
         public static int Preference_android_defaultValue = 11;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#dependency}
           attribute's value can be found in the {@link #Preference} array.
-          @attr name android:dependency
+          @attr tableName android:dependency
         */
         public static int Preference_android_dependency = 10;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#enabled}
           attribute's value can be found in the {@link #Preference} array.
-          @attr name android:enabled
+          @attr tableName android:enabled
         */
         public static int Preference_android_enabled = 2;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#fragment}
           attribute's value can be found in the {@link #Preference} array.
-          @attr name android:fragment
+          @attr tableName android:fragment
         */
         public static int Preference_android_fragment = 13;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#icon}
           attribute's value can be found in the {@link #Preference} array.
-          @attr name android:icon
+          @attr tableName android:icon
         */
         public static int Preference_android_icon = 0;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#key}
           attribute's value can be found in the {@link #Preference} array.
-          @attr name android:key
+          @attr tableName android:key
         */
         public static int Preference_android_key = 6;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#layout}
           attribute's value can be found in the {@link #Preference} array.
-          @attr name android:layout
+          @attr tableName android:layout
         */
         public static int Preference_android_layout = 3;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#order}
           attribute's value can be found in the {@link #Preference} array.
-          @attr name android:order
+          @attr tableName android:order
         */
         public static int Preference_android_order = 8;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#persistent}
           attribute's value can be found in the {@link #Preference} array.
-          @attr name android:persistent
+          @attr tableName android:persistent
         */
         public static int Preference_android_persistent = 1;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#selectable}
           attribute's value can be found in the {@link #Preference} array.
-          @attr name android:selectable
+          @attr tableName android:selectable
         */
         public static int Preference_android_selectable = 5;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#shouldDisableView}
           attribute's value can be found in the {@link #Preference} array.
-          @attr name android:shouldDisableView
+          @attr tableName android:shouldDisableView
         */
         public static int Preference_android_shouldDisableView = 12;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#summary}
           attribute's value can be found in the {@link #Preference} array.
-          @attr name android:summary
+          @attr tableName android:summary
         */
         public static int Preference_android_summary = 7;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#title}
           attribute's value can be found in the {@link #Preference} array.
-          @attr name android:title
+          @attr tableName android:title
         */
         public static int Preference_android_title = 4;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#widgetLayout}
           attribute's value can be found in the {@link #Preference} array.
-          @attr name android:widgetLayout
+          @attr tableName android:widgetLayout
         */
         public static int Preference_android_widgetLayout = 9;
         /**
@@ -10339,13 +10803,13 @@ containing a value of this type.
           attribute's value can be found in the {@link #Preference} array.
 
 
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>May be an integer value, such as "<code>100</code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>May be a floating point value, such as "<code>1.2</code>".
-          @attr name org.roszonelib.notetools:defaultValue
+          @attr tableName org.roszonelib.notetools:defaultValue
         */
         public static int Preference_defaultValue = 25;
         /**
@@ -10355,11 +10819,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:dependency
+          @attr tableName org.roszonelib.notetools:dependency
         */
         public static int Preference_dependency = 23;
         /**
@@ -10369,11 +10833,11 @@ containing a value of this type.
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:enabled
+          @attr tableName org.roszonelib.notetools:enabled
         */
         public static int Preference_enabled = 21;
         /**
@@ -10383,11 +10847,11 @@ containing a value of this type.
 
           <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:fragment
+          @attr tableName org.roszonelib.notetools:fragment
         */
         public static int Preference_fragment = 19;
         /**
@@ -10395,9 +10859,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #Preference} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:icon
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:icon
         */
         public static int Preference_icon = 15;
         /**
@@ -10407,11 +10871,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:key
+          @attr tableName org.roszonelib.notetools:key
         */
         public static int Preference_key = 16;
         /**
@@ -10419,9 +10883,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #Preference} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:layout
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:layout
         */
         public static int Preference_layout = 27;
         /**
@@ -10431,11 +10895,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:order
+          @attr tableName org.roszonelib.notetools:order
         */
         public static int Preference_order = 18;
         /**
@@ -10445,11 +10909,11 @@ containing a value of this type.
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:persistent
+          @attr tableName org.roszonelib.notetools:persistent
         */
         public static int Preference_persistent = 24;
         /**
@@ -10459,11 +10923,11 @@ containing a value of this type.
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:selectable
+          @attr tableName org.roszonelib.notetools:selectable
         */
         public static int Preference_selectable = 22;
         /**
@@ -10473,11 +10937,11 @@ containing a value of this type.
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:shouldDisableView
+          @attr tableName org.roszonelib.notetools:shouldDisableView
         */
         public static int Preference_shouldDisableView = 26;
         /**
@@ -10487,11 +10951,11 @@ containing a value of this type.
 
           <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:summary
+          @attr tableName org.roszonelib.notetools:summary
         */
         public static int Preference_summary = 17;
         /**
@@ -10501,11 +10965,11 @@ containing a value of this type.
 
           <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:title
+          @attr tableName org.roszonelib.notetools:title
         */
         public static int Preference_title = 14;
         /**
@@ -10513,9 +10977,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #Preference} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:widgetLayout
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:widgetLayout
         */
         public static int Preference_widgetLayout = 20;
         /** Attributes that can be used with a PreferenceFragmentCompat.
@@ -10538,19 +11002,19 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /**
           <p>This symbol is the offset where the {@link android.R.attr#divider}
           attribute's value can be found in the {@link #PreferenceFragmentCompat} array.
-          @attr name android:divider
+          @attr tableName android:divider
         */
         public static int PreferenceFragmentCompat_android_divider = 1;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#dividerHeight}
           attribute's value can be found in the {@link #PreferenceFragmentCompat} array.
-          @attr name android:dividerHeight
+          @attr tableName android:dividerHeight
         */
         public static int PreferenceFragmentCompat_android_dividerHeight = 2;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#layout}
           attribute's value can be found in the {@link #PreferenceFragmentCompat} array.
-          @attr name android:layout
+          @attr tableName android:layout
         */
         public static int PreferenceFragmentCompat_android_layout = 0;
         /** Attributes that can be used with a PreferenceGroup.
@@ -10566,12 +11030,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #PreferenceGroup_orderingFromXml
          */
         public static final int[] PreferenceGroup = {
-            0x010101e7, 0x7f010141
+            0x010101e7, 0x7f01014f
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#orderingFromXml}
           attribute's value can be found in the {@link #PreferenceGroup} array.
-          @attr name android:orderingFromXml
+          @attr tableName android:orderingFromXml
         */
         public static int PreferenceGroup_android_orderingFromXml = 0;
         /**
@@ -10581,11 +11045,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:orderingFromXml
+          @attr tableName org.roszonelib.notetools:orderingFromXml
         */
         public static int PreferenceGroup_orderingFromXml = 1;
         /** Attributes that can be used with a PreferenceImageView.
@@ -10605,18 +11069,18 @@ containing a value of this type.
            @see #PreferenceImageView_maxWidth
          */
         public static final int[] PreferenceImageView = {
-            0x0101011f, 0x01010120, 0x7f010142, 0x7f010143
+            0x0101011f, 0x01010120, 0x7f010150, 0x7f010151
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#maxHeight}
           attribute's value can be found in the {@link #PreferenceImageView} array.
-          @attr name android:maxHeight
+          @attr tableName android:maxHeight
         */
         public static int PreferenceImageView_android_maxHeight = 1;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
           attribute's value can be found in the {@link #PreferenceImageView} array.
-          @attr name android:maxWidth
+          @attr tableName android:maxWidth
         */
         public static int PreferenceImageView_android_maxWidth = 0;
         /**
@@ -10628,11 +11092,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:maxHeight
+          @attr tableName org.roszonelib.notetools:maxHeight
         */
         public static int PreferenceImageView_maxHeight = 3;
         /**
@@ -10644,11 +11108,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:maxWidth
+          @attr tableName org.roszonelib.notetools:maxWidth
         */
         public static int PreferenceImageView_maxWidth = 2;
         /** Attributes that can be used with a PreferenceTheme.
@@ -10704,21 +11168,21 @@ containing a value of this type.
            @see #PreferenceTheme_yesNoPreferenceStyle
          */
         public static final int[] PreferenceTheme = {
-            0x7f010144, 0x7f010145, 0x7f010146, 0x7f010147,
-            0x7f010148, 0x7f010149, 0x7f01014a, 0x7f01014b,
-            0x7f01014c, 0x7f01014d, 0x7f01014e, 0x7f01014f,
-            0x7f010150, 0x7f010151, 0x7f010152, 0x7f010153,
-            0x7f010154, 0x7f010155, 0x7f010156, 0x7f010157,
-            0x7f010158, 0x7f010159
+            0x7f010152, 0x7f010153, 0x7f010154, 0x7f010155,
+            0x7f010156, 0x7f010157, 0x7f010158, 0x7f010159,
+            0x7f01015a, 0x7f01015b, 0x7f01015c, 0x7f01015d,
+            0x7f01015e, 0x7f01015f, 0x7f010160, 0x7f010161,
+            0x7f010162, 0x7f010163, 0x7f010164, 0x7f010165,
+            0x7f010166, 0x7f010167
         };
         /**
           <p>This symbol is the offset where the {@link org.roszonelib.notetools.R.attr#checkBoxPreferenceStyle}
           attribute's value can be found in the {@link #PreferenceTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:checkBoxPreferenceStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:checkBoxPreferenceStyle
         */
         public static int PreferenceTheme_checkBoxPreferenceStyle = 8;
         /**
@@ -10726,9 +11190,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #PreferenceTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:dialogPreferenceStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:dialogPreferenceStyle
         */
         public static int PreferenceTheme_dialogPreferenceStyle = 10;
         /**
@@ -10736,9 +11200,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #PreferenceTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:editTextPreferenceStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:editTextPreferenceStyle
         */
         public static int PreferenceTheme_editTextPreferenceStyle = 11;
         /**
@@ -10746,9 +11210,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #PreferenceTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:preferenceActivityStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:preferenceActivityStyle
         */
         public static int PreferenceTheme_preferenceActivityStyle = 2;
         /**
@@ -10756,9 +11220,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #PreferenceTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:preferenceCategoryStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:preferenceCategoryStyle
         */
         public static int PreferenceTheme_preferenceCategoryStyle = 5;
         /**
@@ -10766,9 +11230,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #PreferenceTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:preferenceFragmentCompatStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:preferenceFragmentCompatStyle
         */
         public static int PreferenceTheme_preferenceFragmentCompatStyle = 4;
         /**
@@ -10776,9 +11240,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #PreferenceTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:preferenceFragmentListStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:preferenceFragmentListStyle
         */
         public static int PreferenceTheme_preferenceFragmentListStyle = 17;
         /**
@@ -10790,11 +11254,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:preferenceFragmentPaddingSide
+          @attr tableName org.roszonelib.notetools:preferenceFragmentPaddingSide
         */
         public static int PreferenceTheme_preferenceFragmentPaddingSide = 18;
         /**
@@ -10802,9 +11266,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #PreferenceTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:preferenceFragmentStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:preferenceFragmentStyle
         */
         public static int PreferenceTheme_preferenceFragmentStyle = 3;
         /**
@@ -10812,9 +11276,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #PreferenceTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:preferenceHeaderPanelStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:preferenceHeaderPanelStyle
         */
         public static int PreferenceTheme_preferenceHeaderPanelStyle = 15;
         /**
@@ -10822,9 +11286,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #PreferenceTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:preferenceInformationStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:preferenceInformationStyle
         */
         public static int PreferenceTheme_preferenceInformationStyle = 7;
         /**
@@ -10832,9 +11296,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #PreferenceTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:preferenceLayoutChild
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:preferenceLayoutChild
         */
         public static int PreferenceTheme_preferenceLayoutChild = 13;
         /**
@@ -10842,9 +11306,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #PreferenceTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:preferenceListStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:preferenceListStyle
         */
         public static int PreferenceTheme_preferenceListStyle = 16;
         /**
@@ -10852,9 +11316,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #PreferenceTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:preferencePanelStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:preferencePanelStyle
         */
         public static int PreferenceTheme_preferencePanelStyle = 14;
         /**
@@ -10862,9 +11326,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #PreferenceTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:preferenceScreenStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:preferenceScreenStyle
         */
         public static int PreferenceTheme_preferenceScreenStyle = 1;
         /**
@@ -10872,9 +11336,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #PreferenceTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:preferenceStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:preferenceStyle
         */
         public static int PreferenceTheme_preferenceStyle = 6;
         /**
@@ -10882,9 +11346,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #PreferenceTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:preferenceTheme
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:preferenceTheme
         */
         public static int PreferenceTheme_preferenceTheme = 0;
         /**
@@ -10892,9 +11356,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #PreferenceTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:ringtonePreferenceStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:ringtonePreferenceStyle
         */
         public static int PreferenceTheme_ringtonePreferenceStyle = 12;
         /**
@@ -10902,9 +11366,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #PreferenceTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:seekBarPreferenceStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:seekBarPreferenceStyle
         */
         public static int PreferenceTheme_seekBarPreferenceStyle = 21;
         /**
@@ -10912,9 +11376,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #PreferenceTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:switchPreferenceCompatStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:switchPreferenceCompatStyle
         */
         public static int PreferenceTheme_switchPreferenceCompatStyle = 20;
         /**
@@ -10922,9 +11386,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #PreferenceTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:switchPreferenceStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:switchPreferenceStyle
         */
         public static int PreferenceTheme_switchPreferenceStyle = 19;
         /**
@@ -10932,9 +11396,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #PreferenceTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:yesNoPreferenceStyle
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:yesNoPreferenceStyle
         */
         public static int PreferenceTheme_yesNoPreferenceStyle = 9;
         /** Attributes that can be used with a RecyclerView.
@@ -10956,13 +11420,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #RecyclerView_stackFromEnd
          */
         public static final int[] RecyclerView = {
-            0x010100c4, 0x7f01015a, 0x7f01015b, 0x7f01015c,
-            0x7f01015d
+            0x010100c4, 0x7f010168, 0x7f010169, 0x7f01016a,
+            0x7f01016b
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#orientation}
           attribute's value can be found in the {@link #RecyclerView} array.
-          @attr name android:orientation
+          @attr tableName android:orientation
         */
         public static int RecyclerView_android_orientation = 0;
         /**
@@ -10972,11 +11436,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:layoutManager
+          @attr tableName org.roszonelib.notetools:layoutManager
         */
         public static int RecyclerView_layoutManager = 1;
         /**
@@ -10986,11 +11450,11 @@ containing a value of this type.
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:reverseLayout
+          @attr tableName org.roszonelib.notetools:reverseLayout
         */
         public static int RecyclerView_reverseLayout = 3;
         /**
@@ -11000,11 +11464,11 @@ containing a value of this type.
 
           <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:spanCount
+          @attr tableName org.roszonelib.notetools:spanCount
         */
         public static int RecyclerView_spanCount = 2;
         /**
@@ -11014,11 +11478,11 @@ containing a value of this type.
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:stackFromEnd
+          @attr tableName org.roszonelib.notetools:stackFromEnd
         */
         public static int RecyclerView_stackFromEnd = 4;
         /** Attributes that can be used with a ScrimInsetsFrameLayout.
@@ -11032,18 +11496,18 @@ containing a value of this type.
            @see #ScrimInsetsFrameLayout_insetForeground
          */
         public static final int[] ScrimInsetsFrameLayout = {
-            0x7f01015e
+            0x7f01016c
         };
         /**
           <p>This symbol is the offset where the {@link org.roszonelib.notetools.R.attr#insetForeground}
           attribute's value can be found in the {@link #ScrimInsetsFrameLayout} array.
 
 
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name org.roszonelib.notetools:insetForeground
+          @attr tableName org.roszonelib.notetools:insetForeground
         */
         public static int ScrimInsetsFrameLayout_insetForeground = 0;
         /** Attributes that can be used with a ScrimInsetsRelativeLayout.
@@ -11057,18 +11521,18 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #ScrimInsetsRelativeLayout_sirl_insetForeground
          */
         public static final int[] ScrimInsetsRelativeLayout = {
-            0x7f01015f
+            0x7f01016d
         };
         /**
           <p>This symbol is the offset where the {@link org.roszonelib.notetools.R.attr#sirl_insetForeground}
           attribute's value can be found in the {@link #ScrimInsetsRelativeLayout} array.
 
 
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name org.roszonelib.notetools:sirl_insetForeground
+          @attr tableName org.roszonelib.notetools:sirl_insetForeground
         */
         public static int ScrimInsetsRelativeLayout_sirl_insetForeground = 0;
         /** Attributes that can be used with a ScrimInsetsView.
@@ -11082,18 +11546,18 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #ScrimInsetsView_siv_insetForeground
          */
         public static final int[] ScrimInsetsView = {
-            0x7f010160
+            0x7f01016e
         };
         /**
           <p>This symbol is the offset where the {@link org.roszonelib.notetools.R.attr#siv_insetForeground}
           attribute's value can be found in the {@link #ScrimInsetsView} array.
 
 
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name org.roszonelib.notetools:siv_insetForeground
+          @attr tableName org.roszonelib.notetools:siv_insetForeground
         */
         public static int ScrimInsetsView_siv_insetForeground = 0;
         /** Attributes that can be used with a ScrollingViewBehavior_Params.
@@ -11107,7 +11571,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #ScrollingViewBehavior_Params_behavior_overlapTop
          */
         public static final int[] ScrollingViewBehavior_Params = {
-            0x7f010161
+            0x7f01016f
         };
         /**
           <p>This symbol is the offset where the {@link org.roszonelib.notetools.R.attr#behavior_overlapTop}
@@ -11118,11 +11582,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:behavior_overlapTop
+          @attr tableName org.roszonelib.notetools:behavior_overlapTop
         */
         public static int ScrollingViewBehavior_Params_behavior_overlapTop = 0;
         /** Attributes that can be used with a SearchView.
@@ -11169,33 +11633,33 @@ containing a value of this type.
          */
         public static final int[] SearchView = {
             0x010100da, 0x0101011f, 0x01010220, 0x01010264,
-            0x7f010162, 0x7f010163, 0x7f010164, 0x7f010165,
-            0x7f010166, 0x7f010167, 0x7f010168, 0x7f010169,
-            0x7f01016a, 0x7f01016b, 0x7f01016c, 0x7f01016d,
-            0x7f01016e
+            0x7f010170, 0x7f010171, 0x7f010172, 0x7f010173,
+            0x7f010174, 0x7f010175, 0x7f010176, 0x7f010177,
+            0x7f010178, 0x7f010179, 0x7f01017a, 0x7f01017b,
+            0x7f01017c
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#focusable}
           attribute's value can be found in the {@link #SearchView} array.
-          @attr name android:focusable
+          @attr tableName android:focusable
         */
         public static int SearchView_android_focusable = 0;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#imeOptions}
           attribute's value can be found in the {@link #SearchView} array.
-          @attr name android:imeOptions
+          @attr tableName android:imeOptions
         */
         public static int SearchView_android_imeOptions = 3;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#inputType}
           attribute's value can be found in the {@link #SearchView} array.
-          @attr name android:inputType
+          @attr tableName android:inputType
         */
         public static int SearchView_android_inputType = 2;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
           attribute's value can be found in the {@link #SearchView} array.
-          @attr name android:maxWidth
+          @attr tableName android:maxWidth
         */
         public static int SearchView_android_maxWidth = 1;
         /**
@@ -11203,9 +11667,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #SearchView} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:closeIcon
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:closeIcon
         */
         public static int SearchView_closeIcon = 8;
         /**
@@ -11213,9 +11677,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #SearchView} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:commitIcon
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:commitIcon
         */
         public static int SearchView_commitIcon = 13;
         /**
@@ -11225,11 +11689,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:defaultQueryHint
+          @attr tableName org.roszonelib.notetools:defaultQueryHint
         */
         public static int SearchView_defaultQueryHint = 7;
         /**
@@ -11237,9 +11701,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #SearchView} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:goIcon
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:goIcon
         */
         public static int SearchView_goIcon = 9;
         /**
@@ -11249,11 +11713,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:iconifiedByDefault
+          @attr tableName org.roszonelib.notetools:iconifiedByDefault
         */
         public static int SearchView_iconifiedByDefault = 5;
         /**
@@ -11261,9 +11725,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #SearchView} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:layout
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:layout
         */
         public static int SearchView_layout = 4;
         /**
@@ -11271,9 +11735,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #SearchView} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:queryBackground
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:queryBackground
         */
         public static int SearchView_queryBackground = 15;
         /**
@@ -11283,11 +11747,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:queryHint
+          @attr tableName org.roszonelib.notetools:queryHint
         */
         public static int SearchView_queryHint = 6;
         /**
@@ -11295,9 +11759,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #SearchView} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:searchHintIcon
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:searchHintIcon
         */
         public static int SearchView_searchHintIcon = 11;
         /**
@@ -11305,9 +11769,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #SearchView} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:searchIcon
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:searchIcon
         */
         public static int SearchView_searchIcon = 10;
         /**
@@ -11315,9 +11779,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #SearchView} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:submitBackground
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:submitBackground
         */
         public static int SearchView_submitBackground = 16;
         /**
@@ -11325,9 +11789,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #SearchView} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:suggestionRowLayout
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:suggestionRowLayout
         */
         public static int SearchView_suggestionRowLayout = 14;
         /**
@@ -11335,9 +11799,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #SearchView} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:voiceIcon
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:voiceIcon
         */
         public static int SearchView_voiceIcon = 12;
         /** Attributes that can be used with a SnackbarLayout.
@@ -11355,12 +11819,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #SnackbarLayout_maxActionInlineWidth
          */
         public static final int[] SnackbarLayout = {
-            0x0101011f, 0x7f010036, 0x7f01016f
+            0x0101011f, 0x7f010036, 0x7f01017d
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
           attribute's value can be found in the {@link #SnackbarLayout} array.
-          @attr name android:maxWidth
+          @attr tableName android:maxWidth
         */
         public static int SnackbarLayout_android_maxWidth = 0;
         /**
@@ -11372,11 +11836,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:elevation
+          @attr tableName org.roszonelib.notetools:elevation
         */
         public static int SnackbarLayout_elevation = 1;
         /**
@@ -11388,11 +11852,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:maxActionInlineWidth
+          @attr tableName org.roszonelib.notetools:maxActionInlineWidth
         */
         public static int SnackbarLayout_maxActionInlineWidth = 2;
         /** Attributes that can be used with a Spinner.
@@ -11420,25 +11884,25 @@ containing a value of this type.
         /**
           <p>This symbol is the offset where the {@link android.R.attr#dropDownWidth}
           attribute's value can be found in the {@link #Spinner} array.
-          @attr name android:dropDownWidth
+          @attr tableName android:dropDownWidth
         */
         public static int Spinner_android_dropDownWidth = 3;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#entries}
           attribute's value can be found in the {@link #Spinner} array.
-          @attr name android:entries
+          @attr tableName android:entries
         */
         public static int Spinner_android_entries = 0;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#popupBackground}
           attribute's value can be found in the {@link #Spinner} array.
-          @attr name android:popupBackground
+          @attr tableName android:popupBackground
         */
         public static int Spinner_android_popupBackground = 1;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#prompt}
           attribute's value can be found in the {@link #Spinner} array.
-          @attr name android:prompt
+          @attr tableName android:prompt
         */
         public static int Spinner_android_prompt = 2;
         /**
@@ -11446,9 +11910,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #Spinner} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:popupTheme
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:popupTheme
         */
         public static int Spinner_popupTheme = 4;
         /** Attributes that can be used with a SwitchCompat.
@@ -11480,26 +11944,26 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #SwitchCompat_track
          */
         public static final int[] SwitchCompat = {
-            0x01010124, 0x01010125, 0x01010142, 0x7f010170,
-            0x7f010171, 0x7f010172, 0x7f010173, 0x7f010174,
-            0x7f010175, 0x7f010176
+            0x01010124, 0x01010125, 0x01010142, 0x7f01017e,
+            0x7f01017f, 0x7f010180, 0x7f010181, 0x7f010182,
+            0x7f010183, 0x7f010184
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#textOff}
           attribute's value can be found in the {@link #SwitchCompat} array.
-          @attr name android:textOff
+          @attr tableName android:textOff
         */
         public static int SwitchCompat_android_textOff = 1;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#textOn}
           attribute's value can be found in the {@link #SwitchCompat} array.
-          @attr name android:textOn
+          @attr tableName android:textOn
         */
         public static int SwitchCompat_android_textOn = 0;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#thumb}
           attribute's value can be found in the {@link #SwitchCompat} array.
-          @attr name android:thumb
+          @attr tableName android:thumb
         */
         public static int SwitchCompat_android_thumb = 2;
         /**
@@ -11509,11 +11973,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:showText
+          @attr tableName org.roszonelib.notetools:showText
         */
         public static int SwitchCompat_showText = 9;
         /**
@@ -11523,11 +11987,11 @@ containing a value of this type.
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:splitTrack
+          @attr tableName org.roszonelib.notetools:splitTrack
         */
         public static int SwitchCompat_splitTrack = 8;
         /**
@@ -11539,11 +12003,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:switchMinWidth
+          @attr tableName org.roszonelib.notetools:switchMinWidth
         */
         public static int SwitchCompat_switchMinWidth = 6;
         /**
@@ -11555,11 +12019,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:switchPadding
+          @attr tableName org.roszonelib.notetools:switchPadding
         */
         public static int SwitchCompat_switchPadding = 7;
         /**
@@ -11567,9 +12031,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:switchTextAppearance
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:switchTextAppearance
         */
         public static int SwitchCompat_switchTextAppearance = 5;
         /**
@@ -11581,11 +12045,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:thumbTextPadding
+          @attr tableName org.roszonelib.notetools:thumbTextPadding
         */
         public static int SwitchCompat_thumbTextPadding = 4;
         /**
@@ -11593,9 +12057,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:track
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:track
         */
         public static int SwitchCompat_track = 3;
         /** Attributes that can be used with a SwitchPreferenceCompat.
@@ -11629,36 +12093,36 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int[] SwitchPreferenceCompat = {
             0x010101ef, 0x010101f0, 0x010101f1, 0x0101036b,
             0x0101036c, 0x7f0100c4, 0x7f0100c5, 0x7f0100c6,
-            0x7f010177, 0x7f010178
+            0x7f010185, 0x7f010186
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#disableDependentsState}
           attribute's value can be found in the {@link #SwitchPreferenceCompat} array.
-          @attr name android:disableDependentsState
+          @attr tableName android:disableDependentsState
         */
         public static int SwitchPreferenceCompat_android_disableDependentsState = 2;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#summaryOff}
           attribute's value can be found in the {@link #SwitchPreferenceCompat} array.
-          @attr name android:summaryOff
+          @attr tableName android:summaryOff
         */
         public static int SwitchPreferenceCompat_android_summaryOff = 1;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#summaryOn}
           attribute's value can be found in the {@link #SwitchPreferenceCompat} array.
-          @attr name android:summaryOn
+          @attr tableName android:summaryOn
         */
         public static int SwitchPreferenceCompat_android_summaryOn = 0;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#switchTextOff}
           attribute's value can be found in the {@link #SwitchPreferenceCompat} array.
-          @attr name android:switchTextOff
+          @attr tableName android:switchTextOff
         */
         public static int SwitchPreferenceCompat_android_switchTextOff = 4;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#switchTextOn}
           attribute's value can be found in the {@link #SwitchPreferenceCompat} array.
-          @attr name android:switchTextOn
+          @attr tableName android:switchTextOn
         */
         public static int SwitchPreferenceCompat_android_switchTextOn = 3;
         /**
@@ -11668,11 +12132,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:disableDependentsState
+          @attr tableName org.roszonelib.notetools:disableDependentsState
         */
         public static int SwitchPreferenceCompat_disableDependentsState = 7;
         /**
@@ -11682,11 +12146,11 @@ containing a value of this type.
 
           <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:summaryOff
+          @attr tableName org.roszonelib.notetools:summaryOff
         */
         public static int SwitchPreferenceCompat_summaryOff = 6;
         /**
@@ -11696,11 +12160,11 @@ containing a value of this type.
 
           <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:summaryOn
+          @attr tableName org.roszonelib.notetools:summaryOn
         */
         public static int SwitchPreferenceCompat_summaryOn = 5;
         /**
@@ -11710,11 +12174,11 @@ containing a value of this type.
 
           <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:switchTextOff
+          @attr tableName org.roszonelib.notetools:switchTextOff
         */
         public static int SwitchPreferenceCompat_switchTextOff = 9;
         /**
@@ -11724,11 +12188,11 @@ containing a value of this type.
 
           <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:switchTextOn
+          @attr tableName org.roszonelib.notetools:switchTextOn
         */
         public static int SwitchPreferenceCompat_switchTextOn = 8;
         /** Attributes that can be used with a TabItem.
@@ -11751,19 +12215,19 @@ containing a value of this type.
         /**
           <p>This symbol is the offset where the {@link android.R.attr#icon}
           attribute's value can be found in the {@link #TabItem} array.
-          @attr name android:icon
+          @attr tableName android:icon
         */
         public static int TabItem_android_icon = 0;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#layout}
           attribute's value can be found in the {@link #TabItem} array.
-          @attr name android:layout
+          @attr tableName android:layout
         */
         public static int TabItem_android_layout = 1;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#text}
           attribute's value can be found in the {@link #TabItem} array.
-          @attr name android:text
+          @attr tableName android:text
         */
         public static int TabItem_android_text = 2;
         /** Attributes that can be used with a TabLayout.
@@ -11807,19 +12271,19 @@ containing a value of this type.
            @see #TabLayout_tabTextColor
          */
         public static final int[] TabLayout = {
-            0x7f010179, 0x7f01017a, 0x7f01017b, 0x7f01017c,
-            0x7f01017d, 0x7f01017e, 0x7f01017f, 0x7f010180,
-            0x7f010181, 0x7f010182, 0x7f010183, 0x7f010184,
-            0x7f010185, 0x7f010186, 0x7f010187, 0x7f010188
+            0x7f010187, 0x7f010188, 0x7f010189, 0x7f01018a,
+            0x7f01018b, 0x7f01018c, 0x7f01018d, 0x7f01018e,
+            0x7f01018f, 0x7f010190, 0x7f010191, 0x7f010192,
+            0x7f010193, 0x7f010194, 0x7f010195, 0x7f010196
         };
         /**
           <p>This symbol is the offset where the {@link org.roszonelib.notetools.R.attr#tabBackground}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:tabBackground
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:tabBackground
         */
         public static int TabLayout_tabBackground = 3;
         /**
@@ -11831,11 +12295,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:tabContentStart
+          @attr tableName org.roszonelib.notetools:tabContentStart
         */
         public static int TabLayout_tabContentStart = 2;
         /**
@@ -11852,7 +12316,7 @@ containing a value of this type.
 <tr><td><code>fill</code></td><td>0</td><td></td></tr>
 <tr><td><code>center</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name org.roszonelib.notetools:tabGravity
+          @attr tableName org.roszonelib.notetools:tabGravity
         */
         public static int TabLayout_tabGravity = 5;
         /**
@@ -11863,11 +12327,11 @@ containing a value of this type.
           <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:tabIndicatorColor
+          @attr tableName org.roszonelib.notetools:tabIndicatorColor
         */
         public static int TabLayout_tabIndicatorColor = 0;
         /**
@@ -11879,11 +12343,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:tabIndicatorHeight
+          @attr tableName org.roszonelib.notetools:tabIndicatorHeight
         */
         public static int TabLayout_tabIndicatorHeight = 1;
         /**
@@ -11895,11 +12359,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:tabMaxWidth
+          @attr tableName org.roszonelib.notetools:tabMaxWidth
         */
         public static int TabLayout_tabMaxWidth = 7;
         /**
@@ -11911,11 +12375,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:tabMinWidth
+          @attr tableName org.roszonelib.notetools:tabMinWidth
         */
         public static int TabLayout_tabMinWidth = 6;
         /**
@@ -11932,7 +12396,7 @@ containing a value of this type.
 <tr><td><code>scrollable</code></td><td>0</td><td></td></tr>
 <tr><td><code>fixed</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name org.roszonelib.notetools:tabMode
+          @attr tableName org.roszonelib.notetools:tabMode
         */
         public static int TabLayout_tabMode = 4;
         /**
@@ -11944,11 +12408,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:tabPadding
+          @attr tableName org.roszonelib.notetools:tabPadding
         */
         public static int TabLayout_tabPadding = 15;
         /**
@@ -11960,11 +12424,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:tabPaddingBottom
+          @attr tableName org.roszonelib.notetools:tabPaddingBottom
         */
         public static int TabLayout_tabPaddingBottom = 14;
         /**
@@ -11976,11 +12440,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:tabPaddingEnd
+          @attr tableName org.roszonelib.notetools:tabPaddingEnd
         */
         public static int TabLayout_tabPaddingEnd = 13;
         /**
@@ -11992,11 +12456,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:tabPaddingStart
+          @attr tableName org.roszonelib.notetools:tabPaddingStart
         */
         public static int TabLayout_tabPaddingStart = 11;
         /**
@@ -12008,11 +12472,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:tabPaddingTop
+          @attr tableName org.roszonelib.notetools:tabPaddingTop
         */
         public static int TabLayout_tabPaddingTop = 12;
         /**
@@ -12023,11 +12487,11 @@ containing a value of this type.
           <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:tabSelectedTextColor
+          @attr tableName org.roszonelib.notetools:tabSelectedTextColor
         */
         public static int TabLayout_tabSelectedTextColor = 10;
         /**
@@ -12035,9 +12499,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #TabLayout} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:tabTextAppearance
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:tabTextAppearance
         */
         public static int TabLayout_tabTextAppearance = 8;
         /**
@@ -12048,11 +12512,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:tabTextColor
+          @attr tableName org.roszonelib.notetools:tabTextColor
         */
         public static int TabLayout_tabTextColor = 9;
         /** Attributes that can be used with a TextAppearance.
@@ -12089,49 +12553,49 @@ containing a value of this type.
         /**
           <p>This symbol is the offset where the {@link android.R.attr#shadowColor}
           attribute's value can be found in the {@link #TextAppearance} array.
-          @attr name android:shadowColor
+          @attr tableName android:shadowColor
         */
         public static int TextAppearance_android_shadowColor = 4;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#shadowDx}
           attribute's value can be found in the {@link #TextAppearance} array.
-          @attr name android:shadowDx
+          @attr tableName android:shadowDx
         */
         public static int TextAppearance_android_shadowDx = 5;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#shadowDy}
           attribute's value can be found in the {@link #TextAppearance} array.
-          @attr name android:shadowDy
+          @attr tableName android:shadowDy
         */
         public static int TextAppearance_android_shadowDy = 6;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#shadowRadius}
           attribute's value can be found in the {@link #TextAppearance} array.
-          @attr name android:shadowRadius
+          @attr tableName android:shadowRadius
         */
         public static int TextAppearance_android_shadowRadius = 7;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#textColor}
           attribute's value can be found in the {@link #TextAppearance} array.
-          @attr name android:textColor
+          @attr tableName android:textColor
         */
         public static int TextAppearance_android_textColor = 3;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#textSize}
           attribute's value can be found in the {@link #TextAppearance} array.
-          @attr name android:textSize
+          @attr tableName android:textSize
         */
         public static int TextAppearance_android_textSize = 0;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#textStyle}
           attribute's value can be found in the {@link #TextAppearance} array.
-          @attr name android:textStyle
+          @attr tableName android:textStyle
         */
         public static int TextAppearance_android_textStyle = 2;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#typeface}
           attribute's value can be found in the {@link #TextAppearance} array.
-          @attr name android:typeface
+          @attr tableName android:typeface
         */
         public static int TextAppearance_android_typeface = 1;
         /**
@@ -12139,10 +12603,10 @@ containing a value of this type.
           attribute's value can be found in the {@link #TextAppearance} array.
 
 
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name org.roszonelib.notetools:textAllCaps
+          @attr tableName org.roszonelib.notetools:textAllCaps
         */
         public static int TextAppearance_textAllCaps = 8;
         /** Attributes that can be used with a TextInputLayout.
@@ -12176,20 +12640,20 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #TextInputLayout_hintTextAppearance
          */
         public static final int[] TextInputLayout = {
-            0x0101009a, 0x01010150, 0x7f010189, 0x7f01018a,
-            0x7f01018b, 0x7f01018c, 0x7f01018d, 0x7f01018e,
-            0x7f01018f, 0x7f010190, 0x7f010191
+            0x0101009a, 0x01010150, 0x7f010197, 0x7f010198,
+            0x7f010199, 0x7f01019a, 0x7f01019b, 0x7f01019c,
+            0x7f01019d, 0x7f01019e, 0x7f01019f
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#hint}
           attribute's value can be found in the {@link #TextInputLayout} array.
-          @attr name android:hint
+          @attr tableName android:hint
         */
         public static int TextInputLayout_android_hint = 1;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#textColorHint}
           attribute's value can be found in the {@link #TextInputLayout} array.
-          @attr name android:textColorHint
+          @attr tableName android:textColorHint
         */
         public static int TextInputLayout_android_textColorHint = 0;
         /**
@@ -12199,11 +12663,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:counterEnabled
+          @attr tableName org.roszonelib.notetools:counterEnabled
         */
         public static int TextInputLayout_counterEnabled = 6;
         /**
@@ -12213,11 +12677,11 @@ containing a value of this type.
 
           <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:counterMaxLength
+          @attr tableName org.roszonelib.notetools:counterMaxLength
         */
         public static int TextInputLayout_counterMaxLength = 7;
         /**
@@ -12225,9 +12689,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:counterOverflowTextAppearance
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:counterOverflowTextAppearance
         */
         public static int TextInputLayout_counterOverflowTextAppearance = 9;
         /**
@@ -12235,9 +12699,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:counterTextAppearance
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:counterTextAppearance
         */
         public static int TextInputLayout_counterTextAppearance = 8;
         /**
@@ -12247,11 +12711,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:errorEnabled
+          @attr tableName org.roszonelib.notetools:errorEnabled
         */
         public static int TextInputLayout_errorEnabled = 4;
         /**
@@ -12259,9 +12723,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:errorTextAppearance
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:errorTextAppearance
         */
         public static int TextInputLayout_errorTextAppearance = 5;
         /**
@@ -12271,11 +12735,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:hintAnimationEnabled
+          @attr tableName org.roszonelib.notetools:hintAnimationEnabled
         */
         public static int TextInputLayout_hintAnimationEnabled = 10;
         /**
@@ -12285,11 +12749,11 @@ containing a value of this type.
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:hintEnabled
+          @attr tableName org.roszonelib.notetools:hintEnabled
         */
         public static int TextInputLayout_hintEnabled = 3;
         /**
@@ -12297,9 +12761,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:hintTextAppearance
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:hintTextAppearance
         */
         public static int TextInputLayout_hintTextAppearance = 2;
         /** Attributes that can be used with a Toolbar.
@@ -12363,22 +12827,22 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int[] Toolbar = {
             0x010100af, 0x01010140, 0x7f01001f, 0x7f010022,
             0x7f010026, 0x7f010032, 0x7f010033, 0x7f010034,
-            0x7f010035, 0x7f010037, 0x7f010192, 0x7f010193,
-            0x7f010194, 0x7f010195, 0x7f010196, 0x7f010197,
-            0x7f010198, 0x7f010199, 0x7f01019a, 0x7f01019b,
-            0x7f01019c, 0x7f01019d, 0x7f01019e, 0x7f01019f,
-            0x7f0101a0
+            0x7f010035, 0x7f010037, 0x7f0101a0, 0x7f0101a1,
+            0x7f0101a2, 0x7f0101a3, 0x7f0101a4, 0x7f0101a5,
+            0x7f0101a6, 0x7f0101a7, 0x7f0101a8, 0x7f0101a9,
+            0x7f0101aa, 0x7f0101ab, 0x7f0101ac, 0x7f0101ad,
+            0x7f0101ae
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#gravity}
           attribute's value can be found in the {@link #Toolbar} array.
-          @attr name android:gravity
+          @attr tableName android:gravity
         */
         public static int Toolbar_android_gravity = 0;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#minHeight}
           attribute's value can be found in the {@link #Toolbar} array.
-          @attr name android:minHeight
+          @attr tableName android:minHeight
         */
         public static int Toolbar_android_minHeight = 1;
         /**
@@ -12388,11 +12852,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:collapseContentDescription
+          @attr tableName org.roszonelib.notetools:collapseContentDescription
         */
         public static int Toolbar_collapseContentDescription = 19;
         /**
@@ -12400,9 +12864,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #Toolbar} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:collapseIcon
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:collapseIcon
         */
         public static int Toolbar_collapseIcon = 18;
         /**
@@ -12414,11 +12878,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:contentInsetEnd
+          @attr tableName org.roszonelib.notetools:contentInsetEnd
         */
         public static int Toolbar_contentInsetEnd = 6;
         /**
@@ -12430,11 +12894,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:contentInsetLeft
+          @attr tableName org.roszonelib.notetools:contentInsetLeft
         */
         public static int Toolbar_contentInsetLeft = 7;
         /**
@@ -12446,11 +12910,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:contentInsetRight
+          @attr tableName org.roszonelib.notetools:contentInsetRight
         */
         public static int Toolbar_contentInsetRight = 8;
         /**
@@ -12462,11 +12926,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:contentInsetStart
+          @attr tableName org.roszonelib.notetools:contentInsetStart
         */
         public static int Toolbar_contentInsetStart = 5;
         /**
@@ -12474,9 +12938,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #Toolbar} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:logo
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:logo
         */
         public static int Toolbar_logo = 4;
         /**
@@ -12486,11 +12950,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:logoDescription
+          @attr tableName org.roszonelib.notetools:logoDescription
         */
         public static int Toolbar_logoDescription = 22;
         /**
@@ -12502,11 +12966,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:maxButtonHeight
+          @attr tableName org.roszonelib.notetools:maxButtonHeight
         */
         public static int Toolbar_maxButtonHeight = 17;
         /**
@@ -12516,11 +12980,11 @@ containing a value of this type.
 
           <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:navigationContentDescription
+          @attr tableName org.roszonelib.notetools:navigationContentDescription
         */
         public static int Toolbar_navigationContentDescription = 21;
         /**
@@ -12528,9 +12992,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #Toolbar} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:navigationIcon
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:navigationIcon
         */
         public static int Toolbar_navigationIcon = 20;
         /**
@@ -12538,9 +13002,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #Toolbar} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:popupTheme
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:popupTheme
         */
         public static int Toolbar_popupTheme = 9;
         /**
@@ -12550,11 +13014,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:subtitle
+          @attr tableName org.roszonelib.notetools:subtitle
         */
         public static int Toolbar_subtitle = 3;
         /**
@@ -12562,9 +13026,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #Toolbar} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:subtitleTextAppearance
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:subtitleTextAppearance
         */
         public static int Toolbar_subtitleTextAppearance = 11;
         /**
@@ -12575,11 +13039,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:subtitleTextColor
+          @attr tableName org.roszonelib.notetools:subtitleTextColor
         */
         public static int Toolbar_subtitleTextColor = 24;
         /**
@@ -12589,11 +13053,11 @@ containing a value of this type.
 
           <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:title
+          @attr tableName org.roszonelib.notetools:title
         */
         public static int Toolbar_title = 2;
         /**
@@ -12605,11 +13069,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:titleMarginBottom
+          @attr tableName org.roszonelib.notetools:titleMarginBottom
         */
         public static int Toolbar_titleMarginBottom = 16;
         /**
@@ -12621,11 +13085,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:titleMarginEnd
+          @attr tableName org.roszonelib.notetools:titleMarginEnd
         */
         public static int Toolbar_titleMarginEnd = 14;
         /**
@@ -12637,11 +13101,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:titleMarginStart
+          @attr tableName org.roszonelib.notetools:titleMarginStart
         */
         public static int Toolbar_titleMarginStart = 13;
         /**
@@ -12653,11 +13117,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:titleMarginTop
+          @attr tableName org.roszonelib.notetools:titleMarginTop
         */
         public static int Toolbar_titleMarginTop = 15;
         /**
@@ -12669,11 +13133,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:titleMargins
+          @attr tableName org.roszonelib.notetools:titleMargins
         */
         public static int Toolbar_titleMargins = 12;
         /**
@@ -12681,9 +13145,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #Toolbar} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:titleTextAppearance
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:titleTextAppearance
         */
         public static int Toolbar_titleTextAppearance = 10;
         /**
@@ -12694,11 +13158,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:titleTextColor
+          @attr tableName org.roszonelib.notetools:titleTextColor
         */
         public static int Toolbar_titleTextColor = 23;
         /** Attributes that can be used with a View.
@@ -12720,19 +13184,19 @@ containing a value of this type.
            @see #View_theme
          */
         public static final int[] View = {
-            0x01010000, 0x010100da, 0x7f0101a1, 0x7f0101a2,
-            0x7f0101a3
+            0x01010000, 0x010100da, 0x7f0101af, 0x7f0101b0,
+            0x7f0101b1
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#focusable}
           attribute's value can be found in the {@link #View} array.
-          @attr name android:focusable
+          @attr tableName android:focusable
         */
         public static int View_android_focusable = 1;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#theme}
           attribute's value can be found in the {@link #View} array.
-          @attr name android:theme
+          @attr tableName android:theme
         */
         public static int View_android_theme = 0;
         /**
@@ -12744,11 +13208,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:paddingEnd
+          @attr tableName org.roszonelib.notetools:paddingEnd
         */
         public static int View_paddingEnd = 3;
         /**
@@ -12760,11 +13224,11 @@ containing a value of this type.
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:paddingStart
+          @attr tableName org.roszonelib.notetools:paddingStart
         */
         public static int View_paddingStart = 2;
         /**
@@ -12772,9 +13236,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #View} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.roszonelib.notetools:theme
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>tableName</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>".
+          @attr tableName org.roszonelib.notetools:theme
         */
         public static int View_theme = 4;
         /** Attributes that can be used with a ViewBackgroundHelper.
@@ -12792,12 +13256,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #ViewBackgroundHelper_backgroundTintMode
          */
         public static final int[] ViewBackgroundHelper = {
-            0x010100d4, 0x7f0101a4, 0x7f0101a5
+            0x010100d4, 0x7f0101b2, 0x7f0101b3
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#background}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
-          @attr name android:background
+          @attr tableName android:background
         */
         public static int ViewBackgroundHelper_android_background = 0;
         /**
@@ -12808,11 +13272,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+"<code>@[<i>package</i>:]<i>type</i>:<i>tableName</i></code>") or
 theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+"<code>?[<i>package</i>:][<i>type</i>:]<i>tableName</i></code>")
 containing a value of this type.
-          @attr name org.roszonelib.notetools:backgroundTint
+          @attr tableName org.roszonelib.notetools:backgroundTint
         */
         public static int ViewBackgroundHelper_backgroundTint = 1;
         /**
@@ -12832,7 +13296,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name org.roszonelib.notetools:backgroundTintMode
+          @attr tableName org.roszonelib.notetools:backgroundTintMode
         */
         public static int ViewBackgroundHelper_backgroundTintMode = 2;
         /** Attributes that can be used with a ViewStubCompat.
@@ -12841,7 +13305,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ViewStubCompat_android_id android:id}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewStubCompat_android_id android:isPrimaryKey}</code></td><td></td></tr>
            <tr><td><code>{@link #ViewStubCompat_android_inflatedId android:inflatedId}</code></td><td></td></tr>
            <tr><td><code>{@link #ViewStubCompat_android_layout android:layout}</code></td><td></td></tr>
            </table>
@@ -12855,19 +13319,19 @@ containing a value of this type.
         /**
           <p>This symbol is the offset where the {@link android.R.attr#id}
           attribute's value can be found in the {@link #ViewStubCompat} array.
-          @attr name android:id
+          @attr tableName android:isPrimaryKey
         */
         public static int ViewStubCompat_android_id = 0;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#inflatedId}
           attribute's value can be found in the {@link #ViewStubCompat} array.
-          @attr name android:inflatedId
+          @attr tableName android:inflatedId
         */
         public static int ViewStubCompat_android_inflatedId = 2;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#layout}
           attribute's value can be found in the {@link #ViewStubCompat} array.
-          @attr name android:layout
+          @attr tableName android:layout
         */
         public static int ViewStubCompat_android_layout = 1;
     };

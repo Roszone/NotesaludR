@@ -21,7 +21,7 @@
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\md_nav_back.png",
-        "source": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.7\\res\\drawable-mdpi-v4\\md_nav_back.png"
+        "source": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.8\\res\\drawable-mdpi-v4\\md_nav_back.png"
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
@@ -100,10 +100,6 @@
         "source": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-mdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
-        "merged": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_sync_black_24dp.png",
-        "source": "F:\\Recuperacion\\Android\\NotesaludR\\app\\src\\main\\res\\drawable-mdpi\\ic_sync_black_24dp.png"
-    },
-    {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
         "source": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-mdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
     },
@@ -134,10 +130,6 @@
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
         "source": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-mdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
-    },
-    {
-        "merged": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_notifications_black_24dp.png",
-        "source": "F:\\Recuperacion\\Android\\NotesaludR\\app\\src\\main\\res\\drawable-mdpi\\ic_notifications_black_24dp.png"
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
@@ -198,9 +190,5 @@
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
         "source": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
-    },
-    {
-        "merged": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_info_black_24dp.png",
-        "source": "F:\\Recuperacion\\Android\\NotesaludR\\app\\src\\main\\res\\drawable-mdpi\\ic_info_black_24dp.png"
     }
 ]

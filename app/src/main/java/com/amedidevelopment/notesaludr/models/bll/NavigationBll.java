@@ -6,6 +6,8 @@ import android.content.Intent;
 import com.amedidevelopment.notesaludr.controllers.activity.SettingsActivity;
 import com.amedidevelopment.notesaludr.controllers.fragments.LoginFragment;
 import com.amedidevelopment.notesaludr.controllers.fragments.MainFragment;
+import com.amedidevelopment.notesaludr.controllers.fragments.MenuNineFragment;
+import com.amedidevelopment.notesaludr.models.enums.NavigationPage;
 
 import org.roszonelib.notetools.navigation.BaseFragmentActivity;
 import org.roszonelib.notetools.navigation.PageFragment;
@@ -20,22 +22,21 @@ import org.roszonelib.notetools.navigation.PageFragment;
  * ====================================
  */
 public class NavigationBll {
-    public enum Pages {
-        Main, SupportChat, SupportFaq, SupportVideo, AdvanceStatus, AdvanceConfig, LogOut, Login,
-    }
 
-    public static PageFragment getPage(Pages page) {
+    public static PageFragment getPage(NavigationPage page) {
         switch (page) {
             case Login:
                 return new LoginFragment();
             case Main:
                 return new MainFragment();
+            case SupportVideo:
+                return new MenuNineFragment();
             default:
                 return new LoginFragment();
         }
     }
 
-    public static void sendAction(Pages item, BaseFragmentActivity activity) {
+    public static void sendAction(NavigationPage item, BaseFragmentActivity activity) {
         switch (item) {
             case LogOut:
                 activity.finish();

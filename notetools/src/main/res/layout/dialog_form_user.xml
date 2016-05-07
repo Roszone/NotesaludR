@@ -1,145 +1,150 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
     android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_height="wrap_content"
-    android:focusableInTouchMode="true"
-    android:orientation="vertical"
-    android:padding="5dp">
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/md_blue_grey_700"
-        android:gravity="center"
-        android:padding="5dp"
-        android:text="@string/register_user_nurse"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:textColor="@android:color/white" />
-
+    android:id="@+id/scrollView" >
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:paddingLeft="5dp"
-        android:paddingRight="5dp">
-
+        android:focusableInTouchMode="true"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:paddingLeft="5dp"
-            android:paddingTop="10dp"
-            android:text="@string/create_name_user"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:textStyle="bold" />
-
-        <EditText
-            android:id="@+id/input_name"
+            android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint=""
-            android:textSize="14sp" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:paddingLeft="5dp"
-        android:paddingRight="5dp">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:background="@color/md_blue_grey_700"
             android:gravity="center"
-            android:paddingLeft="5dp"
-            android:paddingTop="10dp"
-            android:text="@string/create_user"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:textStyle="bold" />
-
-        <EditText
-            android:id="@+id/input_user"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/example_user"
-            android:inputType="text"
-            android:textSize="14sp" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:paddingLeft="5dp"
-        android:paddingRight="5dp">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:paddingLeft="5dp"
-            android:paddingTop="10dp"
-            android:text="@string/create_password"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:textStyle="bold" />
-
-        <EditText
-            android:id="@+id/input_password"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/create_password_alter"
-            android:inputType="textPassword"
-            android:textSize="14sp" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:paddingLeft="5dp"
-        android:paddingRight="5dp">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:paddingLeft="5dp"
-            android:paddingTop="10dp"
-            android:text="@string/verification_code"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:textStyle="bold" />
-
-        <EditText
-            android:id="@+id/input_code"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:hint="@string/defaut_verification_code"
-            android:inputType="textPassword"
-            android:textSize="14sp" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:background="@color/md_blue_grey_500"
-        android:padding="1dp">
-
-        <TextView
-            android:id="@+id/label_spec"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical|left"
-            android:background="@color/md_grey_400"
-            android:gravity="left"
             android:padding="5dp"
+            android:text="@string/register_user_nurse"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:textSize="13sp" />
+            android:textColor="@android:color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:paddingTop="10dp"
+                android:text="@string/create_name_user"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/input_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:paddingTop="10dp"
+                android:text="@string/create_user"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/input_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/example_user"
+                android:inputType="text"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:paddingTop="10dp"
+                android:text="@string/create_password"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/input_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/create_password_alter"
+                android:inputType="textPassword"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:paddingTop="10dp"
+                android:text="@string/verification_code"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/input_code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="@string/defaut_verification_code"
+                android:inputType="textPassword"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/md_blue_grey_500"
+            android:padding="1dp">
+
+            <TextView
+                android:id="@+id/label_spec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|left"
+                android:background="@color/md_grey_400"
+                android:gravity="left"
+                android:padding="5dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="13sp" />
+        </LinearLayout>
     </LinearLayout>
-</LinearLayout>
+
+</ScrollView>

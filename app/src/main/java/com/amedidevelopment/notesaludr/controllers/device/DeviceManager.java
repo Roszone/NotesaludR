@@ -36,28 +36,7 @@ public class DeviceManager extends MultiDexApplication {
         mInstance = this;
     }
 
-    /**
-     * Retorna el <code>ANDROID_ID</code> unico del dispositivo
-     */
-    public static String getDeviceId(Context context) {
-        return Settings.Secure.getString(context.getContentResolver(), Settings.Secure.ANDROID_ID);
-    }
 
-    /**
-     * Verifica si existe alguna conexion activa de internet
-     * (Edge, 3g, 4g, wifi)
-     *
-     * @return estado de la conexion
-     */
-    public static boolean isConnectedToInternet(Context context) {
-        ConnectivityManager cm = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
-        if (cm == null) {
-            return false;
-        } else {
-            NetworkInfo net = cm.getActiveNetworkInfo();
-            return net != null && net.isConnected();
-        }
-    }
 
     /**
      * Activa el dispositivo si este se encuentra en reposo
@@ -84,8 +63,4 @@ public class DeviceManager extends MultiDexApplication {
         mWakelock = null;
     }
 
-    private static boolean isXLargeTablet(Context context) {
-        return (context.getResources().getConfiguration().screenLayout
-                & Configuration.SCREENLAYOUT_SIZE_MASK) >= Configuration.SCREENLAYOUT_SIZE_XLARGE;
-    }
 }

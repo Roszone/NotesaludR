@@ -73,9 +73,5 @@ public abstract class PageFragment extends Fragment {
         setArguments(args);
         return this;
     }
-
-    public void showInToast(String content) {
-        Toast.makeText(getActivity(), Html.fromHtml(content), Toast.LENGTH_SHORT).show();
-    }
 }
 

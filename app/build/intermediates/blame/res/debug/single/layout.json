@@ -5,7 +5,7 @@
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_stub_titleframe_lesspadding.xml",
-        "source": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.7\\res\\layout\\md_stub_titleframe_lesspadding.xml"
+        "source": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.8\\res\\layout\\md_stub_titleframe_lesspadding.xml"
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
@@ -21,7 +21,7 @@
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_progress.xml",
-        "source": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.7\\res\\layout\\md_dialog_progress.xml"
+        "source": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.8\\res\\layout\\md_dialog_progress.xml"
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
@@ -33,7 +33,7 @@
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_listitem_multichoice.xml",
-        "source": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.7\\res\\layout\\md_listitem_multichoice.xml"
+        "source": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.8\\res\\layout\\md_listitem_multichoice.xml"
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
@@ -45,7 +45,7 @@
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_list.xml",
-        "source": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.7\\res\\layout\\md_dialog_list.xml"
+        "source": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.8\\res\\layout\\md_dialog_list.xml"
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
@@ -61,7 +61,7 @@
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_custom.xml",
-        "source": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.7\\res\\layout\\md_dialog_custom.xml"
+        "source": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.8\\res\\layout\\md_dialog_custom.xml"
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
@@ -81,7 +81,7 @@
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_basic.xml",
-        "source": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.7\\res\\layout\\md_dialog_basic.xml"
+        "source": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.8\\res\\layout\\md_dialog_basic.xml"
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
@@ -122,6 +122,10 @@
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
         "source": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\res\\merged\\debug\\layout\\menu_buttons.xml",
+        "source": "F:\\Recuperacion\\Android\\NotesaludR\\app\\src\\main\\res\\layout\\menu_buttons.xml"
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
@@ -177,7 +181,7 @@
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_listitem.xml",
-        "source": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.7\\res\\layout\\md_listitem.xml"
+        "source": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.8\\res\\layout\\md_listitem.xml"
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
@@ -209,7 +213,7 @@
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_progress_indeterminate_horizontal.xml",
-        "source": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.7\\res\\layout\\md_dialog_progress_indeterminate_horizontal.xml"
+        "source": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.8\\res\\layout\\md_dialog_progress_indeterminate_horizontal.xml"
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
@@ -245,7 +249,7 @@
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_stub_actionbuttons.xml",
-        "source": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.7\\res\\layout\\md_stub_actionbuttons.xml"
+        "source": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.8\\res\\layout\\md_stub_actionbuttons.xml"
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_toggle.xml",
@@ -353,7 +357,7 @@
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_input.xml",
-        "source": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.7\\res\\layout\\md_dialog_input.xml"
+        "source": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.8\\res\\layout\\md_dialog_input.xml"
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
@@ -365,7 +369,7 @@
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_listitem_singlechoice.xml",
-        "source": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.7\\res\\layout\\md_listitem_singlechoice.xml"
+        "source": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.8\\res\\layout\\md_listitem_singlechoice.xml"
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
@@ -373,7 +377,7 @@
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_stub_titleframe.xml",
-        "source": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.7\\res\\layout\\md_stub_titleframe.xml"
+        "source": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.8\\res\\layout\\md_stub_titleframe.xml"
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_secondary.xml",
@@ -381,7 +385,7 @@
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_progress_indeterminate.xml",
-        "source": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.7\\res\\layout\\md_dialog_progress_indeterminate.xml"
+        "source": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.8\\res\\layout\\md_dialog_progress_indeterminate.xml"
     },
     {
         "merged": "F:\\Recuperacion\\Android\\NotesaludR\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
